@@ -1,0 +1,64 @@
+.navigation{
+    background: #051129;
+    display: block;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.nav_handle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  outline: none;
+  margin-top: 0;
+}
+
+.main-nav .nav-item a {
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #051129;
+  display: block;
+  font-size: 18px;
+  padding: 10px 0px 10px 0px;
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.main-nav .dropdown-menu {
+  padding: 10px;
+  border: none;
+  background-color: #fcee21;
+  width: 100%;
+  border-radius: 0;
+}
+
+.main-nav .dropdown-menu a {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.navigation-top {
+  padding: 4rem 1rem 5rem 3rem;
+  background-color: #fff;
+}
+
+.navigation li {
+  margin-bottom: 0;
+}
+
+.navigation-bottom {
+  padding: 3rem 1rem 2rem 2rem;
+  white-space: normal;
+  font-size: 15px;
+}
+
+.navigation .topinfo a {
+  white-space: normal;
+  text-transform: none;
+  color: #fff;
+}
