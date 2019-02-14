@@ -1,27 +1,36 @@
 {"embed":[
     {
-      "id":"modal-iframe-1",
+      "mid":"modal-iframe-1",
+      "title": "We tried axe throwing and it didn't go as planned! Here's a SNEAK PEEK at the next #Challenge Christina!",
       "type": "iframe",
       "source": "https://www.facebook.com/video.php?v=1911670008932295",
-      "class": "fb-video"
+      "sourcetype": "fb-video",
+      "shortdesc": "Bloopers before the segment? Why not! Here's a look at our upcoming #ChallengeChristina with Jack's Axe Throwing! Think Abbie Burke, Lauren McDonald"
     },
     {
-      "id":"modal-iframe-2",
+      "mid":"modal-iframe-2",
+      "title": "��🇸⛏ Corporate Axe Throwing League Sponsorship opportunity! 🇺🇸⛏ 🇺🇸 ⛏ Listen up if you want to get",
       "type": "iframe",
       "source": "https://www.facebook.com/video.php?v=1911670008932295",
-      "class": "fb-video"
+      "sourcetype": "fb-video",
+      "shortdesc": "��🇸⛏ Corporate Axe Throwing League Sponsorship opportunity! 🇺🇸⛏ 🇺🇸 ⛏ Listen up if you want to get exposed to 10s if not 100s of thousands of people thro"
     },
     {
-      "id":"modal-iframe-3",
+      "mid":"modal-iframe-3",
+      "title": "Jack's Axe Throwing at Haunted Mines",
       "type": "iframe",
       "source": "https://www.facebook.com/video.php?v=1911670008932295",
-      "class": "fb-video"
+      "sourcetype": "fb-video",
+      "shortdesc": "Jack's Axe Throwing at Haunted Mines"
+
     },
     {
-      "id":"modal-iframe-4",
+      "mid":"modal-iframe-4",
+      "title": "Axe Throwing in Colorado Springs| Challenge Christina | | Jack's Axe Throwing",
       "type": "iframe",
       "source": "https://www.facebook.com/video.php?v=1911670008932295",
-      "class": "fb-video"
+      "sourcetype": "fb-video",
+      "shortdesc": "Challenge Christina: Axe Throwing Jack's Axe Throwing"
     }
   ]
 }

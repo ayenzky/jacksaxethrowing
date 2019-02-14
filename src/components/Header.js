@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'gatsby'
 import { Container, Row, Col } from "react-bootstrap";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Menu from './Menu'
@@ -49,7 +50,8 @@ export default class Header extends Component {
                     </Col>
                     <Col xs={4} md={4}>
                         <div className="text-sm-left text-md-center nav-brand">
-                          <LazyLoadImage effect="blur" className="img-fluid mb-0" src="/img/logo.png"/></div>
+                          <Link to="/"><LazyLoadImage effect="blur" className="img-fluid mb-0" src="/img/logo.png"/></Link>
+                        </div>
                     </Col>
                     <Col xs={2} md={4} className="ml-auto">
                       <Menu/>

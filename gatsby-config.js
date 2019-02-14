@@ -29,8 +29,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `./static/data/`,
+        path: `./static/data/characters.json`,
         typeName: `Json`
+      },
+    },
+    `gatsby-transformer-json-key-value-to-array`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./static/data/characters.json`,
       },
     },
     {

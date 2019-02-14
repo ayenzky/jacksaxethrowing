@@ -43,7 +43,7 @@ export default class Menu extends Component {
                 <Nav.Item><Nav.Link href="/">Events</Nav.Link></Nav.Item>
                 <Nav.Item><Nav.Link href="/">Contact Us</Nav.Link></Nav.Item>
               </Nav>
-              <div className="d-flex justify-content-start mt-4"><Link to="/" className="booknow hvr-shadow">Book Now!</Link></div>
+              <div className="d-flex justify-content-start mt-4"><a className="booknow hvr-shadow" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
           </div>
           <div className="navigation-bottom text-white">
               <ul className="list-unstyled topinfo">

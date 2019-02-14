@@ -4,16 +4,42 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import 'izimodal/css/iziModal.min.css';
 import './index.css'
+// import Modal from '../components/Modal'
 
 
 class IndexPage extends React.Component {
+  componentDidMount() {
+    if(window) {
+        const script = document.createElement("script");
+        script.src = `https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js`
+        const headScript = document.getElementsByTagName('script')[0]
+        headScript.parentNode.insertBefore(script, headScript)
+
+        setTimeout(function(){
+        const iziscript = document.createElement("script");
+        iziscript.src= `https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js`
+        document.body.appendChild(iziscript);
+
+        }, 5000)
+        setTimeout(function(){
+        const cusscript = document.createElement("script");
+        cusscript.src= `/js/custom.js`
+        document.body.appendChild(cusscript);
+
+        }, 8000)
+        
+
+    }
+  }
   render() {
+    const { data } = this.props
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
-    const { data } = this.props
+    const posts = data.allMarkdownRemark.edges
     const videos = data.allDataJson.edges
-    console.log(videos.node.data.id)
+    console.log(videos)
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -27,7 +53,7 @@ class IndexPage extends React.Component {
                         <h4>#channeltheflannel</h4>
                         <ul className="list-unstyled mission">
                             <li>Our mission has been the same since day one in June 2018, to connect individuals and communities through throwing sharp objects. We believe in the power of community, and at Jack's, we strive to do just that.</li>
-                            <li>We are perfect for your next birthday party, wedding party, fun night out, or time with the family. With onsite and mobile operations available worldwide, there is truly something fro everyone at Jack's.</li>
+                            <li>We are perfect for your corporate events, next birthday party, wedding party, fun night out, or time with the family. With onsite and mobile operations available worldwide, there is truly something from everyone at Jack's.</li>
                         </ul>
                         <div className="d-flex justify-content-start mt-4"><Link to="/" className="booknow hvr-shadow">read more</Link></div>
                     </div>
@@ -45,7 +71,7 @@ class IndexPage extends React.Component {
                     <div className="col-lg-5 pl-3 pl-lg-5">
                         <h2 className="heading-2 text-dark-blue mt-3 mt-lg-0">Why the name, Jack's?</h2>
                         <h3 className="heading-3">Who is Jack?</h3>
-                        <p>Jack is not a person, but the business inspiring us all. I know, we’re sorry for the sad news. BUT, we can all aspire to be the best Lumberjill or lumberjack we can be. Happy Throwing!</p>
+                        <p>Jack is not a person, but the business inspiring us all. I know, we’re sorry for the sad news. BUT, we can all aspire to be the best Lumberjill or Lumberjack we can be. Happy Throwing!</p>
                         <div className="d-flex justify-content-start mt-4"><Link to="/" className="booknow hvr-shadow">read more</Link></div>
                     </div>
                 </div>
@@ -96,7 +122,7 @@ class IndexPage extends React.Component {
                             <h4 className="heading-3 mt-2">Leagues</h4><Link to="/" title="leagues"></Link></div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center mt-4"><Link to="/" className="booknow hvr-shadow">Book Now!</Link></div>
+                <div className="d-flex justify-content-center mt-4"><a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
             </div>
         </section>
         <section id="onsite-reservation" className="component bg-yellow py-5">
@@ -113,15 +139,21 @@ class IndexPage extends React.Component {
             <div className="container-fluid">
                 <div className="intro text-center mb-5"><LazyLoadImage effect="blur" src="/img/axes.png" style={{width: '50px'}} alt="axe"/>
                     <h2 className="heading-2 mt-0">Events</h2>
-                    <p className="lead">Jack's axe throwing video events</p>
+                    <p className="lead">Jack's Axe Throwing video events</p>
                 </div>
                 <div className="row">
+                    
+                    
                     <div className="col-md-6 col-lg-4 mb-2">
                         <div className="item-event">
-                            <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_a1bef407284840b4a73fdf758d90e052~mv2.jpg)'}}><a href="https://www.facebook.com/video.php?v=1911670008932295" className="item-event-play trigger" data-izimodal-open="#modal-iframe-1"><LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/></a></div>
+                            <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_a1bef407284840b4a73fdf758d90e052~mv2.jpg)'}}>
+                              <a href="https://www.facebook.com/video.php?v=1911670008932295" className="item-event-play trigger" data-izimodal-open="#modal-iframe-1"><LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/></a></div>
                             <div className="item-event-content">
                                 <h5 className="font-weight-light mt-3">We tried axe throwing and it didn't go as planned! Here's a SNEAK PEEK at the next #Challenge Christina!</h5>
                                 <p>Bloopers before the segment? Why not! Here's a look at our upcoming #ChallengeChristina with Jack's Axe Throwing! Think Abbie Burke, Lauren McDonald</p>
+                            </div>
+                            <div className="modal-iframe" id="modal-iframe-1">
+                              <div className="fb-video" data-href="https://www.facebook.com/video.php?v=854055368117721" data-width="600" height="400" data-allowfullscreen="true" data-show-text="true" data-show-captions="true"></div>
                             </div>
                         </div>
                     </div>
@@ -132,6 +164,10 @@ class IndexPage extends React.Component {
                                 <h5 className="font-weight-light mt-3">��🇸⛏ Corporate Axe Throwing League Sponsorship opportunity! 🇺🇸⛏ 🇺🇸 ⛏ Listen up if you want to get</h5>
                                 <p>��🇸⛏ Corporate Axe Throwing League Sponsorship opportunity! 🇺🇸⛏ 🇺🇸 ⛏ Listen up if you want to get exposed to 10s if not 100s of thousands of people thro</p>
                             </div>
+                            <div className="modal-iframe" id="modal-iframe-2">
+                            <div className="fb-video" data-href="https://www.facebook.com/video.php?v=1911670008932295" data-width="600" height="400" data-allowfullscreen="true" data-show-text="true" data-show-captions="true"></div>
+                            </div>
+
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-2">
@@ -141,6 +177,9 @@ class IndexPage extends React.Component {
                                 <h5 className="font-weight-light mt-3">Jack's Axe Throwing at Haunted Mines</h5>
                                 <p>Jack's Axe Throwing at Haunted Mines</p>
                             </div>
+                            <div className="modal-iframe" id="modal-iframe-3">
+                            <div className="fb-video" data-href="https://www.facebook.com/video.php?v=1860131457437453" data-width="600" height="400" data-allowfullscreen="true" data-show-text="true" data-show-captions="true"></div>
+                            </div>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-2">
@@ -149,6 +188,9 @@ class IndexPage extends React.Component {
                             <div className="item-event-content">
                                 <h5 className="font-weight-light mt-3">Axe Throwing in Colorado Springs| Challenge Christina | | Jack's Axe Throwing</h5>
                                 <p>Challenge Christina: Axe Throwing Jack's Axe Throwing</p>
+                            </div>
+                            <div className="modal-iframe" id="modal-iframe-4">
+                            <iframe title="video" width="600" height="400" src="https://www.youtube.com/embed/KfzYwlbFuiM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -170,56 +212,45 @@ class IndexPage extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="d-flex justify-content-center mt-4"><Link to="/" className="booknow hvr-shadow">Book Now!</Link></div>
+                <div className="d-flex justify-content-center mt-4"><a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
             </div>
         </section>
         <section id="blog" className="component bg-yellow">
             <div className="container">
                 <div className="intro text-center mb-5">
                     <h2 className="heading-2">Blog</h2>
-                    <h5 className="mt-0">Jack's axe latest blog</h5>
+                    <h5 className="mt-0">Jack's Axe Throwing latest blog</h5>
                 </div>
                 <div className="row">
-                  <LazyLoadComponent>
-                    <div className="col-12 mb-4 mb-md-5">
-                        <div className="item-blog">
+                  {posts.slice(0,2).map(({ node }) => {
+                    const title = node.frontmatter.title || node.fields.slug
+                    return (
+                      <LazyLoadComponent>
+                        <div className="col-12 mb-4 mb-md-5" key={node.id}>
+                          <div className="item-blog">
 
-                            <div className="item-blog-image" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_3fa394d3ff1949e9a88f5b7bedf127df~mv2_d_5472_3648_s_4_2.jpg/v1/fit/w_2048,h_2048,al_c,q_5/file.jpg)'}}>
-                                <div className="item-blog-title">
-                                    <h3 className="heading-3 mt-3 text-white"><Link to="/" className="text-white item-blog-link"><strong>Axe Throwing - The world's favorite lost past time?</strong></Link></h3>
-                                </div>
-                            </div>
-                            <div className="item-blog-content">
-                                <ul className="list-unstyled d-flex d-xl-flex item-blog-created">
-                                    <li className="mr-3"><LazyLoadImage effect="blur" src="/img/002-axe.svg" className="mr-1" alt="author"/>Bryan Rossmanith</li>
-                                    <li><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1" alt="clcok"/>Sep 18, 2018</li>
-                                </ul>
-                                <p>Axe Throwing – The Unknown Axe Throwing is very unknown. The unknown can be pretty scary. It’s different, it’s wild, it’s unorthodox. Axe throwing might just be……The greatest activity no one has ever heard of. Think of
-                                    it as the world's</p><Link to="/" className="text-dark-blue">Read More</Link></div>
-                        </div>
-                    </div>
-                  </LazyLoadComponent>
-                  <LazyLoadComponent>
-                    <div className="col-12 mb-4 mb-md-5">
-                        <div className="item-blog">
-                            <div className="item-blog-image" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_fc6b747ed2b54042bddfd6ea051b51bd~mv2_d_4000_6000_s_4_2.jpg/v1/fill/w_740,h_1110,al_c,q_90,usm_0.66_1.00_0.01/d64b37_fc6b747ed2b54042bddfd6ea051b51bd~mv2_d_4000_6000_s_4_2.webp)'}}>
-                                <div className="item-blog-title">
-                                    <h3 className="heading-3 mt-3 text-white"><Link to="/" className="text-white item-blog-link"><strong>How to Throw an Axe</strong></Link></h3>
-                                </div>
-                            </div>
-                            <div className="item-blog-content">
-                                <ul className="list-unstyled d-flex d-xl-flex item-blog-created">
-                                    <li className="mr-3"><LazyLoadImage effect="blur" src="/img/002-axe.svg" className="mr-1" alt="author"/>Bryan Rossmanith</li>
-                                    <li><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1" alt="clcok"/>Sep 18, 2018</li>
-                                </ul>
-                                <p>How to Throw An Axe By Jack's Axe Throwing, LLC This is the magical 7 step formula to throw an axe. Follow these simple steps and you will be well on your way to becoming the champion you want to become. 1. Bicep By</p>
-                                <Link to="/" className="text-dark-blue">Read More</Link>
+                              <div className="item-blog-image" style={{backgroundImage: `url("https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,w_900/v1550113892/jackaxethrowing/${node.frontmatter.banner}")`}}>
+                                  <div className="item-blog-title">
+                                      <h3 className="heading-3 mt-3 text-white">
+                                        <Link to={`blog/${node.fields.slug}`} className="text-white item-blog-link">
+                                          {title}</Link></h3>
+                                  </div>
+                              </div>
+                              <div className="item-blog-content">
+                                  <ul className="list-unstyled d-flex d-xl-flex item-blog-created">
+                                      <li className="mr-3"><LazyLoadImage effect="blur" src="/img/002-axe.svg" className="mr-1" alt="author"/>{node.frontmatter.author}</li>
+                                      <li><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1" alt="clcok"/>{node.frontmatter.date}</li>
+                                  </ul>
+                                  <p>{node.excerpt}</p>
+                                  <Link to={`blog/${node.fields.slug}`} className="text-dark-blue">Read More</Link></div>
                             </div>
                         </div>
-                    </div>
-                  </LazyLoadComponent>
+                      </LazyLoadComponent>
+                    )
+                  })}
+                  
                 </div>
-                <div className="d-flex justify-content-center mt-4"><Link to="/" className="booknow hvr-shadow">more</Link></div>
+                <div className="d-flex justify-content-center mt-4"><Link to="/blog" className="booknow hvr-shadow">more</Link></div>
             </div>
         </section>
       </Layout>
@@ -238,15 +269,34 @@ export const indexPageQuery = graphql`
         description
       }
     }
-    allDataJson {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          excerpt(pruneLength: 160)
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            banner
+            author
+            shortdesc
+          }
+        }
+      }
+    }
+    allDataJson (filter: {id: {eq: "97a70736-492d-5a6a-af5f-4408f1e220c1"}}) {
       edges {
         node {
           id
           embed {
-            id
-            class
+            mid
+            title
+            sourcetype
             source
             type
+            shortdesc
           }
         }
       }

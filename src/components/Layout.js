@@ -24,7 +24,7 @@ class Layout extends React.Component {
         <div className="hero-main bg-yellow">
           <Container>
             <Row>
-              <Col lg={7} md={8}>
+              <Col lg={8} md={9}>
                 <h1 className="text-white">{title}</h1>
               </Col>
             </Row>

@@ -41,6 +41,10 @@ h4 {
 a {
   box-shadow: none;
   text-decoration: none !important;
+  color:#051129;
+}
+a:hover {
+  color:#051129;
 }
 
 .bg-yellow {

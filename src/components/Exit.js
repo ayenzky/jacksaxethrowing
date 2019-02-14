@@ -26,11 +26,10 @@ export default class Exit extends Component {
   
   render () {
     const removeExitIntent = exitIntent({
-        threshold: 10,
+        threshold: 5,
         maxDisplays: 2,
         eventThrottle: 100,
         onExitIntent: () => {
-          // document.getElementById("myCheck").click();
           this.handleShow();
         }    
       })
@@ -43,7 +42,7 @@ export default class Exit extends Component {
             <p>Sign up here to get the latest news, update and special offers delivered directly to your inbox.</p>
             <form>
                   <div className="form-group">
-                    <label for="exampleInputEmail1">Email Address</label>
+                    <label htmlFor="exampleInputEmail1">Email Address</label>
                     <input type="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                   </div>

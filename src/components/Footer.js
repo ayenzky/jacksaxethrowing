@@ -57,7 +57,7 @@ export default () => (
                         <li className="text-white"><Link to="/">Leagues</Link></li>
                         <li className="text-white"><Link to="/">Performances</Link></li>
                     </ul>
-                    <div className="d-flex justify-content-start mt-4"><a href="/" className="booknow hvr-shadow">Book Now!</a></div>
+                    <div className="d-flex justify-content-start mt-4"><a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
                 </Col>
             </Row>
             <div className="copyright pt-5 mt-5 pb-4">

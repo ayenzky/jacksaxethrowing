@@ -1,31 +1,30 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-
+import { Container } from "react-bootstrap";
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
-import { rhythm, scale } from '../utils/typography'
+import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import { rhythm } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
+    const siteTitle = post.frontmatter.title
     const { previous, next } = this.props.pageContext
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={siteTitle} customclass="singple-blog page">
         <SEO title={post.frontmatter.title} description={post.excerpt} />
-        <h1>{post.frontmatter.title}</h1>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: `block`,
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-        </p>
+        <Container>
+        <ul className="list-unstyled d-flex d-xl-flex item-blog-created flex-wrap ml-0">
+            <li className="mr-3"><LazyLoadImage effect="blur" src="/img/002-axe.svg" className="mr-1" alt="author"/>{post.frontmatter.author}</li>
+            <li><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1" alt="clcok"/>{post.frontmatter.date}</li>
+        </ul>
+        <LazyLoadComponent>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        </LazyLoadComponent>
+        
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -43,14 +42,14 @@ class BlogPostTemplate extends React.Component {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <Link to={`blog/${previous.fields.slug}`} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <Link to={`blog/${next.fields.slug}`} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}
@@ -59,6 +58,7 @@ class BlogPostTemplate extends React.Component {
         <Link to="/blog">Take Me Home</Link>
         <br />
         <br />
+        </Container>
       </Layout>
     )
   }
@@ -81,6 +81,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        author
       }
     }
   }
