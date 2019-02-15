@@ -68,13 +68,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `WebriQ Blog`,
-        short_name: `WebriQ`,
+        name: `Highly Rated Entertainment in CO | Axe Throwing in CO`,
+        short_name: `Jack's Axe`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#f7f7f7`,
         display: `minimal-ui`,
-        icon: `assets/img/gatsby-icon.png`,
+        icon: `static/img/logo.png`,
       },
     },
     `gatsby-plugin-offline`,
