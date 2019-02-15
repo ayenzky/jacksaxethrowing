@@ -44,7 +44,7 @@ h5 {
 a {
   box-shadow: none !important;
   text-decoration: none !important;
-  color:#051129;
+  color:#051129 !important;
 }
 a:hover {
   box-shadow: none !important;
