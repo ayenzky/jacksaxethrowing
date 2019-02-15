@@ -38,14 +38,19 @@ h3 {
 h4 {
   font-size: 1.563em !important; /* 28.13px */
 }
+h5 {
+  font-size: 1.25rem !important;
+}
 a {
-  box-shadow: none;
+  box-shadow: none !important;
   text-decoration: none !important;
   color:#051129;
 }
 a:hover {
+  box-shadow: none !important;
   color:#051129;
   text-decoration: none !important;
+
 }
 
 .bg-yellow {
