@@ -146,6 +146,10 @@
   font-size: 2em !important;
 }
 
+
+.moda-iframe .iziModal-navigate button {
+  outline: none !important;
+}
 @media (min-width: 731px) {
   .item-blog {
     display: flex;
