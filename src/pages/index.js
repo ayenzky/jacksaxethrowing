@@ -119,7 +119,7 @@ class IndexPage extends React.Component {
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/005-award.svg" alt="leagues"/>
-                            <h4 className="heading-3 mt-2">Leagues</h4><Link to="/" title="leagues"></Link></div>
+                            <h4 className="heading-3 mt-2">Leagues</h4><Link to="/leagues" title="leagues"></Link></div>
                     </div>
                 </div>
                 <div className="d-flex justify-content-center mt-4"><a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>

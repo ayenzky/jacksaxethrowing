@@ -37,11 +37,11 @@ export default () => (
                     <h4 className="text-white mb-4">Links</h4>
                     <ul className="list-unstyled footer-menu-links">
                         <li className="text-white"><Link to="/">Home</Link></li>
-                        <li className="text-white"><Link to="/">Our Story</Link></li>
-                        <li className="text-white"><Link to="/">Why Jack's?</Link></li>
-                        <li className="text-white"><Link to="/">About Us</Link></li>
-                        <li className="text-white"><Link to="/">Events</Link></li>
-                        <li className="text-white"><Link to="/">Contact Us</Link></li>
+                        <li className="text-white"><Link to="/our-story">Our Story</Link></li>
+                        <li className="text-white"><Link to="/why-the-name-jacks">Why Jack's?</Link></li>
+                        <li className="text-white"><Link to="/about-us">About Us</Link></li>
+                        <li className="text-white"><Link to="/events">Events</Link></li>
+                        <li className="text-white"><Link to="/contact-us">Contact Us</Link></li>
                     </ul>
                 </Col>
                 <Col lg={5} className="order-2 order-md-3">
@@ -55,7 +55,7 @@ export default () => (
                         <li className="text-white"><Link to="/">Mobile Axe Throwing</Link></li>
                         <li className="text-white"><Link to="/">Festivals</Link></li>
                         <li className="text-white"><Link to="/">Non-profit Fundraiser</Link></li>
-                        <li className="text-white"><Link to="/">Leagues</Link></li>
+                        <li className="text-white"><Link to="/leagues">Leagues</Link></li>
                         <li className="text-white"><Link to="/">Performances</Link></li>
                     </ul>
                     <div className="d-flex justify-content-start mt-4"><a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
