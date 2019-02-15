@@ -24,19 +24,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 68.66px;
+  font-size: 68.66px !important;
 }
 
 h2 {
-  font-size: 3.052em /* 54.93px */;
+  font-size: 3.052em !important; /* 54.93px */
 }
 
 h3 {
-  font-size: 1.953em /* 35.16px */;
+  font-size: 1.953em !important; /* 35.16px */
 }
 
 h4 {
-  font-size: 1.563em /* 28.13px */;
+  font-size: 1.563em !important; /* 28.13px */
 }
 a {
   box-shadow: none;
@@ -45,6 +45,7 @@ a {
 }
 a:hover {
   color:#051129;
+  text-decoration: none !important;
 }
 
 .bg-yellow {

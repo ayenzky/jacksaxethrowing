@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "47755285fac1292cdf137d68528ab288",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -2240,14 +2249,16 @@
           "twitter": "kylemathews"
         }
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-15T08:28:54.649Z",
+      "buildTime": "2019-02-15T08:32:00.442Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "57674d2e4faf949426644663daa464d4",
+        "contentDigest": "eb89728fba0030036b6dbb768791b5d6",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2257,7 +2268,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ab4a3138c1a7c8007d35e0dba72daba2",
+        "contentDigest": "ed621e99239c217323b41d4a39cf430f",
         "type": "Directory",
         "description": "Directory \"posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2269,7 +2280,7 @@
       "size": 204,
       "prettySize": "204 B",
       "modifiedTime": "2019-02-14T05:36:30.000Z",
-      "accessTime": "2019-02-15T08:29:35.000Z",
+      "accessTime": "2019-02-15T08:32:31.000Z",
       "changeTime": "2019-02-14T05:36:30.000Z",
       "birthTime": "2019-02-11T06:26:26.000Z",
       "root": "/",
@@ -2287,11 +2298,11 @@
       "blksize": 4096,
       "ino": 20895968,
       "blocks": 0,
-      "atimeMs": 1550219375000,
+      "atimeMs": 1550219551000,
       "mtimeMs": 1550122590000,
       "ctimeMs": 1550122590000,
       "birthtimeMs": 1549866386000,
-      "atime": "2019-02-15T08:29:35.000Z",
+      "atime": "2019-02-15T08:32:31.000Z",
       "mtime": "2019-02-14T05:36:30.000Z",
       "ctime": "2019-02-14T05:36:30.000Z",
       "birthtime": "2019-02-11T06:26:26.000Z"
@@ -2532,7 +2543,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e4627049b290b7941df8d28412da1648",
+        "contentDigest": "9045ed024a39dde99433e4a541a2e481",
         "type": "Directory",
         "description": "Directory \"assets/img\"",
         "owner": "gatsby-source-filesystem"
@@ -2544,7 +2555,7 @@
       "size": 4352,
       "prettySize": "4.35 kB",
       "modifiedTime": "2019-02-11T06:42:22.000Z",
-      "accessTime": "2019-02-15T08:29:35.000Z",
+      "accessTime": "2019-02-15T08:32:31.000Z",
       "changeTime": "2019-02-11T07:09:59.000Z",
       "birthTime": "2019-02-11T06:42:21.000Z",
       "root": "/",
@@ -2562,11 +2573,11 @@
       "blksize": 4096,
       "ino": 20895977,
       "blocks": 0,
-      "atimeMs": 1550219375000,
+      "atimeMs": 1550219551000,
       "mtimeMs": 1549867342000,
       "ctimeMs": 1549868999000,
       "birthtimeMs": 1549867341000,
-      "atime": "2019-02-15T08:29:35.000Z",
+      "atime": "2019-02-15T08:32:31.000Z",
       "mtime": "2019-02-11T06:42:22.000Z",
       "ctime": "2019-02-11T07:09:59.000Z",
       "birthtime": "2019-02-11T06:42:21.000Z"
@@ -2576,7 +2587,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "7d255e6f339b423626863497b30c13c4",
+        "contentDigest": "7a2569e098a001bb67c8e329d109e940",
         "type": "Directory",
         "description": "Directory \"assets/img/brand_logos\"",
         "owner": "gatsby-source-filesystem"
@@ -2588,7 +2599,7 @@
       "size": 1666,
       "prettySize": "1.67 kB",
       "modifiedTime": "2019-02-11T06:42:21.000Z",
-      "accessTime": "2019-02-15T08:29:35.000Z",
+      "accessTime": "2019-02-15T08:32:31.000Z",
       "changeTime": "2019-02-11T07:09:58.000Z",
       "birthTime": "2019-02-11T06:42:21.000Z",
       "root": "/",
@@ -2606,11 +2617,11 @@
       "blksize": 4096,
       "ino": 20895987,
       "blocks": 0,
-      "atimeMs": 1550219375000,
+      "atimeMs": 1550219551000,
       "mtimeMs": 1549867341000,
       "ctimeMs": 1549868998000,
       "birthtimeMs": 1549867341000,
-      "atime": "2019-02-15T08:29:35.000Z",
+      "atime": "2019-02-15T08:32:31.000Z",
       "mtime": "2019-02-11T06:42:21.000Z",
       "ctime": "2019-02-11T07:09:58.000Z",
       "birthtime": "2019-02-11T06:42:21.000Z"
@@ -2620,7 +2631,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "22baab1ae1fabce60efc4fcafec20070",
+        "contentDigest": "efa8d2d9f3efa4f1d0b9fa1894a67c43",
         "type": "Directory",
         "description": "Directory \"assets/img/help\"",
         "owner": "gatsby-source-filesystem"
@@ -2632,7 +2643,7 @@
       "size": 5338,
       "prettySize": "5.34 kB",
       "modifiedTime": "2019-02-11T06:42:21.000Z",
-      "accessTime": "2019-02-15T08:29:35.000Z",
+      "accessTime": "2019-02-15T08:32:31.000Z",
       "changeTime": "2019-02-11T07:09:59.000Z",
       "birthTime": "2019-02-11T06:42:21.000Z",
       "root": "/",
@@ -2650,11 +2661,11 @@
       "blksize": 4096,
       "ino": 20896088,
       "blocks": 0,
-      "atimeMs": 1550219375000,
+      "atimeMs": 1550219551000,
       "mtimeMs": 1549867341000,
       "ctimeMs": 1549868999000,
       "birthtimeMs": 1549867341000,
-      "atime": "2019-02-15T08:29:35.000Z",
+      "atime": "2019-02-15T08:32:31.000Z",
       "mtime": "2019-02-11T06:42:21.000Z",
       "ctime": "2019-02-11T07:09:59.000Z",
       "birthtime": "2019-02-11T06:42:21.000Z"
@@ -2664,7 +2675,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "a1f9e95789d5d1ccabc61af8ba37f310",
+        "contentDigest": "b0b298359636fd321414c66c714253b4",
         "type": "Directory",
         "description": "Directory \"assets/img/icons_set\"",
         "owner": "gatsby-source-filesystem"
@@ -2676,7 +2687,7 @@
       "size": 884,
       "prettySize": "884 B",
       "modifiedTime": "2019-02-11T06:42:21.000Z",
-      "accessTime": "2019-02-15T08:29:35.000Z",
+      "accessTime": "2019-02-15T08:32:31.000Z",
       "changeTime": "2019-02-11T07:09:59.000Z",
       "birthTime": "2019-02-11T06:42:21.000Z",
       "root": "/",
@@ -2694,11 +2705,11 @@
       "blksize": 4096,
       "ino": 20896250,
       "blocks": 0,
-      "atimeMs": 1550219375000,
+      "atimeMs": 1550219551000,
       "mtimeMs": 1549867341000,
       "ctimeMs": 1549868999000,
       "birthtimeMs": 1549867341000,
-      "atime": "2019-02-15T08:29:35.000Z",
+      "atime": "2019-02-15T08:32:31.000Z",
       "mtime": "2019-02-11T06:42:21.000Z",
       "ctime": "2019-02-11T07:09:59.000Z",
       "birthtime": "2019-02-11T06:42:21.000Z"
@@ -2708,7 +2719,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "87662abcbb1a06ee8b20d96a05f4a7a1",
+        "contentDigest": "748c08b689294e40409d8a3d252a801a",
         "type": "Directory",
         "description": "Directory \"assets/img/partners\"",
         "owner": "gatsby-source-filesystem"
@@ -2720,7 +2731,7 @@
       "size": 272,
       "prettySize": "272 B",
       "modifiedTime": "2019-02-11T06:42:22.000Z",
-      "accessTime": "2019-02-15T08:29:35.000Z",
+      "accessTime": "2019-02-15T08:32:31.000Z",
       "changeTime": "2019-02-11T07:09:59.000Z",
       "birthTime": "2019-02-11T06:42:22.000Z",
       "root": "/",
@@ -2738,11 +2749,11 @@
       "blksize": 4096,
       "ino": 20896297,
       "blocks": 0,
-      "atimeMs": 1550219375000,
+      "atimeMs": 1550219551000,
       "mtimeMs": 1549867342000,
       "ctimeMs": 1549868999000,
       "birthtimeMs": 1549867342000,
-      "atime": "2019-02-15T08:29:35.000Z",
+      "atime": "2019-02-15T08:32:31.000Z",
       "mtime": "2019-02-11T06:42:22.000Z",
       "ctime": "2019-02-11T07:09:59.000Z",
       "birthtime": "2019-02-11T06:42:22.000Z"
@@ -22049,26 +22060,6 @@
       "ctime": "2019-02-11T07:09:59.000Z",
       "birthtime": "2019-02-11T06:42:22.000Z"
     },
-    "SitePage /offline-plugin-app-shell-fallback/": {
-      "jsonName": "offline-plugin-app-shell-fallback-a30",
-      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
-      "path": "/offline-plugin-app-shell-fallback/",
-      "component": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-offline/app-shell.js",
-      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-      "context": {},
-      "pluginCreator___NODE": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "pluginCreatorId": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-      "componentPath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-offline/app-shell.js",
-      "id": "SitePage /offline-plugin-app-shell-fallback/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "683896ca3272467090335e4ae5906117",
-        "description": "63e5f7ff-e5f1-58f7-8e2c-55872ac42281",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /blog/axe-throwing-really/": {
       "jsonName": "blog-axe-throwing-really-48e",
       "internalComponentName": "ComponentBlogAxeThrowingReally",
@@ -22477,9 +22468,9 @@
       "query": "query whyNamePageQuery {\n  site {\n    siteMetadata {\n      title\n      author\n      description\n    }\n  }\n}\n",
       "componentPath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/why-the-name-jacks.js"
     },
-    "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-offline/app-shell.js": {
+    "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-offline/app-shell.js"
+      "componentPath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {
