@@ -28,6 +28,7 @@ export default () => (
                           <LazyLoadImage effect="blur" className="img-fluid" src="/img/yelp.svg"/></a></li>
                         <li className="mb-0 mr-2"><a href="https://www.instagram.com/jacksaxethrowing/" target="_blank" rel="noopener noreferrer">
                           <LazyLoadImage effect="blur" className="img-fluid" src="/img/001-instagram.svg"/></a></li>
+                        <li className="mb-0 mr-2"><a href="https://www.google.com/search?q=jacks+axe+throwing+google&safe=active&client=firefox-b-1-ab&source=lnms&sa=X&ved=0ahUKEwjhqMr-xI3fAhWSxZ8KHdtxAHUQ_AUICSgA&biw=766&bih=727&dpr=2.5#lrd=0x871349f4e6f4955f:0x6b66997a6b8f372e,1,,," target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="img-fluid" src="/img/google-plus.svg"/></a></li>
                         <li className="mb-0"><a href="https://www.tripadvisor.com.ph/Attraction_Review-g33364-d14183306-Reviews-Jack_s_Axe_Throwing-Colorado_Springs_El_Paso_County_Colorado.html" target="_blank" rel="noopener noreferrer">
                           <LazyLoadImage effect="blur" className="img-fluid" src="/img/002-tripadvisor-logotype.svg"/></a></li>
                     </ul>

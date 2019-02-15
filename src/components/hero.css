@@ -72,6 +72,7 @@
   padding: 280px 0 120px 0;
   background: url(../../static/img/heromain.jpg) no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 .hero-main::after {
     content: '';

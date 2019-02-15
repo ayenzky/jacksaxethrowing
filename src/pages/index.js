@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import Exit from '../components/Exit'
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import 'izimodal/css/iziModal.min.css';
@@ -38,8 +39,7 @@ class IndexPage extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = this.props.data.site.siteMetadata.description
     const posts = data.allMarkdownRemark.edges
-    const videos = data.allDataJson.edges
-    console.log(videos)
+  
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -142,8 +142,6 @@ class IndexPage extends React.Component {
                     <p className="lead">Jack's Axe Throwing video events</p>
                 </div>
                 <div className="row">
-                    
-                    
                     <div className="col-md-6 col-lg-4 mb-2">
                         <div className="item-event">
                             <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_a1bef407284840b4a73fdf758d90e052~mv2.jpg)'}}>
@@ -225,8 +223,8 @@ class IndexPage extends React.Component {
                   {posts.slice(0,2).map(({ node }) => {
                     const title = node.frontmatter.title || node.fields.slug
                     return (
-                      <LazyLoadComponent>
-                        <div className="col-12 mb-4 mb-md-5" key={node.id}>
+                      <LazyLoadComponent key={node.id}>
+                        <div className="col-12 mb-4 mb-md-5">
                           <div className="item-blog">
 
                               <div className="item-blog-image" style={{backgroundImage: `url("https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,w_900/v1550113892/jackaxethrowing/${node.frontmatter.banner}")`}}>
@@ -253,6 +251,7 @@ class IndexPage extends React.Component {
                 <div className="d-flex justify-content-center mt-4"><Link to="/blog" className="booknow hvr-shadow">more</Link></div>
             </div>
         </section>
+        <Exit/>
       </Layout>
     )
   }
@@ -272,6 +271,7 @@ export const indexPageQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
+          id
           excerpt(pruneLength: 160)
           fields {
             slug
@@ -281,21 +281,6 @@ export const indexPageQuery = graphql`
             title
             banner
             author
-            shortdesc
-          }
-        }
-      }
-    }
-    allDataJson (filter: {id: {eq: "97a70736-492d-5a6a-af5f-4408f1e220c1"}}) {
-      edges {
-        node {
-          id
-          embed {
-            mid
-            title
-            sourcetype
-            source
-            type
             shortdesc
           }
         }

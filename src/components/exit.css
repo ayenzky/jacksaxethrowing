@@ -1,21 +1,28 @@
 .exit-modal {
-  background-color: rgba(0,0,0,.4);
+  background-color: transparent !important;
+  box-shadow: none !important; 
+  transform: matrix(1, 0, 0, 1, -300, -340) scale(1.1) !important;
 }
 
-.exit-modal .close {
-  opacity: 1 !important;
-  position: absolute;
-  right: 0px;
-  top: -15px;
-  line-height: 0;
-  border-radius: 100px;
-  text-align: center;
-  height: 35px;
-  width: 35px;
-  padding: 0 !important;
-  background-color: #fff;
-  outline: none;
-  z-index: 1;
+.exit-modal #bio_ep_close {
+    opacity: 1 !important;
+    position: absolute;
+    right: 0px;
+    top: 55px; 
+    border-radius: 100px;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    padding: 0 !important;
+    background-color: #fff;
+    outline: none;
+    z-index: 1;
+    color: #000;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
 }
 
 .exit-modal .modal-header{
@@ -60,4 +67,8 @@
   transform: matrix(1, -0.04, 0, 1, 0, 0);
   background-color: #fcee21;
   z-index: -1;
+}
+
+.exit-modal p {
+  font: 18px/1.45 Roboto,sans-serif;
 }

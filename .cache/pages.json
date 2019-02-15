@@ -40,18 +40,33 @@
         "path": "/blog/how-to-throw-an-axe/"
     },
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "jsonName": "dev-404-page-5f9",
-        "path": "/dev-404-page/"
+        "componentChunkName": "component---src-pages-events-js",
+        "jsonName": "events-0dc",
+        "path": "/events/"
     },
     {
-        "componentChunkName": "component---src-pages-league-js",
-        "jsonName": "league-180",
-        "path": "/league/"
+        "componentChunkName": "component---src-pages-leagues-js",
+        "jsonName": "leagues-6e0",
+        "path": "/leagues/"
+    },
+    {
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "jsonName": "offline-plugin-app-shell-fallback-a30",
+        "path": "/offline-plugin-app-shell-fallback/"
     },
     {
         "componentChunkName": "component---src-pages-our-story-js",
         "jsonName": "our-story-37c",
         "path": "/our-story/"
+    },
+    {
+        "componentChunkName": "component---src-pages-services-js",
+        "jsonName": "services-522",
+        "path": "/services/"
+    },
+    {
+        "componentChunkName": "component---src-pages-why-the-name-jacks-js",
+        "jsonName": "why-the-name-jacks-ad0",
+        "path": "/why-the-name-jacks/"
     }
 ]

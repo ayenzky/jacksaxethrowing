@@ -1016,6 +1016,14 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.1.tgz#5c85d662f76fa1d34575766c5dcd6615abcd30d8"
   integrity sha512-FZdkNBDqBRHKQ2MEbSC17xnPFOhZxeJ2YGSfr2BKf3sujG49Qe3bB+rGCwQfIaA7WHnGeGkSijX4FuBCdrzW/g==
 
+Exitent@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/Exitent/-/Exitent-1.0.1.tgz#4f4176347757797b8397b0038fbf975abeadd969"
+  integrity sha1-T0F2NHdXeXuDl7ADj7+XWr6t2Wk=
+  dependencies:
+    lodash "4.15.0"
+    storage-jar "1.0.6"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -7290,6 +7298,11 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
+lodash@4.15.0:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.15.0.tgz#3162391d8f0140aa22cf8f6b3c34d6b7f63d3aa9"
+  integrity sha1-MWI5HY8BQKoiz49rPDTWt/Y9Oqk=
+
 lodash@4.17.4:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
@@ -10997,6 +11010,11 @@ statuses@~1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.4.0.tgz#bb73d446da2796106efcc1b601a253d6c46bd087"
   integrity sha512-zhSCtt8v2NDrRlPQpCNtw/heZLtfUDqxBM1udqikb/Hbk52LK4nQSwr10u77iopCW5LsyHpuXS0GnEc48mLeew==
+
+storage-jar@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/storage-jar/-/storage-jar-1.0.6.tgz#c0b70cb1069aef4f6d51632fc3ca9b2e3a55a550"
+  integrity sha1-wLcMsQaa709tUWMvw8qbLjpVpVA=
 
 stream-browserify@^2.0.1:
   version "2.0.2"

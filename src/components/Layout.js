@@ -4,7 +4,6 @@ import { Container, Row, Col} from "react-bootstrap";
 import Header from './Header'
 import Footer from './Footer'
 import Hero from './Hero'
-import Exit from './Exit'
 import { rhythm, scale } from '../utils/typography'
 import 'bootstrap/dist/css/bootstrap.css'
 import './layout.css'
@@ -39,7 +38,6 @@ class Layout extends React.Component {
         <main>
           {children}
         </main>
-        <Exit/>
         <Footer/>
       </div>
     )

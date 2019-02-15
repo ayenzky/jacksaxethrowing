@@ -24,24 +24,25 @@ export default class Menu extends Component {
           <div className="float-right navigation">
           <div className="navigation-top">
               <Nav className="flex-column main-nav">
-                <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
-                <Nav.Item><Nav.Link href="/">Our Story</Nav.Link></Nav.Item>
-                <Nav.Item><Nav.Link href="/">Why Jack's</Nav.Link></Nav.Item>
-                <Nav.Item><Nav.Link href="/">About Us</Nav.Link></Nav.Item>
+                <Nav.Item><Link className="nav-link" to="/">Home</Link></Nav.Item>
+                <Nav.Item><Link className="nav-link" to="/our-story">Our Story</Link></Nav.Item>
+                <Nav.Item><Link className="nav-link" to="/why-the-name-jacks">Why Jack's</Link></Nav.Item>
+                <Nav.Item><Link className="nav-link" to="/about-us">About Us</Link></Nav.Item>
                 <NavDropdown title="Services" id="nav-dropdown" >
-                    <NavDropdown.Item className="nav-link">Birthday Parties</NavDropdown.Item>
-                    <NavDropdown.Item className="nav-link">Bachelor/ette Parties</NavDropdown.Item>
-                    <NavDropdown.Item className="nav-link">Corporate Events</NavDropdown.Item>
-                    <NavDropdown.Item className="nav-link">Weddings</NavDropdown.Item>
-                    <NavDropdown.Item className="nav-link">Family Reunions</NavDropdown.Item>
-                    <NavDropdown.Item className="nav-link">Mobile Axe Throwing</NavDropdown.Item>
-                    <NavDropdown.Item className="nav-link">Festivals</NavDropdown.Item>
-                    <NavDropdown.Item className="nav-link">Non-profit Fundraiser</NavDropdown.Item>
-                    <NavDropdown.Item className="nav-link">Leagues</NavDropdown.Item>
-                    <NavDropdown.Item className="nav-link">Performances</NavDropdown.Item>
+                    <Link to="/services" className="dropdown-item nav-link">Services</Link>
+                    <Link to="/" className="dropdown-item nav-link">Birthday Parties</Link>
+                    <Link to="/" className="dropdown-item nav-link">Bachelor/ette Parties</Link>
+                    <Link to="/" className="dropdown-item nav-link">Corporate Events</Link>
+                    <Link to="/" className="dropdown-item nav-link">Weddings</Link>
+                    <Link to="/" className="dropdown-item nav-link">Family Reunions</Link>
+                    <Link to="/" className="dropdown-item nav-link">Mobile Axe Throwing</Link>
+                    <Link to="/" className="dropdown-item nav-link">Festivals</Link>
+                    <Link to="/" className="dropdown-item nav-link">Non-profit Fundraiser</Link>
+                    <Link to="/" className="dropdown-item nav-link">Leagues</Link>
+                    <Link to="/" className="dropdown-item nav-link">Performances</Link>
                 </NavDropdown>
-                <Nav.Item><Nav.Link href="/">Events</Nav.Link></Nav.Item>
-                <Nav.Item><Nav.Link href="/">Contact Us</Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link href="/events">Events</Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link href="/contact-us">Contact Us</Nav.Link></Nav.Item>
               </Nav>
               <div className="d-flex justify-content-start mt-4"><a className="booknow hvr-shadow" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
           </div>
@@ -57,6 +58,7 @@ export default class Menu extends Component {
                   <li className="mb-2 mr-2"><a href="https://www.youtube.com/channel/UColhr8JVcg17NkngWtAlSkA" target="_blank" rel="noopener noreferrer"><Image className="img-fluid" src="/img/youtube.svg"/></a></li>
                   <li className="mb-2 mr-2"><a href="https://www.yelp.com/biz/jacks-axe-throwing-colorado-springs-2" target="_blank" rel="noopener noreferrer"><Image className="img-fluid" src="/img/yelp.svg"/></a></li>
                   <li className="mb-2 mr-2"><a href="https://www.instagram.com/jacksaxethrowing/" target="_blank" rel="noopener noreferrer"><Image className="img-fluid" src="/img/001-instagram.svg"/></a></li>
+                  <li className="mb-0 mr-2"><a href="https://www.google.com/search?q=jacks+axe+throwing+google&safe=active&client=firefox-b-1-ab&source=lnms&sa=X&ved=0ahUKEwjhqMr-xI3fAhWSxZ8KHdtxAHUQ_AUICSgA&biw=766&bih=727&dpr=2.5#lrd=0x871349f4e6f4955f:0x6b66997a6b8f372e,1,,," target="_blank" rel="noopener noreferrer"><Image className="img-fluid" src="/img/google-plus.svg"/></a></li>
                   <li className="mb-2 mr-2"><a href="https://www.tripadvisor.com.ph/Attraction_Review-g33364-d14183306-Reviews-Jack_s_Axe_Throwing-Colorado_Springs_El_Paso_County_Colorado.html" target="_blank" rel="noopener noreferrer"><Image className="img-fluid" src="/img/002-tripadvisor-logotype.svg"/></a></li>
               </ul>
           </div>

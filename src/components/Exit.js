@@ -1,45 +1,33 @@
 import React, { Component } from 'react'
-import exitIntent from 'exit-intent'
-import { Modal, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import './exit.css'
 
 export default class Exit extends Component {
+
+  componentDidMount () {
+    const script = document.createElement("script");
+    script.src= `/js/bioep.js`
+    document.body.appendChild(script);
+
+    setTimeout(function() {
+      window.bioEp.init({
+        width: 550
+      });
+    }, 2000)
+  }
   
-  constructor(props, context) {
-    super(props, context);
 
-    this.handleShow = this.handleShow.bind(this);
-    this.handleClose = this.handleClose.bind(this);
-
-    this.state = {
-      show: false,
-    };
-  }
-
-  handleClose() {
-    this.setState({ show: false });
-  }
-
-  handleShow() {
-    this.setState({ show: true });
-  }
   
   render () {
-    const removeExitIntent = exitIntent({
-        threshold: 5,
-        maxDisplays: 2,
-        eventThrottle: 100,
-        onExitIntent: () => {
-          this.handleShow();
-        }    
-      })
     return (
-        <Modal show={this.state.show} onHide={this.handleClose} className="exit-modal fade">
-          <Modal.Header closeButton className="pl-5 border-0 pt-2">
-            <h3 className="modal-title mt-0">Leaving Already?</h3>
-          </Modal.Header>
-          <Modal.Body className="bg-yellow px-5 pb-4">
-            <p>Sign up here to get the latest news, update and special offers delivered directly to your inbox.</p>
+        <div id="bio_ep" className="exit-modal">
+          <div className="modal-dialog">
+            <div className="modal-content">
+        <div className="modal-header  pl-5 border-0 pt-2">
+          <h3 className="modal-title mt-0">Leaving Already?</h3>
+        </div>
+        <div className="modal-body bg-yellow px-5 pb-4">
+        <p>Sign up here to get the latest news, update and special offers delivered directly to your inbox.</p>
             <form>
                   <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Email Address</label>
@@ -48,8 +36,10 @@ export default class Exit extends Component {
                   </div>
                   <button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</button>
                 </form>
-          </Modal.Body>
-        </Modal>
+            </div>
+            </div>
+        </div>
+        </div>
     )
   }
 }

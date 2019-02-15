@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Highly Rated Entertainment in CO | Axe Throwing in CO`,
     author: `Kyle Mathews`,
-    description: `Highly rated entertainment in Colorado | Creating perfect Bachelor Party Ideas | Axe throwing in Colorado | Offering Lumberjack Themed games and events | Perfect team building activities | Our certfified coaches will teach you hwo to throw an axe in a safe and controlled environment.`,
+    description: `Axe Throwing makes the perfect Bachelor Party Idea, Axe Throwing fits the many Lumberjack themed events held in Colorado, Interactive corporate team events, Birthday Parties, and more.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     keywords: `Bachelor Party Ideas, Top Rated Axe Throwing Colorado How to increase brewery revennue in Colorado Interactive corporate team events Lumberjack themed events`,
     social: {
@@ -23,21 +23,6 @@ module.exports = {
       options: {
         path: `${__dirname}/assets/img`,
         name: `image_assets`,
-      },
-    },
-    `gatsby-transformer-json`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `./static/data/characters.json`,
-        typeName: `Json`
-      },
-    },
-    `gatsby-transformer-json-key-value-to-array`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `./static/data/characters.json`,
       },
     },
     {
