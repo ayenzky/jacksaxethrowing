@@ -148,8 +148,9 @@
 }
 
 
-.moda-iframe .iziModal-navigate button {
+.iziModal-navigate button {
   outline: none !important;
+  box-shadow: none !important;
 }
 @media (min-width: 731px) {
   .item-blog {
