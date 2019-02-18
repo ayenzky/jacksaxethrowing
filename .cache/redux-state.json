@@ -2253,12 +2253,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-18T01:27:11.379Z",
+      "buildTime": "2019-02-18T01:54:20.128Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "17e240d0de90d6208bcfee5b1d9a8035",
+        "contentDigest": "f34fc1a8604e3d52eaf4412326f0e94d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2268,7 +2268,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e968ba07ca45bef298f088587a7edf41",
+        "contentDigest": "bb4cad03fdbf7c544dc8306c649af268",
         "type": "Directory",
         "description": "Directory \"posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2280,7 +2280,7 @@
       "size": 204,
       "prettySize": "204 B",
       "modifiedTime": "2019-02-14T05:36:30.000Z",
-      "accessTime": "2019-02-18T01:28:08.000Z",
+      "accessTime": "2019-02-18T01:55:18.000Z",
       "changeTime": "2019-02-14T05:36:30.000Z",
       "birthTime": "2019-02-11T06:26:26.000Z",
       "root": "/",
@@ -2298,11 +2298,11 @@
       "blksize": 4096,
       "ino": 20895968,
       "blocks": 0,
-      "atimeMs": 1550453288000,
+      "atimeMs": 1550454918000,
       "mtimeMs": 1550122590000,
       "ctimeMs": 1550122590000,
       "birthtimeMs": 1549866386000,
-      "atime": "2019-02-18T01:28:08.000Z",
+      "atime": "2019-02-18T01:55:18.000Z",
       "mtime": "2019-02-14T05:36:30.000Z",
       "ctime": "2019-02-14T05:36:30.000Z",
       "birthtime": "2019-02-11T06:26:26.000Z"
@@ -2543,7 +2543,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d723105ad95a2de0ee685cd4fb0c9440",
+        "contentDigest": "c34265e33dcd2364918df9062ba57027",
         "type": "Directory",
         "description": "Directory \"assets/img\"",
         "owner": "gatsby-source-filesystem"
@@ -2555,7 +2555,7 @@
       "size": 4352,
       "prettySize": "4.35 kB",
       "modifiedTime": "2019-02-11T06:42:22.000Z",
-      "accessTime": "2019-02-18T01:28:09.000Z",
+      "accessTime": "2019-02-18T01:55:18.000Z",
       "changeTime": "2019-02-11T07:09:59.000Z",
       "birthTime": "2019-02-11T06:42:21.000Z",
       "root": "/",
@@ -2573,11 +2573,11 @@
       "blksize": 4096,
       "ino": 20895977,
       "blocks": 0,
-      "atimeMs": 1550453289000,
+      "atimeMs": 1550454918000,
       "mtimeMs": 1549867342000,
       "ctimeMs": 1549868999000,
       "birthtimeMs": 1549867341000,
-      "atime": "2019-02-18T01:28:09.000Z",
+      "atime": "2019-02-18T01:55:18.000Z",
       "mtime": "2019-02-11T06:42:22.000Z",
       "ctime": "2019-02-11T07:09:59.000Z",
       "birthtime": "2019-02-11T06:42:21.000Z"
@@ -2587,7 +2587,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "66c990e81b489a8737a90464c81d981c",
+        "contentDigest": "952ff42ba4e483907309309a24aa46b4",
         "type": "Directory",
         "description": "Directory \"assets/img/brand_logos\"",
         "owner": "gatsby-source-filesystem"
@@ -2599,7 +2599,7 @@
       "size": 1666,
       "prettySize": "1.67 kB",
       "modifiedTime": "2019-02-11T06:42:21.000Z",
-      "accessTime": "2019-02-18T01:28:09.000Z",
+      "accessTime": "2019-02-18T01:55:18.000Z",
       "changeTime": "2019-02-11T07:09:58.000Z",
       "birthTime": "2019-02-11T06:42:21.000Z",
       "root": "/",
@@ -2617,11 +2617,11 @@
       "blksize": 4096,
       "ino": 20895987,
       "blocks": 0,
-      "atimeMs": 1550453289000,
+      "atimeMs": 1550454918000,
       "mtimeMs": 1549867341000,
       "ctimeMs": 1549868998000,
       "birthtimeMs": 1549867341000,
-      "atime": "2019-02-18T01:28:09.000Z",
+      "atime": "2019-02-18T01:55:18.000Z",
       "mtime": "2019-02-11T06:42:21.000Z",
       "ctime": "2019-02-11T07:09:58.000Z",
       "birthtime": "2019-02-11T06:42:21.000Z"
@@ -2631,7 +2631,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "57a1a1c339f28e797c2f431249db30d2",
+        "contentDigest": "aaa44ce546848cc67212dc19f5dcd292",
         "type": "Directory",
         "description": "Directory \"assets/img/help\"",
         "owner": "gatsby-source-filesystem"
@@ -2643,7 +2643,7 @@
       "size": 5338,
       "prettySize": "5.34 kB",
       "modifiedTime": "2019-02-11T06:42:21.000Z",
-      "accessTime": "2019-02-18T01:28:09.000Z",
+      "accessTime": "2019-02-18T01:55:18.000Z",
       "changeTime": "2019-02-11T07:09:59.000Z",
       "birthTime": "2019-02-11T06:42:21.000Z",
       "root": "/",
@@ -2661,11 +2661,11 @@
       "blksize": 4096,
       "ino": 20896088,
       "blocks": 0,
-      "atimeMs": 1550453289000,
+      "atimeMs": 1550454918000,
       "mtimeMs": 1549867341000,
       "ctimeMs": 1549868999000,
       "birthtimeMs": 1549867341000,
-      "atime": "2019-02-18T01:28:09.000Z",
+      "atime": "2019-02-18T01:55:18.000Z",
       "mtime": "2019-02-11T06:42:21.000Z",
       "ctime": "2019-02-11T07:09:59.000Z",
       "birthtime": "2019-02-11T06:42:21.000Z"
@@ -2675,7 +2675,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "3adb396613ebfa982ecf478daf79ca28",
+        "contentDigest": "9cdee6ad10c82fa70960464c5832201f",
         "type": "Directory",
         "description": "Directory \"assets/img/icons_set\"",
         "owner": "gatsby-source-filesystem"
@@ -2687,7 +2687,7 @@
       "size": 884,
       "prettySize": "884 B",
       "modifiedTime": "2019-02-11T06:42:21.000Z",
-      "accessTime": "2019-02-18T01:28:09.000Z",
+      "accessTime": "2019-02-18T01:55:18.000Z",
       "changeTime": "2019-02-11T07:09:59.000Z",
       "birthTime": "2019-02-11T06:42:21.000Z",
       "root": "/",
@@ -2705,11 +2705,11 @@
       "blksize": 4096,
       "ino": 20896250,
       "blocks": 0,
-      "atimeMs": 1550453289000,
+      "atimeMs": 1550454918000,
       "mtimeMs": 1549867341000,
       "ctimeMs": 1549868999000,
       "birthtimeMs": 1549867341000,
-      "atime": "2019-02-18T01:28:09.000Z",
+      "atime": "2019-02-18T01:55:18.000Z",
       "mtime": "2019-02-11T06:42:21.000Z",
       "ctime": "2019-02-11T07:09:59.000Z",
       "birthtime": "2019-02-11T06:42:21.000Z"
@@ -2719,7 +2719,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "d7cf27a735970d547d30eae8ca4b4bb5",
+        "contentDigest": "95155e633788626ac81a7b78424d2f64",
         "type": "Directory",
         "description": "Directory \"assets/img/partners\"",
         "owner": "gatsby-source-filesystem"
@@ -2731,7 +2731,7 @@
       "size": 272,
       "prettySize": "272 B",
       "modifiedTime": "2019-02-11T06:42:22.000Z",
-      "accessTime": "2019-02-18T01:28:09.000Z",
+      "accessTime": "2019-02-18T01:55:18.000Z",
       "changeTime": "2019-02-11T07:09:59.000Z",
       "birthTime": "2019-02-11T06:42:22.000Z",
       "root": "/",
@@ -2749,11 +2749,11 @@
       "blksize": 4096,
       "ino": 20896297,
       "blocks": 0,
-      "atimeMs": 1550453289000,
+      "atimeMs": 1550454918000,
       "mtimeMs": 1549867342000,
       "ctimeMs": 1549868999000,
       "birthtimeMs": 1549867342000,
-      "atime": "2019-02-18T01:28:09.000Z",
+      "atime": "2019-02-18T01:55:18.000Z",
       "mtime": "2019-02-11T06:42:22.000Z",
       "ctime": "2019-02-11T07:09:59.000Z",
       "birthtime": "2019-02-11T06:42:22.000Z"
@@ -22060,6 +22060,37 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "SitePage /blog/axe-throwing-really/": {
+      "jsonName": "blog-axe-throwing-really-48e",
+      "internalComponentName": "ComponentBlogAxeThrowingReally",
+      "path": "/blog/axe-throwing-really/",
+      "component": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/axe-throwing-really/",
+        "previous": {
+          "fields": {
+            "slug": "/axe-throwing-the-world-s-favorite-lost-past-time/"
+          },
+          "frontmatter": {
+            "title": "Axe Throwing - The world's favorite lost past time?"
+          }
+        },
+        "next": null
+      },
+      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+      "componentPath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/templates/blog-post.js",
+      "id": "SitePage /blog/axe-throwing-really/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c595c7b43a3f731353505cf00a334d41",
+        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /blog/axe-throwing-the-world-s-favorite-lost-past-time/": {
       "jsonName": "blog-axe-throwing-the-world-s-favorite-lost-past-time-f8a",
       "internalComponentName": "ComponentBlogAxeThrowingTheWorldSFavoriteLostPastTime",
@@ -22076,7 +22107,14 @@
             "title": "How to Throw an Axe"
           }
         },
-        "next": null
+        "next": {
+          "fields": {
+            "slug": "/axe-throwing-really/"
+          },
+          "frontmatter": {
+            "title": "Axe Throwing??? Really?"
+          }
+        }
       },
       "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
@@ -22086,7 +22124,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d9a785036d18e3132c54e714f1fc7b6d",
+        "contentDigest": "e09f0fbc446596ccab02dc5fab5d1c6b",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -22099,14 +22137,7 @@
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
         "slug": "/how-to-throw-an-axe/",
-        "previous": {
-          "fields": {
-            "slug": "/axe-throwing-really/"
-          },
-          "frontmatter": {
-            "title": "Axe Throwing??? Really?"
-          }
-        },
+        "previous": null,
         "next": {
           "fields": {
             "slug": "/axe-throwing-the-world-s-favorite-lost-past-time/"
@@ -22124,38 +22155,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b59b77d9b2dfd5d8b8b3f1507597c6be",
-        "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /blog/axe-throwing-really/": {
-      "jsonName": "blog-axe-throwing-really-48e",
-      "internalComponentName": "ComponentBlogAxeThrowingReally",
-      "path": "/blog/axe-throwing-really/",
-      "component": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/templates/blog-post.js",
-      "componentChunkName": "component---src-templates-blog-post-js",
-      "context": {
-        "slug": "/axe-throwing-really/",
-        "previous": null,
-        "next": {
-          "fields": {
-            "slug": "/how-to-throw-an-axe/"
-          },
-          "frontmatter": {
-            "title": "How to Throw an Axe"
-          }
-        }
-      },
-      "pluginCreator___NODE": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "pluginCreatorId": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
-      "componentPath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/templates/blog-post.js",
-      "id": "SitePage /blog/axe-throwing-really/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "0b6b29cca082ab7f399011c631b5a21b",
+        "contentDigest": "ce25e8e4ab6ba60cda0b6ded40c102a9",
         "description": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
         "owner": "internal-data-bridge"
       }
@@ -22368,7 +22368,6 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
         "/about-us/",
         "/blog/",
         "/404/",
@@ -22381,7 +22380,8 @@
         "/why-the-name-jacks/",
         "/blog/axe-throwing-the-world-s-favorite-lost-past-time/",
         "/blog/how-to-throw-an-axe/",
-        "/blog/axe-throwing-really/"
+        "/blog/axe-throwing-really/",
+        "sq--src-components-seo-js"
       ],
       "83284b1f-fa0f-5f42-b3ff-1217fb459849": [
         "/blog/axe-throwing-the-world-s-favorite-lost-past-time/"
@@ -22397,7 +22397,8 @@
       "MarkdownRemark": [
         null,
         "/blog/",
-        "/"
+        "/",
+        null
       ]
     }
   },
@@ -22405,19 +22406,19 @@
     "404-22d": "558/path---404-22-d-bce-fYMTVlpcvPBsc6Tmyml0eCc8M",
     "sq--src-components-seo-js": 1025518380,
     "404-html-516": "887/path---404-html-516-62a-fYMTVlpcvPBsc6Tmyml0eCc8M",
-    "blog-f7a": "286/path---blog-f-7-a-05d-uQOVWdgYenvOmT6wgH92BsGDykM",
+    "blog-f7a": "152/path---blog-f-7-a-05d-uP68S0Y6mWo1edoJl94okUvEhGs",
     "axe-throwing-really-b89": "957/path---axe-throwing-really-b-89-b42-UgC6aT0cu8yqLpQNqgcVkqDtE",
     "how-to-throw-an-axe-740": "196/path---how-to-throw-an-axe-740-029-LFgS7x6EQh5Afd10xJOHSrpNrMs",
     "axe-throwing-the-world-s-favorite-lost-past-time-e8e": "776/path---axe-throwing-the-world-s-favorite-lost-past-time-e-8-e-aff-SuR0mxHCKG8gHnPkElAcHC23qw",
     "about-us-2d6": "383/path---about-us-2-d-6-e3a-Rq9ZECaKW1hzlM6UZmWgLeMVgWY",
-    "index": "375/path---index-6a9-oerHMkx8LZtBox2uEp6olXXRldQ",
+    "index": "710/path---index-6a9-OBYCn44HIurrhaLxujLXz5QKpY",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "blog-how-to-throw-an-axe-8fc": "948/path---blog-how-to-throw-an-axe-8-fc-4c2-AGnzGJ38MhaMkhNOpmlUGdwtDo",
     "blog-axe-throwing-the-world-s-favorite-lost-past-time-d78": "7/path---blog-axe-throwing-the-world-s-favorite-lost-past-time-d-78-3bf-lP5xwpzp7kZON4EUf9fz7BcuhE",
     "blog-axe-throwing-really-2f5": "476/path---blog-axe-throwing-really-2-f-5-feb-K2o0hS7ffBiKWSYeMm4JlXCXNE",
-    "blog-axe-throwing-the-world-s-favorite-lost-past-time-f8a": "320/path---blog-axe-throwing-the-world-s-favorite-lost-past-time-f-8-a-14e-KcGU0mx4lhRvxMjfYHF9MlbAHw",
-    "blog-axe-throwing-really-48e": "903/path---blog-axe-throwing-really-48-e-af8-FyEwoKtfhgPv8inUfDxgNoT1JsU",
-    "blog-how-to-throw-an-axe-4f3": "59/path---blog-how-to-throw-an-axe-4-f-3-1c8-H7XmlkcUOY0FWD8wBSEQY84lBo",
+    "blog-axe-throwing-the-world-s-favorite-lost-past-time-f8a": "581/path---blog-axe-throwing-the-world-s-favorite-lost-past-time-f-8-a-14e-SuR0mxHCKG8gHnPkElAcHC23qw",
+    "blog-axe-throwing-really-48e": "666/path---blog-axe-throwing-really-48-e-af8-UgC6aT0cu8yqLpQNqgcVkqDtE",
+    "blog-how-to-throw-an-axe-4f3": "184/path---blog-how-to-throw-an-axe-4-f-3-1c8-LFgS7x6EQh5Afd10xJOHSrpNrMs",
     "league-180": "969/path---league-180-945-Rq9ZECaKW1hzlM6UZmWgLeMVgWY",
     "our-story-37c": "99/path---our-story-37-c-50a-Rq9ZECaKW1hzlM6UZmWgLeMVgWY",
     "why-the-name-jacks-ad0": "228/path---why-the-name-jacks-ad-0-8b9-Rq9ZECaKW1hzlM6UZmWgLeMVgWY",

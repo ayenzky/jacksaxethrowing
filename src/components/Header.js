@@ -45,9 +45,9 @@ export default class Header extends Component {
                 <Row className="d-flex align-items-center">
                     <Col md={4} className="d-none d-md-inline-block">
                         <ul className={`${styl.topinfo} list-unstyled mb-0`}>
-                            <li className="d-flex align-content-start mb-1"><LazyLoadImage effect="blur" src="/img/002-telephone.svg" className="mr-2 mt-1"/><a href="tel://7194979709">(719)497-9709</a></li>
-                            <li className="d-flex align-items-start mb-1"><LazyLoadImage effect="blur" src="/img/003-envelope.svg" className="mr-2 mt-1"/><a href="mailto:jack@jacksaxethrowing.com" title="email">jack@jacksaxethrowing.com</a></li>
-                            <li className="d-flex align-items-start"><LazyLoadImage effect="blur" src="/img/001-placeholder.svg" className="mr-2 mt-1"/><span>625 Paonia Street Colorado springs, CO 80915</span></li>
+                            <li className="d-flex align-content-start mb-1"><LazyLoadImage effect="blur" src="/img/002-telephone.svg" height="20" className="mr-2 mt-1"/><a href="tel://7194979709">(719)497-9709</a></li>
+                            <li className="d-flex align-items-start mb-1"><LazyLoadImage effect="blur" src="/img/003-envelope.svg" height="20" className="mr-2 mt-1"/><a href="mailto:jack@jacksaxethrowing.com" title="email">jack@jacksaxethrowing.com</a></li>
+                            <li className="d-flex align-items-start"><LazyLoadImage effect="blur" src="/img/001-placeholder.svg" height="20" className="mr-2 mt-1"/><span>625 Paonia Street Colorado springs, CO 80915</span></li>
                         </ul>
                     </Col>
                     <Col xs={4} md={4}>
