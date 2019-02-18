@@ -10,6 +10,10 @@
   font-weight: 500;
 }
 
+.topinfo img {
+  max-width: unset;
+}
+
 .topinfo a {
   color: #fff !important;
   text-decoration: none !important;

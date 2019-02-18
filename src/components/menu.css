@@ -37,6 +37,14 @@
   border-radius: 0;
 }
 
+.main-nav .dropdown-toggle {
+  background-color: transparent !important;
+  border:none !important;
+  color: #051129 !important;
+  box-shadow: none !important;
+  padding: 11px 0px 10px 0px;
+}
+
 .main-nav .dropdown-menu a {
   padding: 10px;
   font-size: 16px !important;
@@ -45,6 +53,7 @@
 .navigation-top {
   padding: 4rem 1rem 5rem 3rem;
   background-color: #fff;
+  z-index: 9;
 }
 
 .navigation li {
@@ -60,5 +69,5 @@
 .navigation .topinfo a {
   white-space: normal;
   text-transform: none;
-  color: #fff;
+  color: #fff !important;
 }

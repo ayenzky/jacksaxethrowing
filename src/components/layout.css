@@ -24,11 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 68.66px !important;
+  font-size: 13vw !important;
 }
 
 h2 {
-  font-size: 3.052em !important; /* 54.93px */
+  font-size: 11vw !important; 
 }
 
 h3 {
@@ -104,13 +104,34 @@ li {
 .page main {
   padding: 50px 0 100px 0;
   position: relative;
-  z-index: 1;
+  z-index: auto;
 }
 
 .checked li {
     background: url(../../static/img/checked.svg) no-repeat left center;
     padding-left: 2.5rem;
     background-size: contain;
+}
+
+.Collapsible {
+  border: 1px solid #e9ecef;
+}
+
+.Collapsible__trigger.is-open {
+    background-color: #051129;
+    color: #fff;
+}
+
+.Collapsible__trigger {
+    font-size: 1.25rem;
+    font-weight: 600;
+    display: block;
+    padding: 0.75rem;
+}
+
+.Collapsible__contentInner {
+    padding: 0.75rem;
+    border-top: 1px solid #e9ecef;
 }
 
 /*  Pulse  */
@@ -160,3 +181,23 @@ li {
   box-shadow: 0 10px 10px -9px rgba(0, 0, 0, 0.5);
 }
 
+@media (min-width: 568px) {
+  h1 {
+    font-size: 9vw !important;
+  }
+  h2 {
+    font-size: 8vw !important;
+  }
+
+}
+
+
+@media (min-width: 991px) {
+  h1 {
+    font-size: 68.66px !important;
+  }
+  h2 {
+    font-size: 3.052em !important; /* 54.93px */
+  }
+
+}

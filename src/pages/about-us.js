@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
-import { Container, Row, Col } from "react-bootstrap";
+import {  graphql } from 'gatsby'
+import { Container  } from "react-bootstrap";
 import Layout from '../components/Layout'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';

@@ -72,7 +72,7 @@ class IndexPage extends React.Component {
                         <h2 className="heading-2 text-dark-blue mt-3 mt-lg-0">Why the name, Jack's?</h2>
                         <h3 className="heading-3">Who is Jack?</h3>
                         <p>Jack is not a person, but the business inspiring us all. I know, we’re sorry for the sad news. BUT, we can all aspire to be the best Lumberjill or Lumberjack we can be. Happy Throwing!</p>
-                        <div className="d-flex justify-content-start mt-4"><Link to="/" className="booknow hvr-shadow">read more</Link></div>
+                        <div className="d-flex justify-content-start mt-4"><Link to="/why-the-name-jacks" className="booknow hvr-shadow">read more</Link></div>
                     </div>
                 </div>
             </div>
@@ -84,38 +84,38 @@ class IndexPage extends React.Component {
                     <p className="lead px-lg-5 px-0">We offer a full range of interactive entertainment services throughout the state of Colorado. Axe Throwing provides an unforgettable experience. We use common tools in uncommon ways, creating lifelong experiences for you and your group.
                         Our motto is Our Work, Your Play. We take objects typically used for work, and turn them into play. We wake up, #ChannelTheFlannel every day and make memories for ages 4-104.</p>
                 </div>
-                <div className="row justify-content-center align-items-center align-content-center">
+                <div className="row justify-content-center align-items-stretch align-content-center">
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/008-gift.svg" alt="birthday parties"/>
-                            <h4 className="heading-3 mt-2">Birthday Parties</h4><Link to="/" title="birthday parties"></Link></div>
+                            <h4 className="heading-3 mt-2">Birthday Parties</h4><Link to="/birthday-parties" title="birthday parties"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/012-tuxedo.svg" alt="bachelor parties"/>
-                            <h4 className="heading-3 mt-2">Bachelor/ette Parties</h4><Link to="/" title="bachelorette parties"></Link></div>
+                            <h4 className="heading-3 mt-2">Bachelor/ette Parties</h4><Link to="/bachelorette-parties" title="bachelorette parties"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/011-shake.svg" alt="corporate events"/>
-                            <h4 className="heading-3 mt-2">Corporate Events</h4><Link to="/" title="corporate events"></Link></div>
+                            <h4 className="heading-3 mt-2">Corporate Events</h4><Link to="/corporate-events" title="corporate events"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/015-wedding.svg" alt="widding"/>
-                            <h4 className="heading-3 mt-2">Weddings</h4><Link to="/" title="weddings"></Link></div>
+                            <h4 className="heading-3 mt-2">Weddings</h4><Link to="/weddigns" title="weddings"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/007-family.svg" alt="family reunion"/>
-                            <h4 className="heading-3 mt-2">Family Reunions</h4><Link to="/" title="family reunions"></Link></div>
+                            <h4 className="heading-3 mt-2">Family Reunions</h4><Link to="/familly-reunions" title="family reunions"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/axe.svg" alt="mobile axe"/>
-                            <h4 className="heading-3 mt-2">Mobile Axe Throwing</h4><Link to="/" title="mobile axe throwing"></Link></div>
+                            <h4 className="heading-3 mt-2">Mobile Axe Throwing</h4><Link to="/mobile-axe-throwing" title="mobile axe throwing"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/009-birthday.svg" alt="festivals"/>
-                            <h4 className="heading-3 mt-2">Festivals</h4><Link to="/" title="festivals"></Link></div>
+                            <h4 className="heading-3 mt-2">Festivals</h4><Link to="/festivals" title="festivals"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/006-heart.svg" alt="non-profit fundraiser"/>
-                            <h4 className="heading-3 mt-2">Non-Profit Fundraiser</h4><Link to="/" title="non-profit fundraiser"></Link></div>
+                            <h4 className="heading-3 mt-2">Non-Profit Fundraiser</h4><Link to="/non-profit-events" title="non-profit fundraiser"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/005-award.svg" alt="leagues"/>
@@ -128,7 +128,7 @@ class IndexPage extends React.Component {
         <section id="onsite-reservation" className="component bg-yellow py-5">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 mb-4 mb-lg-0">
                         <h3 className="heading-3 my-0 font-weight-normal">Reservation only for onsite events. Find out where you can just show up and throw!</h3>
                     </div>
                     <div className="col-lg-4"><Link to="/" className="float-right booknow hvr-shadow">#where's jack</Link></div>

@@ -5,7 +5,6 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { rhythm } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -25,11 +24,7 @@ class BlogPostTemplate extends React.Component {
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </LazyLoadComponent>
         
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
+        <hr className="mb-5"/>
 
         <ul
           style={{

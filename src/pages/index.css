@@ -31,6 +31,7 @@
   border-radius: 10px;
   transition: 400ms ease-in-out;
   position: relative;
+  height: 100%;
 }
 
 #services .offer:hover {

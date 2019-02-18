@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import { Nav, NavDropdown, Image } from 'react-bootstrap'
+import { Nav, Image, Dropdown } from 'react-bootstrap'
 import SideBar from 'react-sidebar'
 import './menu.css'
 
@@ -28,29 +28,32 @@ export default class Menu extends Component {
                 <Nav.Item><Link className="nav-link" to="/our-story">Our Story</Link></Nav.Item>
                 <Nav.Item><Link className="nav-link" to="/why-the-name-jacks">Why Jack's</Link></Nav.Item>
                 <Nav.Item><Link className="nav-link" to="/about-us">About Us</Link></Nav.Item>
-                <NavDropdown title="Services" id="nav-dropdown" >
-                    <Link to="/services" className="dropdown-item nav-link">Services</Link>
-                    <Link to="/" className="dropdown-item nav-link">Birthday Parties</Link>
-                    <Link to="/" className="dropdown-item nav-link">Bachelor/ette Parties</Link>
-                    <Link to="/" className="dropdown-item nav-link">Corporate Events</Link>
-                    <Link to="/" className="dropdown-item nav-link">Weddings</Link>
-                    <Link to="/" className="dropdown-item nav-link">Family Reunions</Link>
-                    <Link to="/" className="dropdown-item nav-link">Mobile Axe Throwing</Link>
-                    <Link to="/" className="dropdown-item nav-link">Festivals</Link>
-                    <Link to="/" className="dropdown-item nav-link">Non-profit Fundraiser</Link>
-                    <Link to="/" className="dropdown-item nav-link">Leagues</Link>
-                    <Link to="/" className="dropdown-item nav-link">Performances</Link>
-                </NavDropdown>
+                <Dropdown className="nav-item">
+                  <Link to="/services" className="nav-link float-left">Services</Link>
+                  <Dropdown.Toggle split className="ml-3"/>
+                  <Dropdown.Menu >
+                      <Link to="/birthday-parties" className="dropdown-item nav-link">Birthday Parties</Link>
+                      <Link to="/bachelorette-parties" className="dropdown-item nav-link">Bachelor/ette Parties</Link>
+                      <Link to="/corporate-events" className="dropdown-item nav-link">Corporate Events</Link>
+                      <Link to="/weddings" className="dropdown-item nav-link">Weddings</Link>
+                      <Link to="/family-reunions" className="dropdown-item nav-link">Family Reunions</Link>
+                      <Link to="/mobile-axe-throwing" className="dropdown-item nav-link">Mobile Axe Throwing</Link>
+                      <Link to="/festivals" className="dropdown-item nav-link">Festivals</Link>
+                      <Link to="/non-profit-events" className="dropdown-item nav-link">Non-profit Fundraiser</Link>
+                      <Link to="/leagues" className="dropdown-item nav-link">Leagues</Link>
+                      <Link to="/performances" className="dropdown-item nav-link">Performances</Link>
+                  </Dropdown.Menu>
+                </Dropdown>
                 <Nav.Item><Nav.Link href="/events">Events</Nav.Link></Nav.Item>
-                <Nav.Item><Nav.Link href="/contact-us">Contact Us</Nav.Link></Nav.Item>
+                <Nav.Item><Nav.Link href="/contact">Contact Us</Nav.Link></Nav.Item>
               </Nav>
               <div className="d-flex justify-content-start mt-4"><a className="booknow hvr-shadow" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
           </div>
           <div className="navigation-bottom text-white">
               <ul className="list-unstyled topinfo">
-                  <li className="d-flex align-content-start mb-1"><Image src="/img/002-telephone.svg" className="mr-2 mt-1"/><a href="tel://7194979709">(719)497-9709</a></li>
-                  <li className="d-flex align-items-start mb-1"><Image src="/img/003-envelope.svg" className="mr-2 mt-1"/><a href="mailto:jack@jacksaxethrowing.com" title="email">jack@jacksaxethrowing.com</a></li>
-                  <li className="d-flex align-items-start"><Image src="/img/001-placeholder.svg" className="mr-2 mt-1"/><span>625 Paonia Street Colorado springs, CO 80915</span></li>
+                  <li className="d-flex align-content-start mb-1"><Image src="/img/002-telephone.svg" className="mr-2 mt-1 mb-0"/><a href="tel://7194979709">(719)497-9709</a></li>
+                  <li className="d-flex align-items-start mb-1"><Image src="/img/003-envelope.svg" className="mr-2 mt-1 mb-0"/><a href="mailto:jack@jacksaxethrowing.com" title="email">jack@jacksaxethrowing.com</a></li>
+                  <li className="d-flex align-items-start"><Image src="/img/001-placeholder.svg" className="mr-2 mt-1 mb-0"/><span>625 Paonia Street Colorado springs, CO 80915</span></li>
               </ul>
               <ul className="list-unstyled d-flex flex-wrap socialicons mt-4">
                   <li className="mb-2 mr-2"><a href="https://www.facebook.com/jacksaxethrowing/" target="_blank" rel="noopener noreferrer"><Image className="img-fluid" src="/img/003-facebook.svg"/></a></li>

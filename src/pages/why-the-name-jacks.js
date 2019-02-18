@@ -15,7 +15,7 @@ class whyNamePage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
         <Container>
-          <h2>WHO IS JACK?</h2>
+          <h2>Who is Jack?</h2>
           <LazyLoadComponent>
             <iframe title="video" width="100%" height="500" src="https://embed.wix.com/video?instanceId=21388e2d-d8d8-4852-a820-2d588999c4d8&biToken=b2c34adb-917f-086c-0b55-639a02d50d8c&pathToPage=&channelId=12f6f17c4f3d4acdbe1cb038f3c11428&videoId=9e0f512bd506403da782e8aed3decb26&compId=comp-jqq8z8af&sitePageId=idajh" frameBorder="0" allowFullScreen></iframe>
           </LazyLoadComponent>

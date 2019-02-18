@@ -3,9 +3,8 @@ import { Link, graphql } from 'gatsby'
 import { Container } from "react-bootstrap";
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
-import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
   render() {

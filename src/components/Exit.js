@@ -34,7 +34,7 @@ export default class Exit extends Component {
                     <input type="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                   </div>
-                  <button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</button>
+                  <Button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</Button>
                 </form>
             </div>
             </div>

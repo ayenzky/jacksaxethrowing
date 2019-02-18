@@ -1,14 +1,21 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Container, Row, Col} from "react-bootstrap";
 import Header from './Header'
 import Footer from './Footer'
 import Hero from './Hero'
-import { rhythm, scale } from '../utils/typography'
 import 'bootstrap/dist/css/bootstrap.css'
 import './layout.css'
 
 class Layout extends React.Component {
+  componentDidMount() {
+   if (window) {
+     const script = document.createElement('script')
+     script.type = 'text/javascript'
+     script.src = `https://forms.webriq.com/js/initForms`
+     const headScript = document.getElementsByTagName('script')[0]
+     headScript.parentNode.insertBefore(script, headScript)
+   }
+ }
   render() {
     const { location, title, children, customclass } = this.props
     const rootPath = `${__PATH_PREFIX__}/`

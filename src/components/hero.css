@@ -69,7 +69,7 @@
 
 .hero-main {
   position: relative;
-  padding: 280px 0 120px 0;
+  padding: 200px 0 120px 0;
   background: url(../../static/img/heromain.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -126,6 +126,9 @@
   .hero-content {
     padding-top: 200px;
     height: 100vh;
+  }
+  .hero-main {
+    padding: 280px 0 120px 0;
   }
 }
 
