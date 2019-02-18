@@ -154,6 +154,9 @@
 }
 
 @media (min-width: 992px) {
+  .hero {
+    height: 100vw;
+  }
   .hero-heading {
     font-size: 68.66px !important;
   }
@@ -163,7 +166,8 @@
   }
 
   .hero-content {
-    padding-top: 150px;
+    height: 100vw;
+    padding-top: 0;
   }
 }
 
@@ -176,5 +180,6 @@
 @media (min-width: 1200px) {
   .hero-content {
     padding-top: 120px;
+    height: 100vh;
   }
 }
