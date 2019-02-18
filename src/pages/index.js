@@ -51,7 +51,7 @@ class IndexPage extends React.Component {
                         <h2 className="heading-2 mb-0 text-dark-blue">Our Mission</h2>
                         <h3 className="heading-3 mt-0">Our Work, Your Play</h3>
                         <h4>#channeltheflannel</h4>
-                        <ul className="list-unstyled mission">
+                        <ul className="list-unstyled mission m-0">
                             <li>Our mission has been the same since day one in June 2018, to connect individuals and communities through throwing sharp objects. We believe in the power of community, and at Jack's, we strive to do just that.</li>
                             <li>We are perfect for your corporate events, next birthday party, wedding party, fun night out, or time with the family. With onsite and mobile operations available worldwide, there is truly something from everyone at Jack's.</li>
                         </ul>

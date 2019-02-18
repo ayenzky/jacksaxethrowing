@@ -57,7 +57,7 @@
 }
 
 .hero-subheading {
-  font-size: 7vw;
+  font-size: 7vw !important;
   color: #fcee21;
 }
 
@@ -112,7 +112,7 @@
 
 @media (min-width: 568px) {
   .hero-subheading {
-    font-size: 31.25px;
+    font-size: 31.25px !important;
   }
 }
 
@@ -149,7 +149,7 @@
 
 @media (min-width: 812px) and (max-width:991px) {
   .hero-subheading {
-    font-size: 31.25px;
+    font-size: 31.25px !important;
   }
 }
 
@@ -161,7 +161,7 @@
     font-size: 68.66px !important;
   }
   .hero-subheading {
-    font-size: 31.25px;
+    font-size: 31.25px !important;
     color: #fcee21;
   }
 
@@ -178,6 +178,9 @@
 }
 
 @media (min-width: 1200px) {
+  .hero {
+    height:100vh;
+  }
   .hero-content {
     padding-top: 120px;
     height: 100vh;
