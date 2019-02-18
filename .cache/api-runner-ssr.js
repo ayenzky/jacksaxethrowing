@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"WebriQ Blog","short_name":"WebriQ","start_url":"/","background_color":"#663399","theme_color":"#f7f7f7","display":"minimal-ui","icon":"assets/img/gatsby-icon.png"},
+      options: {"plugins":[],"name":"Highly Rated Entertainment in CO | Axe Throwing in CO","short_name":"Jack's Axe","start_url":"/","background_color":"#663399","theme_color":"#f7f7f7","display":"minimal-ui","icon":"static/img/logo.png"},
     },{
       plugin: require('/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
