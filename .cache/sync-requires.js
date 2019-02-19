@@ -25,6 +25,7 @@ exports.components = {
   "component---src-pages-non-profit-events-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/non-profit-events.js"))),
   "component---src-pages-our-story-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/our-story.js"))),
   "component---src-pages-performances-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/performances.js"))),
+  "component---src-pages-pricing-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/pricing.js"))),
   "component---src-pages-services-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/services.js"))),
   "component---src-pages-weddings-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/weddings.js"))),
   "component---src-pages-why-the-name-jacks-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/why-the-name-jacks.js")))

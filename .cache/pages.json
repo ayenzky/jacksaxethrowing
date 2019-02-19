@@ -115,6 +115,11 @@
         "path": "/performances/"
     },
     {
+        "componentChunkName": "component---src-pages-pricing-js",
+        "jsonName": "pricing-665",
+        "path": "/pricing/"
+    },
+    {
         "componentChunkName": "component---src-pages-services-js",
         "jsonName": "services-522",
         "path": "/services/"

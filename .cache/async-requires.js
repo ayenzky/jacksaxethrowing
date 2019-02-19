@@ -22,6 +22,7 @@ exports.components = {
   "component---src-pages-non-profit-events-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/non-profit-events.js" /* webpackChunkName: "component---src-pages-non-profit-events-js" */),
   "component---src-pages-our-story-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/our-story.js" /* webpackChunkName: "component---src-pages-our-story-js" */),
   "component---src-pages-performances-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/performances.js" /* webpackChunkName: "component---src-pages-performances-js" */),
+  "component---src-pages-pricing-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/pricing.js" /* webpackChunkName: "component---src-pages-pricing-js" */),
   "component---src-pages-services-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/services.js" /* webpackChunkName: "component---src-pages-services-js" */),
   "component---src-pages-weddings-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/weddings.js" /* webpackChunkName: "component---src-pages-weddings-js" */),
   "component---src-pages-why-the-name-jacks-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/why-the-name-jacks.js" /* webpackChunkName: "component---src-pages-why-the-name-jacks-js" */)
