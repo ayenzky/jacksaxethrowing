@@ -26,7 +26,7 @@ footer::before {
   height: 100px;
   background-color: #051129;
   transform: matrix(1, 0.1, 0, 1, 0, 0);
-  z-index: -1;
+  z-index: auto;
 }
 
 footer::after {
@@ -38,7 +38,11 @@ footer::after {
   height: 100px;
   background-color: #051129;
   transform: matrix(1, -0.1, 0, 1, 0, 0);
-  z-index: -1;
+  z-index: auto;
+}
+
+footer .row > div {
+  z-index: 1;
 }
 
 @media (min-width: 568px) {

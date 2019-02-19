@@ -153,6 +153,16 @@
   outline: none !important;
   box-shadow: none !important;
 }
+
+#contact {
+  padding-bottom: 100px;
+}
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: #051129;
+  width: 12px;
+  height: 12px;
+}
+
 @media (min-width: 731px) {
   .item-blog {
     display: flex;

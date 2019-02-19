@@ -4,6 +4,8 @@ import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import Exit from '../components/Exit'
 import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component';
+import Swiper from 'swiper/dist/js/swiper.esm.bundle';
+import 'swiper/dist/css/swiper.min.css'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import 'izimodal/css/iziModal.min.css';
 import './index.css'
@@ -30,6 +32,17 @@ class IndexPage extends React.Component {
         document.body.appendChild(cusscript);
 
         }, 8000)
+        new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          centeredSlides: true,
+          autoplay: true,
+          effect: 'fade',
+          pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            clickable: true
+          },
+        }); 
         
 
     }
@@ -249,6 +262,53 @@ class IndexPage extends React.Component {
                   
                 </div>
                 <div className="d-flex justify-content-center mt-4"><Link to="/blog" className="booknow hvr-shadow">more</Link></div>
+            </div>
+        </section>
+        <section id="contact" className="component bg-dirty-white">
+            <div className="container">
+            <div className="row">
+                <div className="col-md-6">
+                <div className="intro mb-5">
+                    <h2 className="heading-2">We Increase Small Business Profits</h2>
+                </div>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-md-5">
+                <form action="" webriq="true">
+              <div className="form-group">
+              <label htmlFor="inputName">Name</label>
+              <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>
+            </div>
+            <div className="form-group">
+              <label htmlFor="inputBname">Business Name</label>
+              <input type="text" className="form-control form-control-lg p-2" id="inputBname" placeholder="Enter your business name"/>
+            </div>
+            <div className="form-group">
+              <label htmlFor="exampleInputEmail1">Email Address</label>
+              <input type="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
+              <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div className="form-group">
+              <label htmlFor="inputPhone">Phone Number</label>
+              <input type="text" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number"/>
+            </div>
+            
+            
+            <button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</button>
+          </form>
+
+                </div>
+                <div className="col-md-7">
+                <div className="swiper-container pb-5">
+                    <div className="swiper-wrapper align-items-center">
+                      <div className="swiper-slide"><LazyLoadImage effect="blur" className="mb-0 img-fluid" src="https://res.cloudinary.com/dsoapbw26/image/upload/c_fill,h_450,w_700/v1550557373/jackaxethrowing/slide1.jpg" alt="slide 1"/></div>
+                      <div className="swiper-slide"><LazyLoadImage effect="blur" className="mb-0 img-fluid" src="https://res.cloudinary.com/dsoapbw26/image/upload/c_fill,h_450,w_700/v1550557373/jackaxethrowing/slide2.jpg" alt="slide 2"/></div>
+                    </div>
+                     <div className="swiper-pagination"></div>
+                  </div>
+                </div>
+            </div>
             </div>
         </section>
         <Exit/>
