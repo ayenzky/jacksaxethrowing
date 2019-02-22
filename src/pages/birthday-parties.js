@@ -3,9 +3,20 @@ import { graphql } from 'gatsby'
 import { Container } from "react-bootstrap";
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import Swiper from 'swiper/dist/js/swiper.esm.bundle';
+import 'swiper/dist/css/swiper.min.css'
 import './index.css'
 
 class birthdayPage extends React.Component {
+    componentDidMount() {
+      if (window) {
+        new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          centeredSlides: false,
+          autoplay: true
+        }); 
+      }
+    }
   render() {
     const siteTitle = "Birthday Parties"
     const siteDescription = this.props.data.site.siteMetadata.description
@@ -14,8 +25,48 @@ class birthdayPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
         <Container>
-          <p>Waiting for content.</p>
-
+          <p>We are the perfect way to celebrate your birthday! With mobile options that can go nearly anywhere from inside of garages, backyards, driveways, corporate offices and more, let us make your day a special one for only $15/hour/person! (Minimum of 2 hours and 10 people for our custom designed axe throwing truck!)</p>
+          <p>Let us make your party unforgettable! With parent or guardian approval and signature of our waiver, we do parties of all sizes and types!</p>
+          <h5>All Birthday Parties include:</h5>
+          <ul className="list-unstyled checked">
+            <li>Certified Lumberjill/Lumberjack</li>
+            <li>2 hours of throwing with games and tournaments</li>
+            <li>21 Lumberjack style? Texas Hold Em with axes? Tournaments? You bet!</li>
+            <li>Free throwing for the birthday we are celebrating</li>
+            <li>After warmup, Balloons provided to throw at to get the party poppin’ (Literally, no lie)</li>
+            <li>A few lumberjack jokes sprinkled in throughout your experience? We thought you would never axe!</li>
+            <li>Fully licensed & insured for mobile axe throwing at any location (A one time fee applies to be added as additional insured, inquire for details.)</li>
+          </ul>
+          <h5>End of event:</h5>
+          <ul className="list-unstyled checked">
+            <li>A 25% non-refunded event deposit is required, subtracted from the total at the end. The remaining balance will be collected by card only at the end of your experience.</li>
+            <li>If you enjoyed your experience, please consider leaving a tip and a google review for our hardworking, well trained, funny Lumberjills/Lumberjacks</li>
+          </ul>
+          <p>Have any additional concerns/questions? Please fill out our form below and a representative will get back to you as soon as we can!</p>
+          <div className="row">
+            <div className="col-md-6 mx-auto bg-yellow p-5">
+            <form action="" webriq="true">
+              <div className="form-group">
+              <label htmlFor="inputName">Name</label>
+              <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>
+            </div>
+            <div className="form-group">
+              <label htmlFor="exampleInputEmail1">Email Address</label>
+              <input type="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
+              <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div className="form-group">
+              <label htmlFor="inputPhone">Phone Number</label>
+              <input type="text" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number"/>
+            </div>
+            <div className="form-group">
+              <label htmlFor="inputMessage">How Can We Help You?</label>
+              <textarea type="text" className="form-control form-control-lg p-2" id="inputMessage"/>
+            </div>        
+            <button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</button>
+          </form>
+            </div>
+          </div>
         </Container>
       </Layout>
     )

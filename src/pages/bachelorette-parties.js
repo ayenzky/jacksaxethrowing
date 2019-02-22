@@ -14,7 +14,9 @@ class bachelorettePage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
         <Container>
-          <p>Waiting for content.</p>
+          <p>Having a wedding coming up and need to celebrate?</p>
+          <p>We got you covered! We can have it at a local brewery/restaurant we go to, a residential area or business office! (With prior approval, reach out to us before booking to ensure availability and location.)</p>
+          <p>All Bachelor/ette parties come with a fun guarantee!</p>
 
         </Container>
       </Layout>

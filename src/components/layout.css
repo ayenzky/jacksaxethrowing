@@ -112,6 +112,10 @@ li {
     padding-left: 2.5rem;
     background-size: contain;
 }
+.page .checked li {
+    background-size: 26px;
+    background-position: left top;
+}
 
 .Collapsible {
   border: 1px solid #e9ecef;
