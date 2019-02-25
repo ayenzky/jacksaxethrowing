@@ -138,6 +138,13 @@ li {
     border-top: 1px solid #e9ecef;
 }
 
+.swiper-container .swiper-button-prev {
+  background-image: url(../../static/img/swiper-prev.svg);
+}
+.swiper-container .swiper-button-next {
+  background-image: url(../../static/img/swiper-next.svg);
+}
+
 /*  Pulse  */
 
 @keyframes hvr-pulse {

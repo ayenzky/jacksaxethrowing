@@ -3,6 +3,8 @@ import { graphql } from 'gatsby'
 import { Container } from "react-bootstrap";
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 import Swiper from 'swiper/dist/js/swiper.esm.bundle';
 import 'swiper/dist/css/swiper.min.css'
 import './index.css'
@@ -12,8 +14,12 @@ class birthdayPage extends React.Component {
       if (window) {
         new Swiper('.swiper-container', {
           slidesPerView: 1,
-          centeredSlides: false,
-          autoplay: true
+          centeredSlides: true,
+          autoplay: true,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }
         }); 
       }
     }
@@ -66,6 +72,21 @@ class birthdayPage extends React.Component {
             <button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</button>
           </form>
             </div>
+          </div>
+          <div className="swiper-container mt-5">
+            <div className="swiper-wrapper align-items-center text-center">
+              <div className="swiper-slide">
+                <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1551061506/jackaxethrowing/slide3.jpg"/>
+              </div>
+              <div className="swiper-slide">
+                <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1551061506/jackaxethrowing/slide4.jpg"/>
+              </div>
+              <div className="swiper-slide">
+                <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1551061506/jackaxethrowing/slide5.jpg"/>
+              </div>
+            </div>
+            <div className="swiper-button-prev"></div>
+            <div className="swiper-button-next"></div>
           </div>
         </Container>
       </Layout>
