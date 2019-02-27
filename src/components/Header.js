@@ -4,12 +4,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Menu from './Menu'
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import styl from './header.module.css'
-
-
-
+import styl from './header.module.css';
+import Sticky from 'react-sticky-el';
 export default class Header extends Component {
-  
   render() {
     return (
       <header className={styl.header}>
@@ -40,10 +37,11 @@ export default class Header extends Component {
                 </Row>
             </Container>
         </div>
+        <Sticky className="imSticky">
         <div className="menu-container py-4">
             <Container>
                 <Row className="d-flex align-items-center">
-                    <Col md={4} className="d-none d-md-inline-block">
+                    <Col md={4} className="d-none d-md-inline-block top-details">
                         <ul className={`${styl.topinfo} list-unstyled mb-0`}>
                             <li className="d-flex align-content-start mb-1"><LazyLoadImage effect="blur" src="/img/002-telephone.svg" className="mr-2 mt-1"/><a href="tel://7194979709">(719)497-9709</a></li>
                             <li className="d-flex align-items-start mb-1"><LazyLoadImage effect="blur" src="/img/003-envelope.svg" className="mr-2 mt-1"/><a href="mailto:jack@jacksaxethrowing.com" title="email">jack@jacksaxethrowing.com</a></li>
@@ -61,8 +59,8 @@ export default class Header extends Component {
                 </Row>
             </Container>
         </div>
+         </Sticky>
     </header>
     )
   }
-
 }

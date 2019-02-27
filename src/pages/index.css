@@ -126,7 +126,7 @@
 
 .item-blog-title {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   padding: 1.5rem;
   bottom: 0;
 }
@@ -157,6 +157,11 @@
 #contact {
   padding-bottom: 100px;
 }
+
+#contact .swiper-container {
+  z-index: 0;
+}
+
 .swiper-pagination .swiper-pagination-bullet {
   background-color: #051129;
   width: 12px;
@@ -198,7 +203,7 @@
 @media (min-width: 731px) {
   .item-blog-content {
     margin-left: -2rem;
-    z-index: 1;
+    z-index: 0;
     width: 50%;
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -231,5 +236,3 @@
     background-position: right top;
   }
 }
-
-

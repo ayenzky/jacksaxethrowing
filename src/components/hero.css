@@ -76,16 +76,44 @@
   background-size: cover;
   overflow: hidden;
 }
+
 .hero-main::after {
-    content: '';
-    position: absolute;
-    bottom: -50px;
-    width: 100%;
-    height: 100px;
-    background-color: #fff;
-    transform: matrix(2, 0.1, 0, 1, 0, 0);
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  transform: matrix(2, 0.1, 0, 1, 0, 0);
 }
 
+.sticky .menu-container {
+  position: fixed;
+  background: #050F28;
+  z-index: 999;
+  width: 100%;
+  /*height: 200px;*/
+}
+
+.sticky .top-details {
+  display: none !important;
+}
+
+.sticky .nav-brand {
+  float: left;
+}
+
+.sticky .nav-brand img {
+  max-width: 50px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.imSticky {
+  transform: unset !important;
+}
+
+.menu-container
 /*  end of hero  */
 
 @media (min-width:360px) {
@@ -129,6 +157,7 @@
     padding-top: 200px;
     height: 100vh;
   }
+
   .hero-main {
     padding: 280px 0 120px 0;
   }
@@ -162,9 +191,11 @@
   .hero {
     height: 100vw;
   }
+
   .hero-heading {
     font-size: 68.66px !important;
   }
+
   .hero-subheading {
     font-size: 31.25px !important;
     color: #fcee21;
@@ -180,9 +211,11 @@
   .hero-content {
     padding-top: 150px;
   }
-  .video-background  {
+
+  .video-background {
     display: block;
   }
+
   .hero {
     background-image: none;
   }
@@ -190,10 +223,11 @@
 
 @media (min-width: 1200px) {
   .hero {
-    height:100vh;
+    height: 140vh;
   }
+
   .hero-content {
-    padding-top: 120px;
+    padding-top: 300px;
     height: 100vh;
   }
 }
