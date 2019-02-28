@@ -3,7 +3,6 @@ import { Link } from 'gatsby'
 import { Nav, Image, Dropdown } from 'react-bootstrap'
 import SideBar from 'react-sidebar'
 import './menu.css'
-
 export default class Menu extends Component {
   constructor(props) {
     super(props);
@@ -13,7 +12,6 @@ export default class Menu extends Component {
     };
     this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
   }
-
   onSetSidebarOpen(open) {
     this.setState({ sidebarOpen: open });
   }
@@ -42,6 +40,7 @@ export default class Menu extends Component {
                       <Link to="/non-profit-events" className="dropdown-item nav-link">Non-profit Fundraiser</Link>
                       <Link to="/leagues" className="dropdown-item nav-link">Leagues</Link>
                       <Link to="/performances" className="dropdown-item nav-link">Performances</Link>
+                      <Link to="/travelling-custom-events-indoors-and-outdoors" className="dropdown-item nav-link">Travelling Custom Events Indoors and outdoors</Link>
                   </Dropdown.Menu>
                 </Dropdown>
                 <Nav.Item><Nav.Link href="/events">Events</Nav.Link></Nav.Item>
@@ -90,7 +89,6 @@ export default class Menu extends Component {
           <h2 className="float-right nav_handle my-0"> MENU</h2>
       </div>
       </SideBar>
-      
     )
   }
 }

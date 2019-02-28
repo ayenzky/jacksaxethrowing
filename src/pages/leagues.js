@@ -5,12 +5,10 @@ import Layout from '../components/Layout'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import SEO from '../components/seo'
 import './index.css'
-
 class leaguesPage extends React.Component {
   render() {
     const siteTitle = "Leagues"
     const siteDescription = this.props.data.site.siteMetadata.description
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
@@ -76,10 +74,8 @@ class leaguesPage extends React.Component {
     )
   }
 }
-
 export default leaguesPage
-
-export const leaguesPageQuery = graphql`
+export const leaguesPageQuery = graphql `
   query leaguesPageQuery {
     site {
       siteMetadata {

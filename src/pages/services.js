@@ -1,16 +1,15 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { Container, Row, Col, Card } from "react-bootstrap";
-import Layout from '../components/Layout'
+import Layout from '../components/Layout';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Collapsible from 'react-collapsible';
 import SEO from '../components/seo'
 import './index.css'
-
 class servicesPage extends React.Component {
   render() {
     const siteTitle = "Services"
     const siteDescription = this.props.data.site.siteMetadata.description
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
@@ -95,17 +94,25 @@ class servicesPage extends React.Component {
             
             <button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</button>
           </form>
+
+            
         </div>
+
+          </div>
+          <div>
+            <h3>Leagues</h3>
+              <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,w_500/v1550202912/jackaxethrowing/usa-axe-throwing.png"/>
+
+            <p>We are members of USA Axe Throwing, providing us the targets, know how, games, leagues and tournaments to take us to the next level for axe throwing!</p>
+            <p>Contact <a href="mailto:info@usaaxethrowing.org" tilte="mail">info@usaaxethrowing.org</a> to find out how to join the league for your bar, brewery, etc!</p>
           </div>
         </Container>
       </Layout>
     )
   }
 }
-
 export default servicesPage
-
-export const servicesPageQuery = graphql`
+export const servicesPageQuery = graphql `
   query servicesPageQuery {
     site {
       siteMetadata {

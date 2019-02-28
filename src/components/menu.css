@@ -1,8 +1,8 @@
-.navigation{
-    background: #051129;
-    display: block;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+.navigation {
+  background: #051129;
+  display: block;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .nav_handle {
@@ -39,7 +39,7 @@
 
 .main-nav .dropdown-toggle {
   background-color: transparent !important;
-  border:none !important;
+  border: none !important;
   color: #051129 !important;
   box-shadow: none !important;
   padding: 11px 0px 10px 0px;
@@ -48,6 +48,7 @@
 .main-nav .dropdown-menu a {
   padding: 10px;
   font-size: 16px !important;
+  white-space: pre-wrap;
 }
 
 .navigation-top {
