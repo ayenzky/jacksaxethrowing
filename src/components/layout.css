@@ -145,6 +145,10 @@ li {
   background-image: url(../../static/img/swiper-next.svg);
 }
 
+.swiper-container {
+  z-index: 0 !important;
+}
+
 /*  Pulse  */
 
 @keyframes hvr-pulse {
