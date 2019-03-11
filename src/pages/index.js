@@ -112,11 +112,11 @@ class IndexPage extends React.Component {
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/015-wedding.svg" alt="widding"/>
-                            <h4 className="heading-3 mt-2">Weddings</h4><Link to="/weddigns" title="weddings"></Link></div>
+                            <h4 className="heading-3 mt-2">Weddings</h4><Link to="/weddings" title="weddings"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/007-family.svg" alt="family reunion"/>
-                            <h4 className="heading-3 mt-2">Family Reunions</h4><Link to="/familly-reunions" title="family reunions"></Link></div>
+                            <h4 className="heading-3 mt-2">Family Reunions</h4><Link to="/family-reunions" title="family reunions"></Link></div>
                     </div>
                     <div className="col-sm-6 col-md-4 text-center mb-4">
                         <div className="offer"><LazyLoadImage effect="blur" src="/img/axe.svg" alt="mobile axe"/>

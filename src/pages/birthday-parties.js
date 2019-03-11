@@ -35,13 +35,13 @@ class birthdayPage extends React.Component {
           <p>Let us make your party unforgettable! With parent or guardian approval and signature of our waiver, we do parties of all sizes and types!</p>
           <h5>All Birthday Parties include:</h5>
           <ul className="list-unstyled checked">
-            <li>Certified Lumberjill/Lumberjack</li>
+            <li>Certified Lumber Jill/Lumberjack</li>
             <li>2 hours of throwing with games and tournaments</li>
-            <li>21 Lumberjack style? Texas Hold Em with axes? Tournaments? You bet!</li>
+            <li>21 Lumberjack style? Texas Hold Em with axes? Tournaments? You bet! All these games and more included.</li>
             <li>Free throwing for the birthday we are celebrating</li>
-            <li>After warmup, Balloons provided to throw at to get the party poppin’ (Literally, no lie)</li>
+            <li>After warmup, Balloons provided to throw at to get the party Poppin’ (Literally, no lie)</li>
             <li>A few lumberjack jokes sprinkled in throughout your experience? We thought you would never axe!</li>
-            <li>Fully licensed & insured for mobile axe throwing at any location (A one time fee applies to be added as additional insured, inquire for details.)</li>
+            <li>Fully licensed &amp; insured for mobile axe throwing at any location (A one-time fee applies to be added as additional insured, inquire for details.)</li>
           </ul>
           <h5>End of event:</h5>
           <ul className="list-unstyled checked">
@@ -49,6 +49,10 @@ class birthdayPage extends React.Component {
             <li>If you enjoyed your experience, please consider leaving a tip and a google review for our hardworking, well trained, funny Lumberjills/Lumberjacks</li>
           </ul>
           <p>Have any additional concerns/questions? Please fill out our form below and a representative will get back to you as soon as we can!</p>
+
+
+
+          
           <div className="row">
             <div className="col-md-6 mx-auto bg-yellow p-5">
             <form action="" webriq="true">
