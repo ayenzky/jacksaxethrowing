@@ -2,29 +2,44 @@ import React, { Component } from 'react'
 import { Modal, Button } from "react-bootstrap";
 
 export default class Vmodal extends Component {
-  componentDidMount() {
-      if(window) {
-        const jqscript = document.createElement("script");
-        jqscript.src= `https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js`
-        document.body.appendChild(jqscript);
+  constructor(props, context) {
+    super(props, context);
 
-        const iziscript = document.createElement("script");
-        iziscript.src= `https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js`
-        document.body.appendChild(iziscript);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
 
-    }
+    this.state = {
+      show: false,
+    };
+  }
+
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
   }
   
   render () {
     return (
         <>
-        <Modal className="modal fade" id={this.props.modalId}>
-          <Modal.Header closeButton className="pl-5 border-0 pt-2">
-            <h3 className="modal-title mt-0">Leaving Already?</h3>
+        <Button variant="primary" onClick={this.handleShow}>
+          Launch demo modal
+        </Button>
+        <Modal show={this.state.show} onHide={this.handleClose}>
+          <Modal.Header closeButton>
+            <Modal.Title>{this.props.titleheader}</Modal.Title>
           </Modal.Header>
-          <Modal.Body className="bg-yellow px-5 pb-4">
-            test
-          </Modal.Body>
+          <Modal.Body>{this.props.children}</Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={this.handleClose}>
+              Close
+            </Button>
+            <Button variant="primary" onClick={this.handleClose}>
+              Save Changes
+            </Button>
+          </Modal.Footer>
         </Modal>
       </>
     )

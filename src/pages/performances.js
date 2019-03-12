@@ -24,7 +24,7 @@ class performancePage extends React.Component {
           <p>Fill out our form below for a performance request.</p>
           <div className="row my-4">
             <div className="col-md-6 mx-auto bg-yellow p-5">
-           <form action="">
+           <form name='Describe Audience Form' method='POST' data-form-id="5c8744c36d01764f7a54174b" webriq="true">
             <div className="form-group">
               <label htmlFor="inputName">Name</label>
               <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>

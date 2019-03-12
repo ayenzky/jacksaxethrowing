@@ -5,13 +5,6 @@ import 'react-lazy-load-image-component/src/effects/opacity.css';
 import './hero.css'
 
 export default class Hero extends Component  {
-    componentDidMount() {
-      if(window) {
-        const script = document.createElement("script");
-        script.src= `https://fareharbor.com/embeds/api/v1/?autolightframe=yes`
-        document.body.appendChild(script);
-    }
-  }
   render () {
     return (
       <div className="hero">

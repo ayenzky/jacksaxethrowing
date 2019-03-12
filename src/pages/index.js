@@ -68,7 +68,7 @@ class IndexPage extends React.Component {
                             <li>Our mission has been the same since day one in June 2018, to connect individuals and communities through throwing sharp objects. We believe in the power of community, and at Jack's, we strive to do just that.</li>
                             <li>We are perfect for your corporate events, next birthday party, wedding party, fun night out, or time with the family. With onsite and mobile operations available worldwide, there is truly something from everyone at Jack's.</li>
                         </ul>
-                        <div className="d-flex justify-content-start mt-4"><Link to="/" className="booknow hvr-shadow">read more</Link></div>
+                        <div className="d-flex justify-content-start mt-4"><Link to="/our-story" className="booknow hvr-shadow">read more</Link></div>
                     </div>
                 </div>
             </div>
@@ -275,7 +275,7 @@ class IndexPage extends React.Component {
             </div>
             <div className="row">
                 <div className="col-md-5">
-                <form action="" webriq="true">
+                <form name='Business Profit Form' method='POST' data-form-id="5c87456e6d01764f7a54174d" webriq="true">
               <div className="form-group">
               <label htmlFor="inputName">Name</label>
               <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>

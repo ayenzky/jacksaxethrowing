@@ -1,7 +1,7 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
-import { Container, Row, Col } from "react-bootstrap";
-import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component';
+import { graphql } from 'gatsby'
+import { Container, Row } from "react-bootstrap";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import './index.css'
@@ -22,41 +22,43 @@ class festivalsPage extends React.Component {
           </ul>
           <p>We have worked with the Colorado State Fair, El Paso County Fair, Colorado Medieval Festival, Mile High Beer Fest, Lakewood Cider Days, Hell Scream Entertainment, Colorado Springs Gun Show, Colorado Springs Sugar Plum &amp; Gift Mart</p>
 
-          <Row className="my-5 justify-content-center align-items-stretch align-content-center">
-            <div className="col-sm-6 col-md-4 text-center mb-4">
-              <div className="offer"><a href="https://www.hellscreamhaunt.com/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552272443/jackaxethrowing/hell-scream.jpg" alt="Hell Scream"/></a>
+          <Row className="my-5 justify-content-center align-items-center">
+            <div className="col-sm-6 col-md-3 text-center">
+              <div className="festival-logos"><a href="https://www.hellscreamhaunt.com/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552272443/jackaxethrowing/hell-scream.jpg" alt="Hell Scream"/></a>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 text-center my-5">
-              <div className="offer"><a href="http://www.lakewood.org/ciderdays/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1550196669/jackaxethrowing/cider-days.jpg" alt="Cider Days"/></a>
+            <div className="col-sm-6 col-md-3 text-center">
+              <div className="festival-logos"><a href="http://www.lakewood.org/ciderdays/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1550196669/jackaxethrowing/cider-days.jpg" alt="Cider Days"/></a>
               </div>
             </div>
-            <div className="col-sm-6 col-md-4 text-center mb-4">
-              <div className="offer"><a href="https://www.coloradostatefair.com/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1550196668/jackaxethrowing/colorado-state-fair.jpg" alt="Colorado state fair"/></a>
+            <div className="col-sm-6 col-md-3 text-center">
+              <div className="festival-logos"><a href="https://www.coloradostatefair.com/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1550196668/jackaxethrowing/colorado-state-fair.jpg" alt="Colorado state fair"/></a>
               </div>
             </div>
-            <div className="col-sm-6 col-md-3 text-center my-4">
-              <div className="offer"><a href="https://www.facebook.com/coloradospringsgunshow/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552273088/jackaxethrowing/gun-knife-show.jpg" alt="gun & knife show"/></a>
+            <div className="col-sm-6 col-md-3 text-center">
+              <div className="festival-logos"><a href="https://www.facebook.com/coloradospringsgunshow/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552273088/jackaxethrowing/gun-knife-show.jpg" alt="gun & knife show"/></a>
               </div>
             </div>
-            <div className="col-sm-6 col-md-3 text-center my-5">
-              <div className="offer"><a href="https://milehighbeerfestival.com/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552273916/jackaxethrowing/mile-high-beer-fest.jpg" alt="mile high beer fest"/></a>
+            <div className="col-sm-6 col-md-3 text-center">
+              <div className="festival-logos"><a href="https://milehighbeerfestival.com/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552273916/jackaxethrowing/mile-high-beer-fest.jpg" alt="mile high beer fest"/></a>
               </div>
             </div>
-            <div className="col-sm-6 col-md-3 text-center mt-4">
-              <div className="offer"><a href="https://www.facebook.com/ColoradoSpringsSugarPlum/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1550196668/jackaxethrowing/sugarplum-gift-mart.jpg" alt="Colorado state fair"/></a>
+            <div className="col-sm-6 col-md-3 text-center">
+              <div className="festival-logos"><a href="https://www.facebook.com/ColoradoSpringsSugarPlum/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1550196668/jackaxethrowing/sugarplum-gift-mart.jpg" alt="Colorado state fair"/></a>
               </div>
             </div>
-            <div className="col-sm-6 col-md-3 text-center mb-4">
-              <div className="offer"><a href="https://www.coloradocastle.com/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1550196668/jackaxethrowing/colorado-medieval-festival.jpg" alt="Colorado medieval festival"/></a>
+            <div className="col-sm-6 col-md-3 text-center">
+              <div className="festival-logos"><a href="https://www.coloradocastle.com/" target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="mb-0  bg-dark-blue" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1550196668/jackaxethrowing/colorado-medieval-festival.jpg" alt="Colorado medieval festival"/></a>
               </div>
             </div>
           </Row>
-
+          <div className="text-center">
+          <LazyLoadImage effect="blur" className="mx-auto img-fluid" src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,w_800/v1552295996/jackaxethrowing/festival.jpg"/>
+          </div>
           <div className="row">
             <div className="col-md-6 mx-auto bg-yellow p-5">
             <p>Enter your details below and let us help make your next fair the most successful it has ever been!</p>
-            <form action="" webriq="true">
+            <form name='Festival Form' method='POST' data-form-id="5c87441f6d01764f7a541748" webriq="true">
             <div className="form-group">
               <label htmlFor="inputName">Contact Name</label>
               <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>

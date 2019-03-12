@@ -18,7 +18,7 @@ class contactPage extends React.Component {
         <Container>
           <Row>
             <Col md={6}>
-            <form action="" webriq="true">
+            <form name='Contact Form' method='POST' data-form-id="5c8743cc6d01764f7a541747" webriq="true">
               <div className="form-group">
               <label htmlFor="inputName">Name</label>
               <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>

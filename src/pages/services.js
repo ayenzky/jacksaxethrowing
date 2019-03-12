@@ -70,7 +70,7 @@ class servicesPage extends React.Component {
           <p><strong>Interested in having us at your business? Fill out our form, and we’ll get right with you after we get done throwing!</strong></p>
           <div className="row my-4">
             <div className="col-md-6 mx-auto bg-yellow p-5">
-           <form action="">
+           <form name='Business Form' method='POST' data-form-id="5c8744fb6d01764f7a54174c" webriq="true">
               <div className="form-group">
               <label htmlFor="inputBname">Business Name</label>
               <input type="text" className="form-control form-control-lg p-2" id="inputBname" placeholder="Enter your business name"/>

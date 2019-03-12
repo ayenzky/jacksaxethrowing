@@ -12,12 +12,6 @@ import './index.css'
 class storyPage extends React.Component {
   componentDidMount() {
       if (window) {
-        const script = document.createElement('script')
-        script.type = 'text/javascript'
-        script.src = `https://forms.webriq.com/js/initForms`
-        const headScript = document.getElementsByTagName('script')[0]
-        headScript.parentNode.insertBefore(script, headScript)
-
         new Swiper('.swiper-container', {
           slidesPerView: 4,
           centeredSlides: false,
@@ -57,7 +51,7 @@ class storyPage extends React.Component {
           <p>Fill out this form to schedule a meeting and get to know Bryan!</p>
           <div className="row my-4">
             <div className="col-md-6 mx-auto bg-yellow p-5">
-           <form action="">
+           <form name='Subscription Form' method='POST' data-form-id="5c8744a36d01764f7a54174a" webriq="true">
               <div className="form-group">
               <label htmlFor="inputName">Name</label>
               <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>

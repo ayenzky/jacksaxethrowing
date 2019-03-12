@@ -162,6 +162,25 @@
   z-index: 0;
 }
 
+.festival-logos {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  overflow: hidden;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+  background-color: #f8f9fa;
+  margin: auto;
+  transition: transform 500ms ease-in-out;
+}
+.festival-logos:hover {
+  transform:rotate(360deg);
+}
+
 .swiper-pagination .swiper-pagination-bullet {
   background-color: #051129;
   width: 12px;

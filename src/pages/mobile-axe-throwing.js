@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Container } from "react-bootstrap";
-import { LazyLoadImage, LazyLoadComponent } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css'
 import Swiper from 'swiper/dist/js/swiper.esm.bundle';
 import 'swiper/dist/css/swiper.min.css'
@@ -44,18 +44,19 @@ class mobileAxePage extends React.Component {
           <div className="swiper-container mt-5">
             <div className="swiper-wrapper align-items-center text-center">
               <div className="swiper-slide">
-                <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1551061506/jackaxethrowing/slide3.jpg"/>
+                <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552355366/jackaxethrowing/slide6.jpg"/>
               </div>
               <div className="swiper-slide">
-                <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1551061506/jackaxethrowing/slide4.jpg"/>
+                <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552355366/jackaxethrowing/slide7.jpg"/>
               </div>
               <div className="swiper-slide">
-                <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1551061506/jackaxethrowing/slide5.jpg"/>
+                <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552355366/jackaxethrowing/slide8.jpg"/>
               </div>
             </div>
             <div className="swiper-button-prev"></div>
             <div className="swiper-button-next"></div>
           </div>
+          <div className="d-flex justify-content-center mt-4"><a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
         </Container>
       </Layout>
     )

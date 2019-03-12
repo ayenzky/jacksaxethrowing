@@ -125,6 +125,11 @@
         "path": "/services/"
     },
     {
+        "componentChunkName": "component---src-pages-thank-you-js",
+        "jsonName": "thank-you-a93",
+        "path": "/thank-you/"
+    },
+    {
         "componentChunkName": "component---src-pages-travelling-custom-events-indoors-and-outdoors-js",
         "jsonName": "travelling-custom-events-indoors-and-outdoors-8a4",
         "path": "/travelling-custom-events-indoors-and-outdoors/"

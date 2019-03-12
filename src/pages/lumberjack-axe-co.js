@@ -20,7 +20,7 @@ class lumberjackPage extends React.Component {
           <p><strong>Fill out this form to request a custom axe! Starting at just $50, going up to $200 for our high-end designs.</strong></p>
           <div className="row my-4">
             <div className="col-md-6 mx-auto bg-yellow p-5">
-           <form action="">
+           <form name='Describe Design Form' method='POST' data-form-id="5c87444d6d01764f7a541749" webriq="true">
               <div className="form-group">
               <label htmlFor="inputName">Name</label>
               <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>

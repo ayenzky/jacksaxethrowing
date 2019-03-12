@@ -55,7 +55,7 @@ export default class Menu extends Component {
                       <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Pueblo</Link>
                   </Dropdown.Menu>
                 </Dropdown>
-                <Nav.Item><Nav.Link href="/contact">Contact Us</Nav.Link></Nav.Item>
+                <Nav.Item><Link className="nav-link" to="/contact">Contact Us</Link></Nav.Item>
               </Nav>
               <div className="d-flex justify-content-start mt-4"><a className="booknow hvr-shadow" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
           </div>

@@ -14,6 +14,10 @@ class Layout extends React.Component {
      script.src = `https://forms.webriq.com/js/initForms`
      const headScript = document.getElementsByTagName('script')[0]
      headScript.parentNode.insertBefore(script, headScript)
+
+     const fscript = document.createElement("script");
+     fscript.src= `https://fareharbor.com/embeds/api/v1/?autolightframe=yes`
+     document.body.appendChild(fscript);
    }
  }
   render() {
@@ -27,7 +31,8 @@ class Layout extends React.Component {
       )
     } else {
       herobanner = (
-        <div className="hero-main bg-yellow">
+        <div className="hero-main">
+          <div className="hero-main-bg"/>
           <Container>
             <Row>
               <Col lg={8} md={9}>

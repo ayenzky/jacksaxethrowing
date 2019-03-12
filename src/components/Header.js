@@ -37,8 +37,8 @@ export default class Header extends Component {
                 </Row>
             </Container>
         </div>
-        <Sticky className="imSticky">
-        <div className="menu-container py-4">
+        <Sticky className="imSticky" stickyStyle={{ transform: 'unset', zIndex: '2' }}>
+        <div className="menu-container">
             <Container>
                 <Row className="d-flex align-items-center">
                     <Col md={4} className="d-none d-md-inline-block top-details">
