@@ -28,7 +28,7 @@ export default class Exit extends Component {
         </div>
         <div className="modal-body bg-yellow px-5 pb-4">
         <p>Sign up here to get the latest news, update and special offers delivered directly to your inbox.</p>
-            <form>
+            <form name='Exit Subscribe Form' method='POST' data-form-id="5c89fe5a1012621f96b1764d" webriq="true">
                   <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Email Address</label>
                     <input type="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
