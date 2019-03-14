@@ -30,7 +30,7 @@ class contactPage extends React.Component {
             </div>
             <div className="form-group">
               <label htmlFor="inputPhone">Phone Number</label>
-              <input type="text" name="phone number" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number" required/>
+              <input type="tel" name="phone number" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number" required/>
             </div>
             <div className="form-group">
               <label htmlFor="inputMessage">How Can We Help You?</label>
