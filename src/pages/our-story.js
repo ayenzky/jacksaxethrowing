@@ -54,19 +54,20 @@ class storyPage extends React.Component {
            <form name='Subscription Form' method='POST' data-form-id="5c8744a36d01764f7a54174a" webriq="true">
               <div className="form-group">
               <label htmlFor="inputName">Name</label>
-              <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>
+              <input type="text" name="name" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name" required/>
             </div>
             <div className="form-group">
               <label htmlFor="exampleInputEmail1">Email Address</label>
-              <input type="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
+              <input type="email" name="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" required/>
               <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div className="form-group">
               <label htmlFor="inputPhone">Phone Number</label>
-              <input type="text" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number"/>
+              <input type="text" name="phone number" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number" required/>
             </div>
-
-      
+            <div className="form-group">
+                <div className="webriq-recaptcha"></div>
+            </div>
             
             <button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</button>
           </form>

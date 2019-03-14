@@ -31,7 +31,7 @@ export default class Exit extends Component {
             <form name='Exit Subscribe Form' method='POST' data-form-id="5c89fe5a1012621f96b1764d" webriq="true">
                   <div className="form-group">
                     <label htmlFor="exampleInputEmail1">Email Address</label>
-                    <input type="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
+                    <input type="email" name="email address" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
                     <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                   </div>
                   <Button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</Button>

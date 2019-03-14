@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, graphql } from 'gatsby'
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Layout from '../components/Layout';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Collapsible from 'react-collapsible';
 import SEO from '../components/seo'
 import './index.css'
@@ -73,38 +72,30 @@ class servicesPage extends React.Component {
            <form name='Business Form' method='POST' data-form-id="5c8744fb6d01764f7a54174c" webriq="true">
               <div className="form-group">
               <label htmlFor="inputBname">Business Name</label>
-              <input type="text" className="form-control form-control-lg p-2" id="inputBname" placeholder="Enter your business name"/>
+              <input type="text" name="business name" className="form-control form-control-lg p-2" id="inputBname" placeholder="Enter your business name" required/>
             </div>
             <div className="form-group">
               <label htmlFor="inputContactperson">Contact Person</label>
-              <input type="text" className="form-control form-control-lg p-2" id="inputContactperson" placeholder="Enter your contact person"/>
+              <input type="text" name="contact person" className="form-control form-control-lg p-2" id="inputContactperson" placeholder="Enter your contact person" required/>
             </div>
             <div className="form-group">
               <label htmlFor="inputPhone">Phone Number</label>
-              <input type="text" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number"/>
+              <input type="text" name="phone number" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number" required/>
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Email Address</label>
-              <input type="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
+              <label htmlFor="InputEmail1">Email Address</label>
+              <input type="email" name="email address" className="form-control form-control-lg p-2" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" required/>
               <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
-            
-
-      
-            
+            <div className="form-group">
+                <div className="webriq-recaptcha"></div>
+            </div>
             <button type="submit" className="booknow hvr-shadow mt-1">SUBMIT</button>
           </form>
 
             
         </div>
 
-          </div>
-          <div>
-            <h3>Leagues</h3>
-              <LazyLoadImage effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,w_500/v1550202912/jackaxethrowing/usa-axe-throwing.png"/>
-
-            <p>We are members of USA Axe Throwing, providing us the targets, know how, games, leagues and tournaments to take us to the next level for axe throwing!</p>
-            <p>Contact <a href="mailto:info@usaaxethrowing.org" tilte="mail">info@usaaxethrowing.org</a> to find out how to join the league for your bar, brewery, etc!</p>
           </div>
         </Container>
       </Layout>

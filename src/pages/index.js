@@ -299,23 +299,26 @@ class IndexPage extends React.Component {
             </div>
             <div className="row">
                 <div className="col-md-5">
-                <form name='Business Profit Form' method='POST' data-form-id="5c87456e6d01764f7a54174d" webriq="true">
+            <form name='Business Profit Form' method='POST' data-form-id="5c87456e6d01764f7a54174d" webriq="true">
               <div className="form-group">
               <label htmlFor="inputName">Name</label>
-              <input type="text" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name"/>
+              <input type="text" name="name" className="form-control form-control-lg p-2" id="inputName" placeholder="Enter your name" required/>
             </div>
             <div className="form-group">
               <label htmlFor="inputBname">Business Name</label>
-              <input type="text" className="form-control form-control-lg p-2" id="inputBname" placeholder="Enter your business name"/>
+              <input type="text" name="business name" className="form-control form-control-lg p-2" id="inputBname" placeholder="Enter your business name" required/>
             </div>
             <div className="form-group">
               <label htmlFor="exampleInputEmail1">Email Address</label>
-              <input type="email" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email"/>
+              <input type="email" name="email address" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" required/>
               <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div className="form-group">
               <label htmlFor="inputPhone">Phone Number</label>
-              <input type="text" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number"/>
+              <input type="text" name="phone number" className="form-control form-control-lg p-2" id="inputPhone" placeholder="Enter your phone number"/>
+            </div>
+            <div className="form-group">
+                <div className="webriq-recaptcha"></div>
             </div>
             
             
