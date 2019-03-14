@@ -9,29 +9,21 @@ import 'swiper/dist/css/swiper.min.css'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import 'izimodal/css/iziModal.min.css';
 import './index.css'
-// import Modal from '../components/Modal'
+import Modal from '../components/Modal'
 
 
 class IndexPage extends React.Component {
   componentDidMount() {
     if(window) {
-        const script = document.createElement("script");
-        script.src = `https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js`
-        const headScript = document.getElementsByTagName('script')[0]
-        headScript.parentNode.insertBefore(script, headScript)
-
         setTimeout(function(){
-        const iziscript = document.createElement("script");
-        iziscript.src= `https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js`
-        document.body.appendChild(iziscript);
-
-        }, 5000)
-        setTimeout(function(){
-        const cusscript = document.createElement("script");
-        cusscript.src= `/js/custom.js`
-        document.body.appendChild(cusscript);
-
-        }, 8000)
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        },5000)
         new Swiper('.swiper-container', {
           slidesPerView: 1,
           centeredSlides: true,
@@ -78,7 +70,7 @@ class IndexPage extends React.Component {
                 <div className="row">
                     <div className="col-lg-7">
                     <LazyLoadComponent>
-                      <iframe title="video" width="100%" height="400" src="https://embed.wix.com/video?instanceId=21388e2d-d8d8-4852-a820-2d588999c4d8&biToken=b2c34adb-917f-086c-0b55-639a02d50d8c&pathToPage=&channelId=12f6f17c4f3d4acdbe1cb038f3c11428&videoId=9e0f512bd506403da782e8aed3decb26&compId=comp-jqq8z8af&sitePageId=idajh" frameBorder="0" allowFullScreen></iframe>
+                      <iframe title="video" className="mb-0" src="https://player.vimeo.com/video/323639718?title=0&byline=0&portrait=0" width="100%" height="400" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
                     </LazyLoadComponent>
                   </div>
                     <div className="col-lg-5 pl-3 pl-lg-5">
@@ -158,56 +150,81 @@ class IndexPage extends React.Component {
                     <div className="col-md-6 col-lg-4 mb-2">
                         <div className="item-event">
                             <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_a1bef407284840b4a73fdf758d90e052~mv2.jpg)'}}>
-                              <a href="https://www.facebook.com/video.php?v=1911670008932295" className="item-event-play trigger" data-izimodal-open="#modal-iframe-1"><LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/></a></div>
+                              <Modal
+                                    btnclass="item-event-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
+                                >
+                                <iframe title="video" className="mb-0" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F854055368117721%2F&width=500&show_text=false&appId=1037601643039892&height=280" width="100%" height="400"  scrolling="no" frameBorder="0" allowtransparency="true" allow="encrypted-media" allowFullScreen={true}></iframe>
+                            </Modal>
+                            </div>
                             <div className="item-event-content">
                                 <h5 className="font-weight-light mt-3">We tried axe throwing and it didn't go as planned! Here's a SNEAK PEEK at the next #Challenge Christina!</h5>
                                 <p>Bloopers before the segment? Why not! Here's a look at our upcoming #ChallengeChristina with Jack's Axe Throwing! Think Abbie Burke, Lauren McDonald</p>
                             </div>
-                            <div className="modal-iframe" id="modal-iframe-1">
-                              <div className="fb-video" data-href="https://www.facebook.com/video.php?v=854055368117721" data-width="600" height="400" data-allowfullscreen="true" data-show-text="true" data-show-captions="true"></div>
-                            </div>
+     
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-2">
                         <div className="item-event">
-                            <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_733e98c0558f41ef9813f5ffc6cb1c69~mv2.jpg)'}}><a href="/" className="item-event-play" data-izimodal-open="#modal-iframe-2"><LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/></a></div>
+                            <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_733e98c0558f41ef9813f5ffc6cb1c69~mv2.jpg)'}}>
+                                <Modal
+                                    btnclass="item-event-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
+                                >
+                                    <iframe title="video" className="mb-0" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F1911670008932295%2F&width=500&show_text=false&appId=1037601643039892&height=893" width="100%" height="893"  scrolling="no" frameBorder="0" allowtransparency="true" allow="encrypted-media" allowFullScreen={true}></iframe>
+                                </Modal>
+                            </div>
                             <div className="item-event-content">
-                                <h5 className="font-weight-light mt-3">��🇸⛏ Corporate Axe Throwing League Sponsorship opportunity! 🇺🇸⛏ 🇺🇸 ⛏ Listen up if you want to get</h5>
-                                <p>��🇸⛏ Corporate Axe Throwing League Sponsorship opportunity! 🇺🇸⛏ 🇺🇸 ⛏ Listen up if you want to get exposed to 10s if not 100s of thousands of people thro</p>
+                                <h5 className="font-weight-light mt-3"><span role="img" aria-label="">��🇸⛏</span> Corporate Axe Throwing League Sponsorship opportunity! <span role="img" aria-label="">🇺🇸⛏ 🇺🇸 ⛏</span> Listen up if you want to get</h5>
+                                <p><span role="img" aria-label="">��🇸⛏</span> Corporate Axe Throwing League Sponsorship opportunity! <span role="img" aria-label="">🇺🇸⛏ 🇺🇸 ⛏</span> Listen up if you want to get exposed to 10s if not 100s of thousands of people thro</p>
                             </div>
-                            <div className="modal-iframe" id="modal-iframe-2">
-                            <div className="fb-video" data-href="https://www.facebook.com/video.php?v=1911670008932295" data-width="600" height="400" data-allowfullscreen="true" data-show-text="true" data-show-captions="true"></div>
-                            </div>
+                        
 
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-2">
                         <div className="item-event">
-                            <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_99580c56e8e645e6b9d59f112e2b9c0b~mv2.jpg)'}}><a href="/" className="item-event-play" data-izimodal-open="#modal-iframe-3"><LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/></a></div>
+                            <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_99580c56e8e645e6b9d59f112e2b9c0b~mv2.jpg)'}}>
+                                <Modal
+                                    btnclass="item-event-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
+                                >
+                                <iframe title="video" className="mb-0" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F1860131457437453%2F&width=500&show_text=false&appId=1037601643039892&height=889" width="500" height="889" scrolling="no" frameBorder="0" allowtransparency="true" allow="encrypted-media" allowFullScreen={true}></iframe>
+                            </Modal>
+                            </div>
                             <div className="item-event-content">
                                 <h5 className="font-weight-light mt-3">Jack's Axe Throwing at Haunted Mines</h5>
                                 <p>Jack's Axe Throwing at Haunted Mines</p>
                             </div>
-                            <div className="modal-iframe" id="modal-iframe-3">
-                            <div className="fb-video" data-href="https://www.facebook.com/video.php?v=1860131457437453" data-width="600" height="400" data-allowfullscreen="true" data-show-text="true" data-show-captions="true"></div>
-                            </div>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-2">
                         <div className="item-event">
-                            <div className="item-event-video" style={{backgroundImage: 'url(//i.ytimg.com/vi/KfzYwlbFuiM/maxresdefault.jpg)'}}><a href="/" className="item-event-play" data-izimodal-open="#modal-iframe-4"><LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/></a></div>
+                            
+                            <div className="item-event-video" style={{backgroundImage: 'url(//i.ytimg.com/vi/KfzYwlbFuiM/maxresdefault.jpg)'}}>
+                                <Modal
+                                    btnclass="item-event-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
+                                >
+                                    <iframe title="video"  className="mb-0" width="100%" height="400" src="https://www.youtube.com/embed/KfzYwlbFuiM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                </Modal>   
+                            </div>
                             <div className="item-event-content">
                                 <h5 className="font-weight-light mt-3">Axe Throwing in Colorado Springs| Challenge Christina | | Jack's Axe Throwing</h5>
                                 <p>Challenge Christina: Axe Throwing Jack's Axe Throwing</p>
                             </div>
-                            <div className="modal-iframe" id="modal-iframe-4">
-                            <iframe title="video" width="600" height="400" src="https://www.youtube.com/embed/KfzYwlbFuiM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                            </div>
                         </div>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-2">
                         <div className="item-event">
-                            <div className="item-event-video" style={{backgroundImage: 'url(//images-vod.wixmp.com/d64b378a-6e9d-44f2-8e38-88b8c0ab08ee/images/44409d5683d64e458597c9a2743699ebf002/v1/fill/w_768,h_431,q_85,usm_0.66_1.00_0.01/file.webp)'}}><a href="/" className="item-event-play"><LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/></a></div>
+                            <div className="item-event-video" style={{backgroundImage: 'url(//images-vod.wixmp.com/d64b378a-6e9d-44f2-8e38-88b8c0ab08ee/images/44409d5683d64e458597c9a2743699ebf002/v1/fill/w_768,h_431,q_85,usm_0.66_1.00_0.01/file.webp)'}}>
+                                <Modal
+                                    btnclass="item-event-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
+                                >
+                                <iframe title="video" className="mb-0" src="https://player.vimeo.com/video/323622512?title=0&byline=0&portrait=0" width="100%" height="395" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
+                            </Modal>
+                            </div>
                             <div className="item-event-content">
                                 <h5 className="font-weight-light mt-3">Jack's Axe Throwing Colorado Springs</h5>
                             </div>
@@ -215,7 +232,14 @@ class IndexPage extends React.Component {
                     </div>
                     <div className="col-md-6 col-lg-4 mb-2">
                         <div className="item-event">
-                            <div className="item-event-video" style={{backgroundImage: 'url(//images-vod.wixmp.com/d64b378a-6e9d-44f2-8e38-88b8c0ab08ee/images/de47e245cf904ea8a31b9305d433a4c6f002/v1/fill/w_768,h_431,q_85,usm_0.66_1.00_0.01/file.webp)'}}><a href="/" className="item-event-play"><LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/></a></div>
+                            <div className="item-event-video" style={{backgroundImage: 'url(//images-vod.wixmp.com/d64b378a-6e9d-44f2-8e38-88b8c0ab08ee/images/de47e245cf904ea8a31b9305d433a4c6f002/v1/fill/w_768,h_431,q_85,usm_0.66_1.00_0.01/file.webp)'}}>
+                                <Modal
+                                    btnclass="item-event-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
+                                >
+                                    <iframe title="video" className="mb-0" src="https://player.vimeo.com/video/323639718?title=0&byline=0&portrait=0" width="100%" height="395" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
+                                </Modal>
+                            </div>
                             <div className="item-event-content">
                                 <h5 className="font-weight-light mt-3">Axe Throwing in Colorado | Jack's Axe Throwing</h5>
                                 <p>What's the scoop on Jack the Lumberjack | Jack's Axe Throwing Colorado</p>

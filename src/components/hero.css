@@ -3,12 +3,6 @@
   position: relative;
   overflow: hidden;
 }
-.video-background {
-  position: relative;
-  overflow: hidden;
-  background: url(../../static/img/herobg.jpg) no-repeat left center;
-  background-size: cover;
-}
 
 .hero::after {
   content: '';
@@ -21,6 +15,8 @@
 }
 
 .video-background {
+  background: url(../../static/img/herobg.jpg) no-repeat left center;
+  background-size: cover;
   position: fixed;
   top: 0;
   left: 0;
@@ -40,13 +36,15 @@
   z-index: 1;
 }
 
-.video-background video {
+.video-background iframe {
+  width: 100vw;
+  height: 56.25vw;
+  min-height: 100vh;
+  min-width: 177.77vh;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .hero-content {

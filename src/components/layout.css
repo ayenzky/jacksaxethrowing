@@ -138,7 +138,13 @@ li {
     padding: 0.75rem;
     border-top: 1px solid #e9ecef;
 }
-
+.modal-backdrop.show {
+  opacity: 0.8;
+}
+.modal-content {
+  background-color: transparent;
+  border:none;
+}
 .swiper-container .swiper-button-prev {
   background-image: url(../../static/img/swiper-prev.svg);
 }
@@ -197,6 +203,8 @@ li {
   box-shadow: 0 10px 10px -9px rgba(0, 0, 0, 0.5);
 }
 
+
+
 @media (min-width: 568px) {
   h1 {
     font-size: 9vw !important;
@@ -206,6 +214,13 @@ li {
   }
 
 }
+
+@media (min-width: 576px) {
+  .modal-dialog.modal-90w {
+    max-width: 700px;
+  }
+}
+
 
 
 @media (min-width: 991px) {

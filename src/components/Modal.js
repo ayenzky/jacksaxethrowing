@@ -24,22 +24,14 @@ export default class Vmodal extends Component {
   render () {
     return (
         <>
-        <Button variant="primary" onClick={this.handleShow}>
-          Launch demo modal
+        <Button className={this.props.btnclass} onClick={this.handleShow}>
+          {this.props.html}
         </Button>
-        <Modal show={this.state.show} onHide={this.handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title>{this.props.titleheader}</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>{this.props.children}</Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={this.handleClose}>
-              Close
-            </Button>
-            <Button variant="primary" onClick={this.handleClose}>
-              Save Changes
-            </Button>
-          </Modal.Footer>
+        <Modal show={this.state.show} onHide={this.handleClose} dialogClassName="modal-90w" centered>
+          <Button className="close"/>
+          <Modal.Body className="p-0">
+            {this.props.children}
+          </Modal.Body>
         </Modal>
       </>
     )

@@ -24,10 +24,10 @@ exports.components = {
   "component---src-pages-performances-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/performances.js" /* webpackChunkName: "component---src-pages-performances-js" */),
   "component---src-pages-pricing-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/pricing.js" /* webpackChunkName: "component---src-pages-pricing-js" */),
   "component---src-pages-services-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/services.js" /* webpackChunkName: "component---src-pages-services-js" */),
+  "component---src-pages-thank-you-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/thank-you.js" /* webpackChunkName: "component---src-pages-thank-you-js" */),
   "component---src-pages-travelling-custom-events-indoors-and-outdoors-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/travelling-custom-events-indoors-and-outdoors.js" /* webpackChunkName: "component---src-pages-travelling-custom-events-indoors-and-outdoors-js" */),
   "component---src-pages-weddings-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/weddings.js" /* webpackChunkName: "component---src-pages-weddings-js" */),
-  "component---src-pages-why-the-name-jacks-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/why-the-name-jacks.js" /* webpackChunkName: "component---src-pages-why-the-name-jacks-js" */),
-  "component---src-pages-thank-you-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/thank-you.js" /* webpackChunkName: "component---src-pages-thank-you-js" */)
+  "component---src-pages-why-the-name-jacks-js": () => import("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/why-the-name-jacks.js" /* webpackChunkName: "component---src-pages-why-the-name-jacks-js" */)
 }
 
 exports.data = () => import(/* webpackChunkName: "pages-manifest" */ "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/.cache/data.json")

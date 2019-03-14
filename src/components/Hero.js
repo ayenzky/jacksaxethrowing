@@ -10,9 +10,7 @@ export default class Hero extends Component  {
       <div className="hero">
               <div className="video-background">
                 <LazyLoadComponent>
-                <video className="bg-dark shadow-lg" width="100%" height="100%" autoPlay={true} muted loop objectfit="cover">
-                  <source src="https://video.wixstatic.com/video/d64b37_b7e57a3b004846cab4685e4d9e2a4e2d/1080p/mp4/file.mp4" type="video/mp4"/>
-                </video>
+                <iframe title="video" src="https://player.vimeo.com/video/323622512?background=1&autoplay=1&loop=1&byline=0&title=0&muted=1" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
               </LazyLoadComponent>
                 </div>
               <div
