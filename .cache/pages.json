@@ -50,6 +50,11 @@
         "path": "/blog/how-to-throw-an-axe/"
     },
     {
+        "componentChunkName": "component---src-pages-book-online-1-js",
+        "jsonName": "book-online-1-1e9",
+        "path": "/book-online-1/"
+    },
+    {
         "componentChunkName": "component---src-pages-contact-js",
         "jsonName": "contact-26a",
         "path": "/contact/"

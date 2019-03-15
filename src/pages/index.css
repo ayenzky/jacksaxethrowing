@@ -5,8 +5,9 @@
 }
 
 .mission li {
-  padding-left: 55px;
+  padding-left: 35px;
   background: url(../../static/img/checked.svg) no-repeat left 2px;
+  background-size: 26px;
 }
 
 #about {
@@ -187,6 +188,12 @@
   background-color: #051129;
   width: 12px;
   height: 12px;
+}
+@media (min-width: 568px) {
+  .mission li {
+    padding-left: 55px;
+    background-size: unset;
+  }
 }
 
 @media (min-width: 731px) {

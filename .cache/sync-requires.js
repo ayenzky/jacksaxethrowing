@@ -12,6 +12,7 @@ exports.components = {
   "component---src-pages-bachelorette-parties-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/bachelorette-parties.js"))),
   "component---src-pages-birthday-parties-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/birthday-parties.js"))),
   "component---src-pages-blog-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/blog.js"))),
+  "component---src-pages-book-online-1-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/book-online-1.js"))),
   "component---src-pages-contact-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/contact.js"))),
   "component---src-pages-corporate-events-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/corporate-events.js"))),
   "component---src-pages-events-js": hot(preferDefault(require("/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/pages/events.js"))),
