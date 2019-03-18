@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import { Nav, Image, Dropdown } from 'react-bootstrap'
+import { Nav, Image, Dropdown, NavDropdown } from 'react-bootstrap'
 import SideBar from 'react-sidebar'
 import './menu.css'
 export default class Menu extends Component {
@@ -44,17 +44,13 @@ export default class Menu extends Component {
                   </Dropdown.Menu>
                 </Dropdown>
                 <Nav.Item><Nav.Link href="/events">Events</Nav.Link></Nav.Item>
-                <Dropdown className="nav-item">
-                  <Link to="/pricing" className="nav-link float-left">Locations</Link>
-                  <Dropdown.Toggle split className="ml-3"/>
-                  <Dropdown.Menu >
-                      <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Colorado Springs</Link>
-                      <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Denver</Link>
-                      <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Vail Valley / Aspen</Link>
-                      <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Fort Collins</Link>
-                      <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Pueblo</Link>
-                  </Dropdown.Menu>
-                </Dropdown>
+                <NavDropdown title="Locations" id="nav-dropdown" className="nav-item">
+                    <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Colorado Springs</Link>
+                    <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Denver</Link>
+                    <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Vail Valley / Aspen</Link>
+                    <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Fort Collins</Link>
+                    <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Pueblo</Link>
+                </NavDropdown>
                 <Nav.Item><Nav.Link href="/pricing">Pricing</Nav.Link></Nav.Item>
                 <Nav.Item><Link className="nav-link" to="/contact">Contact Us</Link></Nav.Item>
               </Nav>

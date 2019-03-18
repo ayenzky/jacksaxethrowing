@@ -151,6 +151,7 @@ class IndexPage extends React.Component {
                         <div className="item-event">
                             <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_a1bef407284840b4a73fdf758d90e052~mv2.jpg)'}}>
                               <Modal
+                                mclass="modal-90w"
                                     btnclass="item-event-play" 
                                     html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
                                 >
@@ -168,6 +169,7 @@ class IndexPage extends React.Component {
                         <div className="item-event">
                             <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_733e98c0558f41ef9813f5ffc6cb1c69~mv2.jpg)'}}>
                                 <Modal
+                                    mclass="modal-90w"
                                     btnclass="item-event-play" 
                                     html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
                                 >
@@ -186,6 +188,7 @@ class IndexPage extends React.Component {
                         <div className="item-event">
                             <div className="item-event-video" style={{backgroundImage: 'url(https://static.wixstatic.com/media/d64b37_99580c56e8e645e6b9d59f112e2b9c0b~mv2.jpg)'}}>
                                 <Modal
+                                    mclass="modal-90w"
                                     btnclass="item-event-play" 
                                     html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
                                 >
@@ -203,6 +206,7 @@ class IndexPage extends React.Component {
                             
                             <div className="item-event-video" style={{backgroundImage: 'url(//i.ytimg.com/vi/KfzYwlbFuiM/maxresdefault.jpg)'}}>
                                 <Modal
+                                    mclass="modal-90w"
                                     btnclass="item-event-play" 
                                     html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
                                 >
@@ -219,6 +223,7 @@ class IndexPage extends React.Component {
                         <div className="item-event">
                             <div className="item-event-video" style={{backgroundImage: 'url(//images-vod.wixmp.com/d64b378a-6e9d-44f2-8e38-88b8c0ab08ee/images/44409d5683d64e458597c9a2743699ebf002/v1/fill/w_768,h_431,q_85,usm_0.66_1.00_0.01/file.webp)'}}>
                                 <Modal
+                                    mclass="modal-90w"
                                     btnclass="item-event-play" 
                                     html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
                                 >
@@ -234,6 +239,7 @@ class IndexPage extends React.Component {
                         <div className="item-event">
                             <div className="item-event-video" style={{backgroundImage: 'url(//images-vod.wixmp.com/d64b378a-6e9d-44f2-8e38-88b8c0ab08ee/images/de47e245cf904ea8a31b9305d433a4c6f002/v1/fill/w_768,h_431,q_85,usm_0.66_1.00_0.01/file.webp)'}}>
                                 <Modal
+                                    mclass="modal-90w"
                                     btnclass="item-event-play" 
                                     html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
                                 >

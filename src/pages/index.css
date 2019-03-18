@@ -87,7 +87,7 @@
   position: relative;
 }
 
-.item-event-play {
+.item-event-play, .item-map-play {
   background-color: rgba(0, 0, 0, 0.49) !important;
   border:none !important;
   display: flex;
@@ -101,8 +101,17 @@
   cursor: pointer;
 }
 
-.item-event-play:hover {
+.item-event-play:hover, .item-map-play:hover {
   opacity: 1;
+}
+
+.item-map-background {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.item:hover .item-map-background {
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 /* blog */
