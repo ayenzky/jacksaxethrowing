@@ -155,7 +155,7 @@ class IndexPage extends React.Component {
                                     btnclass="item-event-play" 
                                     html=<LazyLoadImage effect="blur" src="/img/play-button.svg" alt="play"/>
                                 >
-                                <iframe title="video" className="mb-0" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F854055368117721%2F&width=500&show_text=false&appId=1037601643039892&height=280" width="100%" height="400"  scrolling="no" frameBorder="0" allowtransparency="true" allow="encrypted-media" allowFullScreen={true}></iframe>
+                                <iframe title="video" className="mb-0" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%2F854055368117721%2F&width=500&show_text=false&appId=1037601643039892&height=280" width="100%" height="500"  scrolling="no" frameBorder="0" allowtransparency="true" allow="encrypted-media" allowFullScreen={true}></iframe>
                             </Modal>
                             </div>
                             <div className="item-event-content">

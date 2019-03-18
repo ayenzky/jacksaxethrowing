@@ -26,6 +26,7 @@ export default class Menu extends Component {
                 <Nav.Item><Link className="nav-link" to="/our-story">Our Story</Link></Nav.Item>
                 <Nav.Item><Link className="nav-link" to="/why-the-name-jacks">Why Jack's</Link></Nav.Item>
                 <Nav.Item><Link className="nav-link" to="/about-us">About Us</Link></Nav.Item>
+                <Nav.Item><Nav.Link href="/pricing">Pricing</Nav.Link></Nav.Item>
                 <Dropdown className="nav-item">
                   <Link to="/services" className="nav-link float-left">Services</Link>
                   <Dropdown.Toggle split className="ml-3"/>
@@ -51,7 +52,6 @@ export default class Menu extends Component {
                     <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Fort Collins</Link>
                     <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Pueblo</Link>
                 </NavDropdown>
-                <Nav.Item><Nav.Link href="/pricing">Pricing</Nav.Link></Nav.Item>
                 <Nav.Item><Link className="nav-link" to="/contact">Contact Us</Link></Nav.Item>
               </Nav>
               <div className="d-flex justify-content-start mt-4"><a className="booknow hvr-shadow" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>

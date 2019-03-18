@@ -40,6 +40,7 @@ export default () => (
                         <li className="text-white"><Link to="/our-story">Our Story</Link></li>
                         <li className="text-white"><Link to="/why-the-name-jacks">Why Jack's?</Link></li>
                         <li className="text-white"><Link to="/about-us">About Us</Link></li>
+                        <li className="text-white"><Link to="/pricing">Pricing</Link></li>
                         <li className="text-white"><Link to="/events">Events</Link></li>
                         <li className="text-white"><Link to="/contact">Contact Us</Link></li>
                     </ul>
@@ -57,6 +58,7 @@ export default () => (
                         <li className="text-white"><Link to="/non-profit-events">Non-profit Fundraiser</Link></li>
                         <li className="text-white"><Link to="/leagues">Leagues</Link></li>
                         <li className="text-white"><Link to="/performances">Performances</Link></li>
+                        <li className="text-white"><Link to="/travelling-custom-events-indoors-and-outdoors">Travelling Custom Events Indoors and Outdoors</Link></li>
                     </ul>
                     <div className="d-flex justify-content-start mt-4"><a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
                 </Col>

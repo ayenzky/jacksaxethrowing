@@ -218,7 +218,7 @@ li {
 
 @media (min-width: 576px) {
   .modal-dialog.modal-90w {
-    max-width: 700px;
+    max-width: 750px;
   }
   .modal-dialog.modal-450w {
     max-width: 450px;

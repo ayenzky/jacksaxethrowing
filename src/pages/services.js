@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import { Container, Row, Col, Card } from "react-bootstrap";
 import Layout from '../components/Layout';
 import Collapsible from 'react-collapsible';
@@ -28,22 +28,14 @@ class servicesPage extends React.Component {
               <Col md={5}>
               <Card>
                 <Card.Body>
-                  <Card.Title>Axe Throwing Truck</Card.Title>
-                  <Card.Text>
-                    With supporting text below as a natural lead-in to additional content.
-                  </Card.Text>
-                  <Link to="/">View</Link>
+                  <Card.Title className="mb-0">Axe Throwing Truck</Card.Title>
                 </Card.Body>
               </Card>
               </Col>
               <Col md={5}>
               <Card>
                 <Card.Body>
-                  <Card.Title>Mobile Targets</Card.Title>
-                  <Card.Text>
-                    With supporting text below as a natural lead-in to additional content.
-                  </Card.Text>
-                  <Link to="/">View</Link>
+                  <Card.Title className="mb-0">Mobile Targets</Card.Title>
                 </Card.Body>
               </Card>
               </Col>
