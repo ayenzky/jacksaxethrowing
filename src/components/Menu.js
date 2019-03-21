@@ -26,7 +26,7 @@ export default class Menu extends Component {
                 <Nav.Item><Link className="nav-link" to="/our-story">Our Story</Link></Nav.Item>
                 <Nav.Item><Link className="nav-link" to="/why-the-name-jacks">Why Jack's</Link></Nav.Item>
                 <Nav.Item><Link className="nav-link" to="/about-us">About Us</Link></Nav.Item>
-                <Nav.Item><Nav.Link href="/pricing">Pricing</Nav.Link></Nav.Item>
+                <Nav.Item><Link className="nav-link" to="/pricing">Pricing</Link></Nav.Item>
                 <Dropdown className="nav-item">
                   <Link to="/services" className="nav-link float-left">Services</Link>
                   <Dropdown.Toggle split className="ml-3"/>
@@ -44,7 +44,7 @@ export default class Menu extends Component {
                       <Link to="/travelling-custom-events-indoors-and-outdoors" className="dropdown-item nav-link">Travelling Custom Events Indoors and outdoors</Link>
                   </Dropdown.Menu>
                 </Dropdown>
-                <Nav.Item><Nav.Link href="/events">Events</Nav.Link></Nav.Item>
+                <Nav.Item><Link className="nav-link" to="/events">Events</Link></Nav.Item>
                 <NavDropdown title="Locations" id="nav-dropdown" className="nav-item">
                     <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Colorado Springs</Link>
                     <Link to="./mobile-axe-throwing" className="dropdown-item nav-link">Denver</Link>

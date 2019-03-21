@@ -45,7 +45,6 @@ class servicesPage extends React.Component {
             <p>All our mobile packages include 3 hours of throwing time taught and led by a certified instructor, insurance with Liquor Liability, all family members included (ages 4-104 permitted to throw) prep-work, setup, teardown and cleanup.</p>
             <p>We also offer a special custom engraved axe from our lumberjack family, to your lumberjack family.</p>
             <p>Axe Throwing Truck: Yes, we said Axe Throwing truck. Think of a taco truck, remove the tacos and put in axes! With our fully customized interior, details matter! It’s like you are stepping into an actual forest (But it’s a truck) You can rent this truck to be in your driveway, at a commercial property, and many more uses!  For as little as $6/person, you get expert instruction, setup and teardown, bumping music, LED lights and all games included! Become the axe throwing professional you were meant to be!</p>
-            <p className="text-danger">Truck Photos (Anchored point to truck photos)</p>
             <p>Festivals and fairs: We LOVE supporting events, fairs, and anywhere that we are needed. We support festivals in 4 different finance options:</p>
             <ul className="list-unstyled checked">
               <li>Free to attendees, flat rate paid to Jack’s Axe Throwing</li>

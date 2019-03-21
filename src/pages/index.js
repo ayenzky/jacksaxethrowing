@@ -130,6 +130,7 @@ class IndexPage extends React.Component {
                 <div className="d-flex justify-content-center mt-4"><a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a></div>
             </div>
         </section>
+
         <section id="onsite-reservation" className="component bg-yellow py-5">
             <div className="container">
                 <div className="row align-items-center">
@@ -140,6 +141,200 @@ class IndexPage extends React.Component {
                 </div>
             </div>
         </section>
+
+        <section id="find-map" className="component bg-white pt-5">
+            <div className="container">
+                <h4>Find map below of where we are!</h4>
+                <div className="row justify-content-center">
+                        <div className="col-md-4 mb-4">
+                          <div className="item-map">
+                            <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/peaks-and-pines.jpg)'}}>
+                                <Modal
+                                    mclass="modal-450w"
+                                    size="sm"
+                                    btnclass="item-map-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/pin.svg" alt="play"/>
+                                >
+                                <div class="item-map-body bg-white p-0">
+                                  <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/peaks-and-pines.jpg)'}}/>
+                                  <div className="item-map-content p-4">
+                                    <ul className="list-unstyled mb-0">
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1"/><span>Monday's Peaks N Pines Brewery</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/location-pin.svg" className="mr-1"/><span>4005 Tutt Blvd, Colorado Springs, CO 80922</span></li>
+                                  </ul>
+                                  </div>
+                                </div>
+                            </Modal>
+                            <div className="item-map-venue">
+                              <h5 className="text-white">Peaks N Pines Brewery</h5>
+                            </div>
+                            </div>
+
+                            
+                        </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          <div className="item-map">
+                            <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/rocky-mountain.jpg)'}}>
+                                <Modal
+                                    mclass="modal-450w"
+                                    size="sm"
+                                    btnclass="item-map-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/pin.svg" alt="play"/>
+                                >
+                                <div class="item-map-body bg-white p-0">
+                                  <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/rocky-mountain.jpg)'}}/>
+                                  <div className="item-map-content p-4">
+                                  <ul className="list-unstyled mb-0">
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/event.svg" className="mr-1"/><span>Wednesday's Rocky Mountain Brewery</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/location-pin.svg" className="mr-1"/><span>625 Paonia Street</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1"/><span>5-8pm</span></li>
+                                  </ul>
+                                  </div>
+                                </div>
+                                </Modal>
+                                <div className="item-map-venue">
+                                  <h5 className="text-white">Rock Mountain Brewery</h5>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          <div className="item-map">
+                            <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/fh-beerworks-east.jpg)'}}>
+                                <Modal
+                                    mclass="modal-450w"
+                                    size="sm"
+                                    btnclass="item-map-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/pin.svg" alt="play"/>
+                                >
+                                <div class="item-map-body bg-white p-0">
+                                  <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/fh-beerworks-east.jpg)'}}/>
+                                  <div className="item-map-content p-4">
+                                  <ul className="list-unstyled mb-0">
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/event.svg" className="mr-1"/><span>Thursday's FH Beer Works East</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/location-pin.svg" className="mr-1"/><span>2490 Victor Pl, Colorado Springs, CO 80915</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1"/><span>5-8pm</span></li>
+                                  </ul>
+                                  </div>
+                                </div>
+                                </Modal>
+                                <div className="item-map-venue">
+                                  <h5 className="text-white">FH Beer Works East</h5>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          <div className="item-map">
+                            <div className="item-map-background" style={{backgroundImage: 'url(https://static1.squarespace.com/static/59625a9e9de4bb7b8d110ca4/t/59b441706f4ca36cb5f90952/1504985461265/LLA-Final-Logo.jpg)'}}>
+                                <Modal
+                                    mclass="modal-450w"
+                                    size="sm"
+                                    btnclass="item-map-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/pin.svg" alt="play"/>
+                                >
+                                <div class="item-map-body bg-white p-0">
+                                  <div className="item-map-background" style={{backgroundImage: 'url(https://static1.squarespace.com/static/59625a9e9de4bb7b8d110ca4/t/59b441706f4ca36cb5f90952/1504985461265/LLA-Final-Logo.jpg)'}}/>
+                                  <div className="item-map-content p-4">
+                                  <ul className="list-unstyled mb-0">
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/event.svg" className="mr-1"/><span>Friday's Landlocked Ales</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/location-pin.svg" className="mr-1"/><span>3225 S Wadsworth Blvd, Lakewood, CO 80227</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1"/><span>5-8pm</span></li>
+                                  </ul>
+                                  </div>
+                                </div>
+                                </Modal>
+                                <div className="item-map-venue">
+                                  <h5 className="text-white">Landlocked Ales</h5>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          <div className="item-map">
+                            <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/java-and-punk.jpg)'}}>
+                                <Modal
+                                    mclass="modal-450w"
+                                    size="sm"
+                                    btnclass="item-map-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/pin.svg" alt="play"/>
+                                >
+                                <div class="item-map-body bg-white p-0">
+                                  <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/java-and-punk.jpg)'}}/>
+                                  <div className="item-map-content p-4">
+                                  <ul className="list-unstyled mb-0">
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/event.svg" className="mr-1"/><span>Friday's Java Punk Coffee</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/location-pin.svg" className="mr-1"/><span>4029 Tutt Blvd, Colorado Springs, CO 80922</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1"/><span>5-8pm</span></li>
+                                  </ul>
+                                  </div>
+                                </div>
+                                </Modal>
+                                <div className="item-map-venue">
+                                  <h5 className="text-white">Java Punk Coffee</h5>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          <div className="item-map">
+                            <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/boggy-brew.jpg)'}}>
+                                <Modal
+                                    mclass="modal-450w"
+                                    size="sm"
+                                    btnclass="item-map-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/pin.svg" alt="play"/>
+                                >
+                                <div class="item-map-body bg-white p-0">
+                                  <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/boggy-brew.jpg)'}}/>
+                                  <div className="item-map-content p-4">
+                                  <ul className="list-unstyled mb-0">
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/event.svg" className="mr-1"/><span>Saturday's Boggy Draw Brewery</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/location-pin.svg" className="mr-1"/><span>3535 S Platte River Dr Unit L, Sheridan, CO 80110</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1"/><span>2-5pm</span></li>
+                                  </ul>
+                                  </div>
+                                </div>
+                                </Modal>
+                                <div className="item-map-venue">
+                                  <h5 className="text-white">Boggy Draw Brewery</h5>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="col-md-4 mb-4">
+                          <div className="item-map">
+                            <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/black-forest-brewing.jpg)'}}>
+                                <Modal
+                                    mclass="modal-450w"
+                                    size="sm"
+                                    btnclass="item-map-play" 
+                                    html=<LazyLoadImage effect="blur" src="/img/pin.svg" alt="play"/>
+                                >
+                                <div class="item-map-body bg-white p-0">
+                                  <div className="item-map-background" style={{backgroundImage: 'url(https://usaaxethrowing.org/img/black-forest-brewing.jpg)'}}/>
+                                  <div className="item-map-content p-4">
+                                  <ul className="list-unstyled mb-0">
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/event.svg" className="mr-1"/><span>Sunday's Black Forest Brewing Company</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/location-pin.svg" className="mr-1"/><span>11590 Black Forest Rd #50, Colorado Springs, CO 80908</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1"/><span>1-4pm</span></li>
+                                    <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/money-bag.svg" className="mr-1"/><span>$10 unlimited</span></li>
+                                  </ul>
+                                  </div>
+                                </div>
+                                </Modal>
+                                <div className="item-map-venue">
+                                  <h5 className="text-white">Black Forest Brewing Company</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               </div>   
+        </section>
+
         <section id="events" className="component bg-dirty-white">
             <div className="container-fluid">
                 <div className="intro text-center mb-5"><LazyLoadImage effect="blur" src="/img/axes.png" style={{width: '50px'}} alt="axe"/>

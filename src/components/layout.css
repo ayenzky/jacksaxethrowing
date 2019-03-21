@@ -81,6 +81,10 @@ a:hover {
   background-color: #e9ecef;
 }
 
+.bg-white {
+  background: #ffffff;
+}
+
 li {
   margin-bottom: 0.75rem;
 }
