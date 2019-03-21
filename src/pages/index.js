@@ -9,6 +9,7 @@ import 'swiper/dist/css/swiper.min.css'
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import 'izimodal/css/iziModal.min.css';
 import './index.css'
+import './pricing.css'
 import Modal from '../components/Modal'
 
 
