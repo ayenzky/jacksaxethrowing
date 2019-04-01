@@ -479,7 +479,7 @@ class IndexPage extends React.Component {
                                       <li><LazyLoadImage effect="blur" src="/img/001-clock.svg" className="mr-1" alt="clcok"/>{node.frontmatter.date}</li>
                                   </ul>
                                   <p>{node.excerpt}</p>
-                                  <Link to={`blog/${node.fields.slug}`} className="text-dark-blue">Read More</Link></div>
+                                  <Link to={`blog/${node.fields.slug}`} className="text-dark-blue" title={title}>Read More</Link></div>
                             </div>
                         </div>
                       </LazyLoadComponent>
@@ -487,7 +487,7 @@ class IndexPage extends React.Component {
                   })}
                   
                 </div>
-                <div className="d-flex justify-content-center mt-4"><Link to="/blog" className="booknow hvr-shadow" title="view more blog">more</Link></div>
+                <div className="d-flex justify-content-center mt-4"><Link to="/blog" className="booknow hvr-shadow" title="see all of our blog posts">more</Link></div>
             </div>
         </section>
         <section id="contact" className="component bg-dirty-white">
