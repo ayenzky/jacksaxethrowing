@@ -2550,12 +2550,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-01T07:19:18.778Z",
+      "buildTime": "2019-04-01T07:42:06.321Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "dd446f2321e38c4d435da81c8df88510",
+        "contentDigest": "c7101f3b14d44330b74ca7a88b8fc4fe",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2565,7 +2565,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "ea26dbeb680dc71224d109a9a7154ce4",
+        "contentDigest": "7482374c3315a3871f4feb2004069212",
         "type": "Directory",
         "description": "Directory \"posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2576,9 +2576,9 @@
       "extension": "",
       "size": 204,
       "prettySize": "204 B",
-      "modifiedTime": "2019-02-14T05:36:30.000Z",
-      "accessTime": "2019-04-01T07:19:49.000Z",
-      "changeTime": "2019-02-14T05:36:30.000Z",
+      "modifiedTime": "2019-04-01T07:40:51.000Z",
+      "accessTime": "2019-04-01T07:42:42.000Z",
+      "changeTime": "2019-04-01T07:40:51.000Z",
       "birthTime": "2019-02-11T06:26:26.000Z",
       "root": "/",
       "dir": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing",
@@ -2595,13 +2595,13 @@
       "blksize": 4096,
       "ino": 20895968,
       "blocks": 0,
-      "atimeMs": 1554103189000,
-      "mtimeMs": 1550122590000,
-      "ctimeMs": 1550122590000,
+      "atimeMs": 1554104562000,
+      "mtimeMs": 1554104451000,
+      "ctimeMs": 1554104451000,
       "birthtimeMs": 1549866386000,
-      "atime": "2019-04-01T07:19:49.000Z",
-      "mtime": "2019-02-14T05:36:30.000Z",
-      "ctime": "2019-02-14T05:36:30.000Z",
+      "atime": "2019-04-01T07:42:42.000Z",
+      "mtime": "2019-04-01T07:40:51.000Z",
+      "ctime": "2019-04-01T07:40:51.000Z",
       "birthtime": "2019-02-11T06:26:26.000Z"
     },
     "2ac534fb-e82a-575f-90fb-ac7769bbc4fb": {
@@ -2611,7 +2611,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "f3a202e3bab947522b0c2699304f99ed",
+        "contentDigest": "e55264d32e3b9d7266c688f876bcf4c5",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"posts/axe-throwing-really.md\"",
@@ -2621,12 +2621,12 @@
       "absolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts/axe-throwing-really.md",
       "relativePath": "axe-throwing-really.md",
       "extension": "md",
-      "size": 1781,
-      "prettySize": "1.78 kB",
-      "modifiedTime": "2019-04-01T07:01:59.000Z",
-      "accessTime": "2019-04-01T07:18:53.000Z",
-      "changeTime": "2019-04-01T07:01:59.000Z",
-      "birthTime": "2019-02-11T06:42:22.000Z",
+      "size": 2261,
+      "prettySize": "2.26 kB",
+      "modifiedTime": "2019-04-01T07:40:51.000Z",
+      "accessTime": "2019-04-01T07:40:58.000Z",
+      "changeTime": "2019-04-01T07:40:51.000Z",
+      "birthTime": "2019-04-01T07:40:51.000Z",
       "root": "/",
       "dir": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts",
       "base": "axe-throwing-really.md",
@@ -2640,16 +2640,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 20932803,
+      "ino": 22469684,
       "blocks": 8,
-      "atimeMs": 1554103133000,
-      "mtimeMs": 1554102119000,
-      "ctimeMs": 1554102119000,
-      "birthtimeMs": 1549867342000,
-      "atime": "2019-04-01T07:18:53.000Z",
-      "mtime": "2019-04-01T07:01:59.000Z",
-      "ctime": "2019-04-01T07:01:59.000Z",
-      "birthtime": "2019-02-11T06:42:22.000Z"
+      "atimeMs": 1554104458000,
+      "mtimeMs": 1554104451000,
+      "ctimeMs": 1554104451000,
+      "birthtimeMs": 1554104451000,
+      "atime": "2019-04-01T07:40:58.000Z",
+      "mtime": "2019-04-01T07:40:51.000Z",
+      "ctime": "2019-04-01T07:40:51.000Z",
+      "birthtime": "2019-04-01T07:40:51.000Z"
     },
     "d9563c24-d2cc-5ea6-9f11-029315e93428": {
       "id": "d9563c24-d2cc-5ea6-9f11-029315e93428",
@@ -2658,7 +2658,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "38730122879f7f36b93f2d6685046380",
+        "contentDigest": "9b2fd6d4788b3c2164d82c34cbb49495",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"posts/axe-throwing-the-world-s-favorite-lost-past-time.md\"",
@@ -2668,12 +2668,12 @@
       "absolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts/axe-throwing-the-world-s-favorite-lost-past-time.md",
       "relativePath": "axe-throwing-the-world-s-favorite-lost-past-time.md",
       "extension": "md",
-      "size": 2157,
-      "prettySize": "2.16 kB",
-      "modifiedTime": "2019-04-01T07:02:04.000Z",
-      "accessTime": "2019-04-01T07:18:53.000Z",
-      "changeTime": "2019-04-01T07:02:04.000Z",
-      "birthTime": "2019-02-11T06:42:22.000Z",
+      "size": 2347,
+      "prettySize": "2.35 kB",
+      "modifiedTime": "2019-04-01T07:40:51.000Z",
+      "accessTime": "2019-04-01T07:41:01.000Z",
+      "changeTime": "2019-04-01T07:40:51.000Z",
+      "birthTime": "2019-04-01T07:40:51.000Z",
       "root": "/",
       "dir": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts",
       "base": "axe-throwing-the-world-s-favorite-lost-past-time.md",
@@ -2687,16 +2687,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 20932801,
+      "ino": 22469685,
       "blocks": 8,
-      "atimeMs": 1554103133000,
-      "mtimeMs": 1554102124000,
-      "ctimeMs": 1554102124000,
-      "birthtimeMs": 1549867342000,
-      "atime": "2019-04-01T07:18:53.000Z",
-      "mtime": "2019-04-01T07:02:04.000Z",
-      "ctime": "2019-04-01T07:02:04.000Z",
-      "birthtime": "2019-02-11T06:42:22.000Z"
+      "atimeMs": 1554104461000,
+      "mtimeMs": 1554104451000,
+      "ctimeMs": 1554104451000,
+      "birthtimeMs": 1554104451000,
+      "atime": "2019-04-01T07:41:01.000Z",
+      "mtime": "2019-04-01T07:40:51.000Z",
+      "ctime": "2019-04-01T07:40:51.000Z",
+      "birthtime": "2019-04-01T07:40:51.000Z"
     },
     "d5bedbd1-c93d-5bb8-9a19-fb17be2c9c67": {
       "id": "d5bedbd1-c93d-5bb8-9a19-fb17be2c9c67",
@@ -2705,7 +2705,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "41809da0b46ef905399068a49ab0c070",
+        "contentDigest": "b272f617ad78c99bd80f337641e27174",
         "type": "File",
         "mediaType": "text/markdown",
         "description": "File \"posts/how-to-throw-an-axe.md\"",
@@ -2715,12 +2715,12 @@
       "absolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts/how-to-throw-an-axe.md",
       "relativePath": "how-to-throw-an-axe.md",
       "extension": "md",
-      "size": 2128,
-      "prettySize": "2.13 kB",
-      "modifiedTime": "2019-04-01T07:02:12.000Z",
-      "accessTime": "2019-04-01T07:18:53.000Z",
-      "changeTime": "2019-04-01T07:02:12.000Z",
-      "birthTime": "2019-02-11T06:42:22.000Z",
+      "size": 2632,
+      "prettySize": "2.63 kB",
+      "modifiedTime": "2019-04-01T07:40:51.000Z",
+      "accessTime": "2019-04-01T07:41:01.000Z",
+      "changeTime": "2019-04-01T07:40:51.000Z",
+      "birthTime": "2019-04-01T07:40:51.000Z",
       "root": "/",
       "dir": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts",
       "base": "how-to-throw-an-axe.md",
@@ -2734,112 +2734,23 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 20932802,
+      "ino": 22469686,
       "blocks": 8,
-      "atimeMs": 1554103133000,
-      "mtimeMs": 1554102132000,
-      "ctimeMs": 1554102132000,
-      "birthtimeMs": 1549867342000,
-      "atime": "2019-04-01T07:18:53.000Z",
-      "mtime": "2019-04-01T07:02:12.000Z",
-      "ctime": "2019-04-01T07:02:12.000Z",
-      "birthtime": "2019-02-11T06:42:22.000Z"
-    },
-    "01a9c454-5bab-5c9f-acc1-7683391b3519": {
-      "id": "01a9c454-5bab-5c9f-acc1-7683391b3519",
-      "children": [],
-      "parent": "2ac534fb-e82a-575f-90fb-ac7769bbc4fb",
-      "internal": {
-        "content": "\n## Yes, REALLY!\n\nJack's Axe throwing, LLC.  All rights reserved. \n\nWhat in the lumberjack world is that???\n\nGlad you asked! Axe Throwing  is a radically amazing lumberjack sport, game, activity, entertainment option, party add on, celebration, and much more! Whether you are looking to have family night, a corporate team building event, Birthday party, Bachelor party, Bachelorette party or non-profit fundraiser, there is something for everyone between the ages of 4-104 (Under 4 or over 104 is typically not recommended) at jack's Axe Throwing, LLC.\n\nThink Darts, but for aspiring lumberjacks or lumberJills!\n\n-- Axe Throwing can provide people young and old a new experience unlike anything you have ever experienced before. From our innovative games, tournaments, lessons, in depth teachings, there is something for everyone at Jack's. Welcome to jack's, where our work, is your play.\n\nAt Jack's, we are all about serving the community. That's why we have initiated \"Random Axe of Kindness.\" an evening dedicated to your qualifying non-profit! 2.5 hours, dedicated to your organization. 50% of funds raised will be given back to your organization at absolutely no cost to you. \n\nplease email [Jack@jacksaxethrowing.com](mailto:Jack@jacksaxethrowing.com) for more information!\n\n### Happy Throwing!\n\nBryan Rossmanith<br/>\nJack's Axe Throwing, LLC<br/>\nFounder and Owner<br/>\nJack's Axe throwing, LLC.  All rights reserved. 2018\n\n![how to throw an axe](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113889/jackaxethrowing/jack-axe-big-logo.png)",
-        "type": "MarkdownRemark",
-        "contentDigest": "853ffee3697df895bb2381027280db35",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Axe Throwing??? Really?",
-        "author": "Bryan Rossmanith",
-        "banner": "jack-axe-big-logo.png",
-        "shortdesc": "",
-        "updatedDate": "2017-01-04T02:44:55.137Z",
-        "cmsUserSlug": "axe-throwing-really",
-        "date": "2018-09-18T17:00:00.000Z",
-        "categories": ""
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n## Yes, REALLY!\n\nJack's Axe throwing, LLC.  All rights reserved. \n\nWhat in the lumberjack world is that???\n\nGlad you asked! Axe Throwing  is a radically amazing lumberjack sport, game, activity, entertainment option, party add on, celebration, and much more! Whether you are looking to have family night, a corporate team building event, Birthday party, Bachelor party, Bachelorette party or non-profit fundraiser, there is something for everyone between the ages of 4-104 (Under 4 or over 104 is typically not recommended) at jack's Axe Throwing, LLC.\n\nThink Darts, but for aspiring lumberjacks or lumberJills!\n\n-- Axe Throwing can provide people young and old a new experience unlike anything you have ever experienced before. From our innovative games, tournaments, lessons, in depth teachings, there is something for everyone at Jack's. Welcome to jack's, where our work, is your play.\n\nAt Jack's, we are all about serving the community. That's why we have initiated \"Random Axe of Kindness.\" an evening dedicated to your qualifying non-profit! 2.5 hours, dedicated to your organization. 50% of funds raised will be given back to your organization at absolutely no cost to you. \n\nplease email [Jack@jacksaxethrowing.com](mailto:Jack@jacksaxethrowing.com) for more information!\n\n### Happy Throwing!\n\nBryan Rossmanith<br/>\nJack's Axe Throwing, LLC<br/>\nFounder and Owner<br/>\nJack's Axe throwing, LLC.  All rights reserved. 2018\n\n![how to throw an axe](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113889/jackaxethrowing/jack-axe-big-logo.png)",
-      "fileAbsolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts/axe-throwing-really.md",
-      "fields": {
-        "slug": "/axe-throwing-really/"
-      }
-    },
-    "83284b1f-fa0f-5f42-b3ff-1217fb459849": {
-      "id": "83284b1f-fa0f-5f42-b3ff-1217fb459849",
-      "children": [],
-      "parent": "d9563c24-d2cc-5ea6-9f11-029315e93428",
-      "internal": {
-        "content": "\n## Axe Throwing – The Unknown\n\nAxe Throwing is very unknown. The unknown can be pretty scary. It’s different, it’s wild, it’s unorthodox. Axe throwing might just be……The greatest activity no one has ever heard of. Think of it as the world's favorite lost pastime that has been found again. Uncovered from the lumberjack forests, viking wars, and the latest and greatest video games. \n\nWhen you see an axe, most people think of some type of work. cutting down trees, splitting wood, physical labor, etc...  \n\nWe flip that on its head. At Jack's Axe Throwing, we say our work, Your play. Kick back, relax, and chuck some axes with us!\n\nAt jack’s Axe Throwing, we want to fully embrace the different life. We find it more fun that way. We love meeting the incredible faces that come into our location. We love to do something that has rarely been done before. Teach a future lumberjack a new skill, and create new experiences for the entire family that will last a lifetime. \n\nWhether you are looking to bring your family, organization, corporation, friends, or just have a good time and meet new friends, we are here for you.\n\nWe’re happy to be locally owned and operated in Colorado Springs, the greatest city in the USA according to the world rankings and news reports. ( U.S. News and World Report. The 25 Most Desirable Places to Live in the U.S. in 2018 )\n\nJack's Axe Throwing is bringing Axe Throwing, Knife throwing and more Make axe throwing your next event while visiting or living in Olympic City, USA.\n\n![favorite past time](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113892/jackaxethrowing/jack-axe-throwing-past-time.jpg)\n\n### Bryan Rossmanith\n\nJack's Axe Throwing, LLC<br/>\nFounder and Owner<br/>\n[jack@jacksaxethrowing.com](mailto:jack@jacksaxethrowing.com)<br/>\n[719-497-9709](tel://719-497-9709)<br/>\n[jacksaxethrowing.com](https://jacksaxethrowing.com)\n\n\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "15263d9a6057722a27255ace63b557b1",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Axe Throwing - The world's favorite lost past time?",
-        "author": "Bryan Rossmanith",
-        "banner": "jack-axe-throwing-past-time.jpg",
-        "shortdesc": "",
-        "cmsUserSlug": "axe-throwing-the-world-s-favorite-lost-past-time",
-        "date": "2018-09-18T09:42:47+00:00",
-        "categories": ""
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n## Axe Throwing – The Unknown\n\nAxe Throwing is very unknown. The unknown can be pretty scary. It’s different, it’s wild, it’s unorthodox. Axe throwing might just be……The greatest activity no one has ever heard of. Think of it as the world's favorite lost pastime that has been found again. Uncovered from the lumberjack forests, viking wars, and the latest and greatest video games. \n\nWhen you see an axe, most people think of some type of work. cutting down trees, splitting wood, physical labor, etc...  \n\nWe flip that on its head. At Jack's Axe Throwing, we say our work, Your play. Kick back, relax, and chuck some axes with us!\n\nAt jack’s Axe Throwing, we want to fully embrace the different life. We find it more fun that way. We love meeting the incredible faces that come into our location. We love to do something that has rarely been done before. Teach a future lumberjack a new skill, and create new experiences for the entire family that will last a lifetime. \n\nWhether you are looking to bring your family, organization, corporation, friends, or just have a good time and meet new friends, we are here for you.\n\nWe’re happy to be locally owned and operated in Colorado Springs, the greatest city in the USA according to the world rankings and news reports. ( U.S. News and World Report. The 25 Most Desirable Places to Live in the U.S. in 2018 )\n\nJack's Axe Throwing is bringing Axe Throwing, Knife throwing and more Make axe throwing your next event while visiting or living in Olympic City, USA.\n\n![favorite past time](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113892/jackaxethrowing/jack-axe-throwing-past-time.jpg)\n\n### Bryan Rossmanith\n\nJack's Axe Throwing, LLC<br/>\nFounder and Owner<br/>\n[jack@jacksaxethrowing.com](mailto:jack@jacksaxethrowing.com)<br/>\n[719-497-9709](tel://719-497-9709)<br/>\n[jacksaxethrowing.com](https://jacksaxethrowing.com)\n\n\n",
-      "fileAbsolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts/axe-throwing-the-world-s-favorite-lost-past-time.md",
-      "fields": {
-        "slug": "/axe-throwing-the-world-s-favorite-lost-past-time/"
-      }
-    },
-    "1b99d47c-2337-5fa8-b704-780622d64023": {
-      "id": "1b99d47c-2337-5fa8-b704-780622d64023",
-      "children": [],
-      "parent": "d5bedbd1-c93d-5bb8-9a19-fb17be2c9c67",
-      "internal": {
-        "content": "\n## How to Throw An Axe\n\nBy **Jack's Axe Throwing, LLC**\n\nThis is the magical 7 step formula to throw an axe. Follow these simple steps and you will be well on your way to becoming the champion you want to become.\n\n1.Bicep By your ear This is Critical to start the perfect throw. No side arm action here, This is axe throwing.\n\n2.One Foot Forward. Now, which one depends on personal preference. If you have thrown a lot put your opposite foot forward. If you don’t know, throw with your same foot forward at first. \n\n3.Lean Back. When throwing an axe, do not only use your arm, axe throwing is a full body workout. Transfer your weight to your back leg, then,\n\n4.Lean Forward. Transfer your body weight from back leg to front leg. This is important, this allows you to get enough momentum going forward so you can stick it.\n\n5.Release.  Now, all this has come down to this very moment. Release at eye level (Or at the center of the bullseye) do not bend the wrist. These axes are balanced, so keep that wrist locked for one flip and a stick at traditional distance of 12-13 feet away from your target.\n\n6.STICK IT! If you follow all of these steps, you have at least a 20% chance of sticking the axe every single time. (Results are not guaranteed, please consult one of our professionals for a chance to better your stick percentage)\n\n7.Become a certified Lumberjack/Lumberjill Whatever you do in life, just keep throwing axes. Jack believes in you, We believe in you, the entire crowd is cheering for you. You can do it! If you keep it up, you are well on your way to become a certified Lumberjill or Lumberjack from Jack himself.  (More on this certification process Later.)\n\n### Happy Throwing!\n\nBryan Rossmanith<br/>\nFounder and Owner<br/>\nJack's Axe Throwing, LLC<br/>\nAll Rights Reserved. 2018\n\n![how to throw an axe](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113893/jackaxethrowing/jack.jpg)\n\n  ",
-        "type": "MarkdownRemark",
-        "contentDigest": "173010c49b279b268a576a21b8fa895e",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "How to Throw an Axe",
-        "author": "Bryan Rossmanith",
-        "banner": "jack.jpg",
-        "shortdesc": "",
-        "updatedDate": "2017-06-20T03:54:11.381Z",
-        "cmsUserSlug": "how-to-throw-an-axe",
-        "date": "2018-09-18T09:18:26+00:00",
-        "categories": ""
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\n## How to Throw An Axe\n\nBy **Jack's Axe Throwing, LLC**\n\nThis is the magical 7 step formula to throw an axe. Follow these simple steps and you will be well on your way to becoming the champion you want to become.\n\n1.Bicep By your ear This is Critical to start the perfect throw. No side arm action here, This is axe throwing.\n\n2.One Foot Forward. Now, which one depends on personal preference. If you have thrown a lot put your opposite foot forward. If you don’t know, throw with your same foot forward at first. \n\n3.Lean Back. When throwing an axe, do not only use your arm, axe throwing is a full body workout. Transfer your weight to your back leg, then,\n\n4.Lean Forward. Transfer your body weight from back leg to front leg. This is important, this allows you to get enough momentum going forward so you can stick it.\n\n5.Release.  Now, all this has come down to this very moment. Release at eye level (Or at the center of the bullseye) do not bend the wrist. These axes are balanced, so keep that wrist locked for one flip and a stick at traditional distance of 12-13 feet away from your target.\n\n6.STICK IT! If you follow all of these steps, you have at least a 20% chance of sticking the axe every single time. (Results are not guaranteed, please consult one of our professionals for a chance to better your stick percentage)\n\n7.Become a certified Lumberjack/Lumberjill Whatever you do in life, just keep throwing axes. Jack believes in you, We believe in you, the entire crowd is cheering for you. You can do it! If you keep it up, you are well on your way to become a certified Lumberjill or Lumberjack from Jack himself.  (More on this certification process Later.)\n\n### Happy Throwing!\n\nBryan Rossmanith<br/>\nFounder and Owner<br/>\nJack's Axe Throwing, LLC<br/>\nAll Rights Reserved. 2018\n\n![how to throw an axe](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113893/jackaxethrowing/jack.jpg)\n\n  ",
-      "fileAbsolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts/how-to-throw-an-axe.md",
-      "fields": {
-        "slug": "/how-to-throw-an-axe/"
-      }
+      "atimeMs": 1554104461000,
+      "mtimeMs": 1554104451000,
+      "ctimeMs": 1554104451000,
+      "birthtimeMs": 1554104451000,
+      "atime": "2019-04-01T07:41:01.000Z",
+      "mtime": "2019-04-01T07:40:51.000Z",
+      "ctime": "2019-04-01T07:40:51.000Z",
+      "birthtime": "2019-04-01T07:40:51.000Z"
     },
     "8d7761de-b0a6-542c-97ce-ff9a863d8ea8": {
       "id": "8d7761de-b0a6-542c-97ce-ff9a863d8ea8",
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "9371005981904f6bd3097a48ec1c630b",
+        "contentDigest": "06a92c772541675342f08be64843698e",
         "type": "Directory",
         "description": "Directory \"static/img\"",
         "owner": "gatsby-source-filesystem"
@@ -2851,7 +2762,7 @@
       "size": 1496,
       "prettySize": "1.5 kB",
       "modifiedTime": "2019-04-01T06:01:53.000Z",
-      "accessTime": "2019-04-01T07:19:49.000Z",
+      "accessTime": "2019-04-01T07:42:42.000Z",
       "changeTime": "2019-04-01T06:01:53.000Z",
       "birthTime": "2019-02-11T06:26:26.000Z",
       "root": "/",
@@ -2869,11 +2780,11 @@
       "blksize": 4096,
       "ino": 20933139,
       "blocks": 0,
-      "atimeMs": 1554103189000,
+      "atimeMs": 1554104562000,
       "mtimeMs": 1554098513000,
       "ctimeMs": 1554098513000,
       "birthtimeMs": 1549866386000,
-      "atime": "2019-04-01T07:19:49.000Z",
+      "atime": "2019-04-01T07:42:42.000Z",
       "mtime": "2019-04-01T06:01:53.000Z",
       "ctime": "2019-04-01T06:01:53.000Z",
       "birthtime": "2019-02-11T06:26:26.000Z"
@@ -4800,7 +4711,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c60552308ebd39de18e1944ba477dfee",
+        "contentDigest": "234c348304d67e81ccf0acb10b4a47ae",
         "type": "Directory",
         "description": "Directory \"static/data\"",
         "owner": "gatsby-source-filesystem"
@@ -4812,7 +4723,7 @@
       "size": 170,
       "prettySize": "170 B",
       "modifiedTime": "2019-02-11T06:26:26.000Z",
-      "accessTime": "2019-04-01T07:19:49.000Z",
+      "accessTime": "2019-04-01T07:42:43.000Z",
       "changeTime": "2019-02-11T07:12:55.000Z",
       "birthTime": "2019-02-11T06:26:26.000Z",
       "root": "/",
@@ -4830,11 +4741,11 @@
       "blksize": 4096,
       "ino": 20933134,
       "blocks": 0,
-      "atimeMs": 1554103189000,
+      "atimeMs": 1554104563000,
       "mtimeMs": 1549866386000,
       "ctimeMs": 1549869175000,
       "birthtimeMs": 1549866386000,
-      "atime": "2019-04-01T07:19:49.000Z",
+      "atime": "2019-04-01T07:42:43.000Z",
       "mtime": "2019-02-11T06:26:26.000Z",
       "ctime": "2019-02-11T07:12:55.000Z",
       "birthtime": "2019-02-11T06:26:26.000Z"
@@ -4858,9 +4769,9 @@
       "extension": "json",
       "size": 179,
       "prettySize": "179 B",
-      "modifiedTime": "2019-02-11T06:26:26.000Z",
-      "accessTime": "2019-04-01T07:18:54.000Z",
-      "changeTime": "2019-02-11T07:12:55.000Z",
+      "modifiedTime": "2019-04-01T07:52:09.000Z",
+      "accessTime": "2019-04-01T07:52:09.000Z",
+      "changeTime": "2019-04-01T07:52:09.000Z",
       "birthTime": "2019-02-11T06:26:26.000Z",
       "root": "/",
       "dir": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/static/data",
@@ -4877,13 +4788,13 @@
       "blksize": 4096,
       "ino": 20933136,
       "blocks": 8,
-      "atimeMs": 1554103134000,
-      "mtimeMs": 1549866386000,
-      "ctimeMs": 1549869175000,
+      "atimeMs": 1554105129000,
+      "mtimeMs": 1554105129000,
+      "ctimeMs": 1554105129000,
       "birthtimeMs": 1549866386000,
-      "atime": "2019-04-01T07:18:54.000Z",
-      "mtime": "2019-02-11T06:26:26.000Z",
-      "ctime": "2019-02-11T07:12:55.000Z",
+      "atime": "2019-04-01T07:52:09.000Z",
+      "mtime": "2019-04-01T07:52:09.000Z",
+      "ctime": "2019-04-01T07:52:09.000Z",
       "birthtime": "2019-02-11T06:26:26.000Z"
     },
     "66aecfc9-948d-5af4-9a0b-25644fda5870": {
@@ -4940,7 +4851,7 @@
       ],
       "parent": null,
       "internal": {
-        "contentDigest": "06aded7ca389a9ae481008784c563ed6",
+        "contentDigest": "482d024498d32aada38b4dedceea85a9",
         "type": "File",
         "mediaType": "application/json",
         "description": "File \"static/data/site.json\"",
@@ -4950,11 +4861,11 @@
       "absolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/static/data/site.json",
       "relativePath": "site.json",
       "extension": "json",
-      "size": 424,
-      "prettySize": "424 B",
-      "modifiedTime": "2019-04-01T06:59:05.000Z",
-      "accessTime": "2019-04-01T07:18:54.000Z",
-      "changeTime": "2019-04-01T06:59:05.000Z",
+      "size": 423,
+      "prettySize": "423 B",
+      "modifiedTime": "2019-04-01T07:49:04.000Z",
+      "accessTime": "2019-04-01T07:42:43.000Z",
+      "changeTime": "2019-04-01T07:49:04.000Z",
       "birthTime": "2019-02-11T06:26:26.000Z",
       "root": "/",
       "dir": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/static/data",
@@ -4971,35 +4882,14 @@
       "blksize": 4096,
       "ino": 20933137,
       "blocks": 8,
-      "atimeMs": 1554103134000,
-      "mtimeMs": 1554101945000,
-      "ctimeMs": 1554101945000,
+      "atimeMs": 1554104563000,
+      "mtimeMs": 1554104944000,
+      "ctimeMs": 1554104944000,
       "birthtimeMs": 1549866386000,
-      "atime": "2019-04-01T07:18:54.000Z",
-      "mtime": "2019-04-01T06:59:05.000Z",
-      "ctime": "2019-04-01T06:59:05.000Z",
+      "atime": "2019-04-01T07:42:43.000Z",
+      "mtime": "2019-04-01T07:49:04.000Z",
+      "ctime": "2019-04-01T07:49:04.000Z",
       "birthtime": "2019-02-11T06:26:26.000Z"
-    },
-    "1c7734bf-5061-5392-a9a3-a3a74536c205": {
-      "filemanager": [
-        {
-          "name": "image-file",
-          "file": "/files/logo.png"
-        },
-        {
-          "name": "Executive Summary",
-          "file": "/files/executive-summary-webriq.pdf"
-        }
-      ],
-      "updatedDate": "2017-06-28T05:02:41.735Z",
-      "id": "1c7734bf-5061-5392-a9a3-a3a74536c205",
-      "children": [],
-      "parent": "a5fc01ff-0c68-5401-a202-33f8436b0f46",
-      "internal": {
-        "contentDigest": "979839d30b161678bf12c80ecde6921b",
-        "type": "sitejson",
-        "owner": "gatsby-transformer-json"
-      }
     },
     "97a70736-492d-5a6a-af5f-4408f1e220c1": {
       "embed": [
@@ -5045,23 +4935,94 @@
         "owner": "gatsby-transformer-json"
       }
     },
-    "3fe55a50-6c5b-5fed-87b7-ed5b039dbaa7": {
-      "sitedata": [
-        {
-          "icon": "/img/favicon.ico",
-          "logo": "/img/logo.png",
-          "sitename": "WebriQ - GLUE of the JAMSTACK ",
-          "metadesc": "WebriQ technology stack is the GLUE of the JAMstack",
-          "metakeyword": "CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages"
-        }
-      ],
-      "id": "3fe55a50-6c5b-5fed-87b7-ed5b039dbaa7",
+    "01a9c454-5bab-5c9f-acc1-7683391b3519": {
+      "id": "01a9c454-5bab-5c9f-acc1-7683391b3519",
       "children": [],
-      "parent": "96f1b56d-8606-5080-9060-f9bc6c587c5d",
+      "parent": "2ac534fb-e82a-575f-90fb-ac7769bbc4fb",
       "internal": {
-        "contentDigest": "88f88644c8390ee678c0f7403684e443",
-        "type": "sitejson",
-        "owner": "gatsby-transformer-json"
+        "content": "\n## Yes, REALLY!\n\nJack's Axe throwing, LLC.  All rights reserved. \n\nWhat in the lumberjack world is that???\n\nGlad you asked! Axe Throwing  is a radically amazing lumberjack sport, game, activity, entertainment option, party add on, celebration, and much more! Whether you are looking to have family night, a corporate team building event, Birthday party, Bachelor party, Bachelorette party or non-profit fundraiser, there is something for everyone between the ages of 4-104 (Under 4 or over 104 is typically not recommended) at jack's Axe Throwing, LLC.\n\nThink Darts, but for aspiring lumberjacks or lumberJills!\n\n-- Axe Throwing can provide people young and old a new experience unlike anything you have ever experienced before. From our innovative games, tournaments, lessons, in depth teachings, there is something for everyone at Jack's. Welcome to jack's, where our work, is your play.\n\nAt Jack's, we are all about serving the community. That's why we have initiated \"Random Axe of Kindness.\" an evening dedicated to your qualifying non-profit! 2.5 hours, dedicated to your organization. 50% of funds raised will be given back to your organization at absolutely no cost to you. \n\nplease email [Jack@jacksaxethrowing.com](mailto:Jack@jacksaxethrowing.com) for more information!\n\n### Happy Throwing!\n\nBryan Rossmanith<br/>\nJack's Axe Throwing, LLC<br/>\nFounder and Owner<br/>\nJack's Axe throwing, LLC.  All rights reserved. 2018\n\n![how to throw an axe](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113889/jackaxethrowing/jack-axe-big-logo.png)\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "e5fbbf4e06779ccbaf8918008600c658",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Axe Throwing??? Really?",
+        "author": "Bryan Rossmanith",
+        "banner": "jack-axe-big-logo.png",
+        "shortdesc": "Yes, REALLY! Jack's Axe throwing, LLC. All rights reserved. What in the lumberjack world is that??? Glad you asked! Axe Throwing is a radically amazing lumberjack sport, game, activity, entertainment option, party add on, celebration, and much more! Whether you are looking to have family night, a corporate team building event, Birthday party, Bachelor party, Bachelorette party or non-profit fundraiser, there is something for everyone between the ages of 4-104 (Under 4 or ov",
+        "updatedDate": "2019-04-01T07:40:01.211Z",
+        "cmsUserSlug": "axe-throwing-really",
+        "date": "2018-09-18T17:00:00.000Z",
+        "categories": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## Yes, REALLY!\n\nJack's Axe throwing, LLC.  All rights reserved. \n\nWhat in the lumberjack world is that???\n\nGlad you asked! Axe Throwing  is a radically amazing lumberjack sport, game, activity, entertainment option, party add on, celebration, and much more! Whether you are looking to have family night, a corporate team building event, Birthday party, Bachelor party, Bachelorette party or non-profit fundraiser, there is something for everyone between the ages of 4-104 (Under 4 or over 104 is typically not recommended) at jack's Axe Throwing, LLC.\n\nThink Darts, but for aspiring lumberjacks or lumberJills!\n\n-- Axe Throwing can provide people young and old a new experience unlike anything you have ever experienced before. From our innovative games, tournaments, lessons, in depth teachings, there is something for everyone at Jack's. Welcome to jack's, where our work, is your play.\n\nAt Jack's, we are all about serving the community. That's why we have initiated \"Random Axe of Kindness.\" an evening dedicated to your qualifying non-profit! 2.5 hours, dedicated to your organization. 50% of funds raised will be given back to your organization at absolutely no cost to you. \n\nplease email [Jack@jacksaxethrowing.com](mailto:Jack@jacksaxethrowing.com) for more information!\n\n### Happy Throwing!\n\nBryan Rossmanith<br/>\nJack's Axe Throwing, LLC<br/>\nFounder and Owner<br/>\nJack's Axe throwing, LLC.  All rights reserved. 2018\n\n![how to throw an axe](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113889/jackaxethrowing/jack-axe-big-logo.png)\n\n",
+      "fileAbsolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts/axe-throwing-really.md",
+      "fields": {
+        "slug": "/axe-throwing-really/"
+      }
+    },
+    "83284b1f-fa0f-5f42-b3ff-1217fb459849": {
+      "id": "83284b1f-fa0f-5f42-b3ff-1217fb459849",
+      "children": [],
+      "parent": "d9563c24-d2cc-5ea6-9f11-029315e93428",
+      "internal": {
+        "content": "\n## Axe Throwing – The Unknown\n\nAxe Throwing is very unknown. The unknown can be pretty scary. It’s different, it’s wild, it’s unorthodox. Axe throwing might just be……The greatest activity no one has ever heard of. Think of it as the world's favorite lost pastime that has been found again. Uncovered from the lumberjack forests, viking wars, and the latest and greatest video games. \n\nWhen you see an axe, most people think of some type of work. cutting down trees, splitting wood, physical labor, etc...  \n\nWe flip that on its head. At Jack's Axe Throwing, we say our work, Your play. Kick back, relax, and chuck some axes with us!\n\nAt jack’s Axe Throwing, we want to fully embrace the different life. We find it more fun that way. We love meeting the incredible faces that come into our location. We love to do something that has rarely been done before. Teach a future lumberjack a new skill, and create new experiences for the entire family that will last a lifetime. \n\nWhether you are looking to bring your family, organization, corporation, friends, or just have a good time and meet new friends, we are here for you.\n\nWe’re happy to be locally owned and operated in Colorado Springs, the greatest city in the USA according to the world rankings and news reports. ( U.S. News and World Report. The 25 Most Desirable Places to Live in the U.S. in 2018 )\n\nJack's Axe Throwing is bringing Axe Throwing, Knife throwing and more Make axe throwing your next event while visiting or living in Olympic City, USA.\n\n![favorite past time](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113892/jackaxethrowing/jack-axe-throwing-past-time.jpg)\n\n### Bryan Rossmanith\n\nJack's Axe Throwing, LLC<br/>\nFounder and Owner<br/>\n[jack@jacksaxethrowing.com](mailto:jack@jacksaxethrowing.com)<br/>\n[719-497-9709](tel://719-497-9709)<br/>\n[jacksaxethrowing.com](https://jacksaxethrowing.com)\n\n\n\n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "4afba22cd584206257a7e3f4a6fc624e",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Axe Throwing - The world's favorite lost past time?",
+        "author": "Bryan Rossmanith",
+        "banner": "jack-axe-throwing-past-time.jpg",
+        "shortdesc": "Axe Throwing – The Unknown Axe Throwing is very unknown. The unknown can be pretty scary. It’s different, it’s wild, it’s unorthodox. Axe...",
+        "updatedDate": "2019-04-01T07:39:04.037Z",
+        "cmsUserSlug": "axe-throwing-the-world-s-favorite-lost-past-time",
+        "date": "2018-09-18T09:42:47+00:00",
+        "categories": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## Axe Throwing – The Unknown\n\nAxe Throwing is very unknown. The unknown can be pretty scary. It’s different, it’s wild, it’s unorthodox. Axe throwing might just be……The greatest activity no one has ever heard of. Think of it as the world's favorite lost pastime that has been found again. Uncovered from the lumberjack forests, viking wars, and the latest and greatest video games. \n\nWhen you see an axe, most people think of some type of work. cutting down trees, splitting wood, physical labor, etc...  \n\nWe flip that on its head. At Jack's Axe Throwing, we say our work, Your play. Kick back, relax, and chuck some axes with us!\n\nAt jack’s Axe Throwing, we want to fully embrace the different life. We find it more fun that way. We love meeting the incredible faces that come into our location. We love to do something that has rarely been done before. Teach a future lumberjack a new skill, and create new experiences for the entire family that will last a lifetime. \n\nWhether you are looking to bring your family, organization, corporation, friends, or just have a good time and meet new friends, we are here for you.\n\nWe’re happy to be locally owned and operated in Colorado Springs, the greatest city in the USA according to the world rankings and news reports. ( U.S. News and World Report. The 25 Most Desirable Places to Live in the U.S. in 2018 )\n\nJack's Axe Throwing is bringing Axe Throwing, Knife throwing and more Make axe throwing your next event while visiting or living in Olympic City, USA.\n\n![favorite past time](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113892/jackaxethrowing/jack-axe-throwing-past-time.jpg)\n\n### Bryan Rossmanith\n\nJack's Axe Throwing, LLC<br/>\nFounder and Owner<br/>\n[jack@jacksaxethrowing.com](mailto:jack@jacksaxethrowing.com)<br/>\n[719-497-9709](tel://719-497-9709)<br/>\n[jacksaxethrowing.com](https://jacksaxethrowing.com)\n\n\n\n\n",
+      "fileAbsolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts/axe-throwing-the-world-s-favorite-lost-past-time.md",
+      "fields": {
+        "slug": "/axe-throwing-the-world-s-favorite-lost-past-time/"
+      }
+    },
+    "1b99d47c-2337-5fa8-b704-780622d64023": {
+      "id": "1b99d47c-2337-5fa8-b704-780622d64023",
+      "children": [],
+      "parent": "d5bedbd1-c93d-5bb8-9a19-fb17be2c9c67",
+      "internal": {
+        "content": "\n## How to Throw An Axe\n\nBy **Jack's Axe Throwing, LLC**\n\nThis is the magical 7 step formula to throw an axe. Follow these simple steps and you will be well on your way to becoming the champion you want to become.\n\n1.Bicep By your ear This is Critical to start the perfect throw. No side arm action here, This is axe throwing.\n\n2.One Foot Forward. Now, which one depends on personal preference. If you have thrown a lot put your opposite foot forward. If you don’t know, throw with your same foot forward at first. \n\n3.Lean Back. When throwing an axe, do not only use your arm, axe throwing is a full body workout. Transfer your weight to your back leg, then,\n\n4.Lean Forward. Transfer your body weight from back leg to front leg. This is important, this allows you to get enough momentum going forward so you can stick it.\n\n5.Release.  Now, all this has come down to this very moment. Release at eye level (Or at the center of the bullseye) do not bend the wrist. These axes are balanced, so keep that wrist locked for one flip and a stick at traditional distance of 12-13 feet away from your target.\n\n6.STICK IT! If you follow all of these steps, you have at least a 20% chance of sticking the axe every single time. (Results are not guaranteed, please consult one of our professionals for a chance to better your stick percentage)\n\n7.Become a certified Lumberjack/Lumberjill Whatever you do in life, just keep throwing axes. Jack believes in you, We believe in you, the entire crowd is cheering for you. You can do it! If you keep it up, you are well on your way to become a certified Lumberjill or Lumberjack from Jack himself.  (More on this certification process Later.)\n\n### Happy Throwing!\n\nBryan Rossmanith<br/>\nFounder and Owner<br/>\nJack's Axe Throwing, LLC<br/>\nAll Rights Reserved. 2018\n\n![how to throw an axe](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113893/jackaxethrowing/jack.jpg)\n\n  \n\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "251ed5865a6653274a9948f4d61fb80b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "How to Throw an Axe",
+        "author": "Bryan Rossmanith",
+        "banner": "jack.jpg",
+        "shortdesc": "How to Throw an Axe How to Throw An Axe By Jack's Axe Throwing, LLC This is the magical 7 step formula to throw an axe. Follow these simple steps and you will be well on your way to becoming the champion you want to become. 1. Bicep By your ear This is Critical to start the perfect throw. No side arm action here, This is axe throwing. 2. One Foot Forward. Now, which one depends on personal preference. If you have thrown a lot put your opposite foot forward. If you don’t know, throw with your sam",
+        "updatedDate": "2019-04-01T07:39:34.460Z",
+        "cmsUserSlug": "how-to-throw-an-axe",
+        "date": "2018-09-18T09:18:26+00:00",
+        "categories": ""
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\n## How to Throw An Axe\n\nBy **Jack's Axe Throwing, LLC**\n\nThis is the magical 7 step formula to throw an axe. Follow these simple steps and you will be well on your way to becoming the champion you want to become.\n\n1.Bicep By your ear This is Critical to start the perfect throw. No side arm action here, This is axe throwing.\n\n2.One Foot Forward. Now, which one depends on personal preference. If you have thrown a lot put your opposite foot forward. If you don’t know, throw with your same foot forward at first. \n\n3.Lean Back. When throwing an axe, do not only use your arm, axe throwing is a full body workout. Transfer your weight to your back leg, then,\n\n4.Lean Forward. Transfer your body weight from back leg to front leg. This is important, this allows you to get enough momentum going forward so you can stick it.\n\n5.Release.  Now, all this has come down to this very moment. Release at eye level (Or at the center of the bullseye) do not bend the wrist. These axes are balanced, so keep that wrist locked for one flip and a stick at traditional distance of 12-13 feet away from your target.\n\n6.STICK IT! If you follow all of these steps, you have at least a 20% chance of sticking the axe every single time. (Results are not guaranteed, please consult one of our professionals for a chance to better your stick percentage)\n\n7.Become a certified Lumberjack/Lumberjill Whatever you do in life, just keep throwing axes. Jack believes in you, We believe in you, the entire crowd is cheering for you. You can do it! If you keep it up, you are well on your way to become a certified Lumberjill or Lumberjack from Jack himself.  (More on this certification process Later.)\n\n### Happy Throwing!\n\nBryan Rossmanith<br/>\nFounder and Owner<br/>\nJack's Axe Throwing, LLC<br/>\nAll Rights Reserved. 2018\n\n![how to throw an axe](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113893/jackaxethrowing/jack.jpg)\n\n  \n\n",
+      "fileAbsolutePath": "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/posts/how-to-throw-an-axe.md",
+      "fields": {
+        "slug": "/how-to-throw-an-axe/"
       }
     },
     "SitePage /blog/axe-throwing-really/": {
@@ -5683,6 +5644,46 @@
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
       }
+    },
+    "3fe55a50-6c5b-5fed-87b7-ed5b039dbaa7": {
+      "sitedata": [
+        {
+          "icon": "/img/favicon.ico",
+          "logo": "/img/logo.png",
+          "sitename": "WebriQ - GLUE of the JAMSTACK",
+          "metadesc": "WebriQ technology stack is the GLUE of the JAMstack",
+          "metakeyword": "CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages"
+        }
+      ],
+      "id": "3fe55a50-6c5b-5fed-87b7-ed5b039dbaa7",
+      "children": [],
+      "parent": "96f1b56d-8606-5080-9060-f9bc6c587c5d",
+      "internal": {
+        "contentDigest": "827685acf0feb3c758b63758931d04a8",
+        "type": "sitejson",
+        "owner": "gatsby-transformer-json"
+      }
+    },
+    "1c7734bf-5061-5392-a9a3-a3a74536c205": {
+      "filemanager": [
+        {
+          "name": "image-file",
+          "file": "/files/logo.png"
+        },
+        {
+          "name": "Executive Summary",
+          "file": "/files/executive-summary-webriq.pdf"
+        }
+      ],
+      "updatedDate": "2017-06-28T05:02:41.735Z",
+      "id": "1c7734bf-5061-5392-a9a3-a3a74536c205",
+      "children": [],
+      "parent": "a5fc01ff-0c68-5401-a202-33f8436b0f46",
+      "internal": {
+        "contentDigest": "979839d30b161678bf12c80ecde6921b",
+        "type": "sitejson",
+        "owner": "gatsby-transformer-json"
+      }
     }
   },
   "status": {
@@ -5692,36 +5693,36 @@
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-seo-js",
         "/404/",
         "/404.html",
-        "/birthday-parties/",
         "/bachelorette-parties/",
-        "/contact/",
+        "/birthday-parties/",
         "/blog/",
-        "/corporate-events/",
         "/book-online-1/",
-        "/family-reunions/",
-        "/leagues/",
-        "/mobile-axe-throwing/",
-        "/lumberjack-axe-co/",
-        "/non-profit-events/",
+        "/contact/",
+        "/corporate-events/",
         "/events/",
+        "/family-reunions/",
         "/festivals/",
-        "/pricing/",
+        "/leagues/",
+        "/lumberjack-axe-co/",
+        "/mobile-axe-throwing/",
         "/mobile-events/",
+        "/non-profit-events/",
         "/performances/",
+        "/pricing/",
         "/services/",
+        "/thank-you/",
+        "/travelling-custom-events-indoors-and-outdoors/",
         "/weddings/",
         "/why-the-name-jacks/",
-        "/thank-you/",
-        "/about-us/",
-        "/our-story/",
         "/blog/axe-throwing-really/",
         "/blog/axe-throwing-the-world-s-favorite-lost-past-time/",
         "/blog/how-to-throw-an-axe/",
-        "/travelling-custom-events-indoors-and-outdoors/",
-        "/"
+        "/about-us/",
+        "/our-story/",
+        "/",
+        "sq--src-components-seo-js"
       ],
       "01a9c454-5bab-5c9f-acc1-7683391b3519": [
         "/blog/axe-throwing-really/"
@@ -5732,17 +5733,17 @@
       "1b99d47c-2337-5fa8-b704-780622d64023": [
         "/blog/how-to-throw-an-axe/"
       ],
-      "1c7734bf-5061-5392-a9a3-a3a74536c205": [
-        "/"
-      ]
+      "1c7734bf-5061-5392-a9a3-a3a74536c205": []
     },
     "connections": {
       "MarkdownRemark": [
+        null,
         null,
         "/blog/",
         "/"
       ],
       "sitejson": [
+        null,
         null
       ]
     }
@@ -5778,7 +5779,7 @@
     "blog-axe-throwing-the-world-s-favorite-lost-past-time-f8a": "950/path---blog-axe-throwing-the-world-s-favorite-lost-past-time-f-8-a-14e-yKIBbAgiul27Vv1dNxA5SHRQozk",
     "blog-how-to-throw-an-axe-4f3": "142/path---blog-how-to-throw-an-axe-4-f-3-1c8-p2vaH0qxlKtO4toIGBtaKO3Ug3w",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "47/path---index-6a9-fooWCBMXejsh34EB8xvX2V1Kpo"
+    "index": "159/path---index-6a9-RIXFwIrbpsoW3lrAdgHOmSGbZHM"
   },
   "components": {
     "/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/src/templates/blog-post.js": {
