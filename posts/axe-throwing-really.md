@@ -2,8 +2,8 @@
 title: Axe Throwing??? Really?
 author: Bryan Rossmanith
 banner: jack-axe-big-logo.png
-shortdesc: ""
-updatedDate: 2017-01-04T02:44:55.137Z
+shortdesc: "Yes, REALLY! Jack's Axe throwing, LLC. All rights reserved. What in the lumberjack world is that??? Glad you asked! Axe Throwing is a radically amazing lumberjack sport, game, activity, entertainment option, party add on, celebration, and much more! Whether you are looking to have family night, a corporate team building event, Birthday party, Bachelor party, Bachelorette party or non-profit fundraiser, there is something for everyone between the ages of 4-104 (Under 4 or ov"
+updatedDate: 2019-04-01T07:40:01.211Z
 cmsUserSlug: axe-throwing-really
 date: 2018-09-18T17:00:00.000Z
 categories: ""
@@ -33,3 +33,4 @@ Founder and Owner<br/>
 Jack's Axe throwing, LLC.  All rights reserved. 2018
 
 ![how to throw an axe](https://res.cloudinary.com/dsoapbw26/image/upload/v1550113889/jackaxethrowing/jack-axe-big-logo.png)
+
