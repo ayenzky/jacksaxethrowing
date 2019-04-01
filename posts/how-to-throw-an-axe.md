@@ -2,8 +2,7 @@
 title: How to Throw an Axe
 author: Bryan Rossmanith
 banner: jack.jpg
-shortdesc: "How to Throw an Axe
-How to Throw An Axe By Jack's Axe Throwing, LLC This is the magical 7 step formula to throw an axe. Follow these simple steps and you will be well on your way to becoming the champion you want to become. 1. Bicep By your ear This is Critical to start the perfect throw. No side arm action here, This is axe throwing. 2. One Foot Forward. Now, which one depends on personal preference. If you have thrown a lot put your opposite foot forward. If you don’t know, throw with your sam"
+shortdesc: ""
 updatedDate: 2017-06-20T03:54:11.381Z
 cmsUserSlug: how-to-throw-an-axe
 date: "2018-09-18T09:18:26+00:00"

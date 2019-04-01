@@ -65,6 +65,11 @@
         "path": "/corporate-events/"
     },
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-pages-events-js",
         "jsonName": "events-0dc",
         "path": "/events/"
@@ -103,11 +108,6 @@
         "componentChunkName": "component---src-pages-non-profit-events-js",
         "jsonName": "non-profit-events-aa8",
         "path": "/non-profit-events/"
-    },
-    {
-        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-        "jsonName": "offline-plugin-app-shell-fallback-a30",
-        "path": "/offline-plugin-app-shell-fallback/"
     },
     {
         "componentChunkName": "component---src-pages-our-story-js",

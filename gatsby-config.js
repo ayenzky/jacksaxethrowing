@@ -21,8 +21,21 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/assets/img`,
+        path: `${__dirname}/static/img`,
         name: `image_assets`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        typeName: `sitejson`
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/data/`,
+        name: `data_json`,
       },
     },
     {

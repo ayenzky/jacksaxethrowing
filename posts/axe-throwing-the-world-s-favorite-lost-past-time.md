@@ -2,8 +2,7 @@
 title: Axe Throwing - The world's favorite lost past time?
 author: Bryan Rossmanith
 banner: jack-axe-throwing-past-time.jpg
-shortdesc: "Axe Throwing – The Unknown Axe Throwing is very unknown. The unknown can be pretty scary. It’s different, it’s wild, it’s unorthodox. Axe..."
-updatedDate: 2017-06-20T03:53:58.853Z
+shortdesc: ""
 cmsUserSlug: axe-throwing-the-world-s-favorite-lost-past-time
 date: "2018-09-18T09:42:47+00:00"
 categories: ""
