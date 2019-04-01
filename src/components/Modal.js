@@ -24,7 +24,7 @@ export default class Vmodal extends Component {
   render () {
     return (
         <>
-        <Button className={this.props.btnclass} onClick={this.handleShow}>
+        <Button className={this.props.btnclass} onClick={this.handleShow} role="button" aria-label="button">
           {this.props.html}
         </Button>
         <Modal size={this.props.size} show={this.state.show} onHide={this.handleClose} dialogClassName={this.props.mclass} centered>

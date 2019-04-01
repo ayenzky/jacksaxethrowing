@@ -22,7 +22,7 @@ export default class Hero extends Component  {
                               <h3 className="hero-subheading">Providing memorable experiences for all ages. </h3>
                               <p className="d-none d-md-inline-block hero-text">We are proud to be the first axe throwing entertainment business in Colorado Springs, and one of the very few in the state of Colorado. From our onsite to our mobile events, there is truly something for everyone here.&nbsp;</p>
                               <div className="d-flex justify-content-center justify-content-lg-start mt-4">
-                                <a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/">Book Now</a>
+                                <a className="booknow hvr-pulse" href="https://fareharbor.com/embeds/book/jacksaxethrowing/" title="fareharbor booking">Book Now</a>
                               </div>
                       </Col>
                   </Row>

@@ -5,7 +5,7 @@ import redirects from "./redirects.json"
 import { apiRunner } from "./api-runner-browser"
 import emitter from "./emitter"
 import { navigate as reachNavigate } from "@reach/router"
-import { parsePath } from "gatsby-link"
+import parsePath from "./parse-path"
 
 // Convert to a map for faster lookup in maybeRedirect()
 const redirectMap = redirects.reduce((map, redirect) => {

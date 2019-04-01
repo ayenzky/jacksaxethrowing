@@ -3,12 +3,9 @@ import { graphql } from 'gatsby'
 import { Container, Card, Row, Col } from "react-bootstrap";
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import 'react-lazy-load-image-component/src/effects/blur.css'
 import Swiper from 'swiper/dist/js/swiper.esm.bundle';
 import 'swiper/dist/css/swiper.min.css'
 import './pricing.css'
-import Modal from '../components/Modal'
 
 class pricingPage extends React.Component {
    componentDidMount() {

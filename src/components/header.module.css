@@ -1,5 +1,6 @@
 .header {
   z-index: 1;
+  position: relative;
 }
 
 .topinfo {

@@ -12,25 +12,25 @@ export default () => (
                 <Col md={6} lg={4} className="order-3 order-md-1 pr-xl-5">
                     <h4 className="text-white mb-4">Jack's Axe Throwing</h4>
                     <ul className="list-unstyled m-0 topinfo text-white">
-                        <li className="d-flex align-content-start"><LazyLoadImage effect="blur" src="/img/002-telephone.svg" className="mr-2 mt-1"/><a href="tel://7194979709">(719)497-9709</a></li>
-                        <li className="d-flex align-items-start"><LazyLoadImage effect="blur" src="/img/003-envelope.svg" className="mr-2 mt-1"/><a href="mailto:jack@jacksaxethrowing.com" title="email">jack@jacksaxethrowing.com</a></li>
-                        <li className="d-flex align-items-start"><LazyLoadImage effect="blur" src="/img/001-placeholder.svg" className="mr-2 mt-1"/><span>625 Paonia Street Colorado springs, CO 80915</span></li>
+                        <li className="d-flex align-content-start"><LazyLoadImage alt="telephone" effect="blur" src="/img/002-telephone.svg" className="mr-2 mt-1"/><a title="telephone" href="tel://7194979709">(719)497-9709</a></li>
+                        <li className="d-flex align-items-start"><LazyLoadImage alt="email" effect="blur" src="/img/003-envelope.svg" className="mr-2 mt-1"/><a title="email" href="mailto:jack@jacksaxethrowing.com">jack@jacksaxethrowing.com</a></li>
+                        <li className="d-flex align-items-start"><LazyLoadImage alt="location" effect="blur" src="/img/001-placeholder.svg" className="mr-2 mt-1"/><span>625 Paonia Street Colorado springs, CO 80915</span></li>
                     </ul>
                     <h5 className="text-white mb-4">Tag Us</h5>
                     <ul className="list-unstyled m-0 d-flex socialicons mb-0">
-                        <li className="mb-0 mr-2"><a href="https://www.facebook.com/jacksaxethrowing/" target="_blank" rel="noopener noreferrer">
-                          <LazyLoadImage effect="blur" className="img-fluid" src="/img/003-facebook.svg"/></a></li>
-                        <li className="mb-0 mr-2"><a href="https://twitter.com/JackThrows" target="_blank" rel="noopener noreferrer">
-                          <LazyLoadImage effect="blur" className="img-fluid" src="/img/twitter.svg"/></a></li>
-                        <li className="mb-0 mr-2"><a href="https://www.youtube.com/channel/UColhr8JVcg17NkngWtAlSkA" target="_blank" rel="noopener noreferrer">
-                          <LazyLoadImage effect="blur" className="img-fluid" src="/img/youtube.svg"/></a></li>
-                        <li className="mb-0 mr-2"><a href="https://www.yelp.com/biz/jacks-axe-throwing-colorado-springs-2" target="_blank" rel="noopener noreferrer">
-                          <LazyLoadImage effect="blur" className="img-fluid" src="/img/yelp.svg"/></a></li>
-                        <li className="mb-0 mr-2"><a href="https://www.instagram.com/jacksaxethrowing/" target="_blank" rel="noopener noreferrer">
-                          <LazyLoadImage effect="blur" className="img-fluid" src="/img/001-instagram.svg"/></a></li>
-                        <li className="mb-0 mr-2"><a href="https://www.google.com/search?q=jacks+axe+throwing+google&safe=active&client=firefox-b-1-ab&source=lnms&sa=X&ved=0ahUKEwjhqMr-xI3fAhWSxZ8KHdtxAHUQ_AUICSgA&biw=766&bih=727&dpr=2.5#lrd=0x871349f4e6f4955f:0x6b66997a6b8f372e,1,,," target="_blank" rel="noopener noreferrer"><LazyLoadImage effect="blur" className="img-fluid" src="/img/google-plus.svg"/></a></li>
-                        <li className="mb-0"><a href="https://www.tripadvisor.com.ph/Attraction_Review-g33364-d14183306-Reviews-Jack_s_Axe_Throwing-Colorado_Springs_El_Paso_County_Colorado.html" target="_blank" rel="noopener noreferrer">
-                          <LazyLoadImage effect="blur" className="img-fluid" src="/img/002-tripadvisor-logotype.svg"/></a></li>
+                        <li className="mb-0 mr-2"><a title="facebook" href="https://www.facebook.com/jacksaxethrowing/" target="_blank" rel="noopener noreferrer">
+                          <LazyLoadImage alt="facebook" effect="blur" className="img-fluid" src="/img/003-facebook.svg"/></a></li>
+                        <li className="mb-0 mr-2"><a title="twitter" href="https://twitter.com/JackThrows" target="_blank" rel="noopener noreferrer">
+                          <LazyLoadImage alt="twitter" effect="blur" className="img-fluid" src="/img/twitter.svg"/></a></li>
+                        <li className="mb-0 mr-2"><a title="youtube" href="https://www.youtube.com/channel/UColhr8JVcg17NkngWtAlSkA" target="_blank" rel="noopener noreferrer">
+                          <LazyLoadImage alt="youtube" effect="blur" className="img-fluid" src="/img/youtube.svg"/></a></li>
+                        <li className="mb-0 mr-2"><a title="yelp" href="https://www.yelp.com/biz/jacks-axe-throwing-colorado-springs-2" target="_blank" rel="noopener noreferrer">
+                          <LazyLoadImage alt="yelp" effect="blur" className="img-fluid" src="/img/yelp.svg"/></a></li>
+                        <li className="mb-0 mr-2"><a title="instagram" href="https://www.instagram.com/jacksaxethrowing/" target="_blank" rel="noopener noreferrer">
+                          <LazyLoadImage alt="instagram" effect="blur" className="img-fluid" src="/img/001-instagram.svg"/></a></li>
+                        <li className="mb-0 mr-2"><a title="google-plus" href="https://www.google.com/search?q=jacks+axe+throwing+google&safe=active&client=firefox-b-1-ab&source=lnms&sa=X&ved=0ahUKEwjhqMr-xI3fAhWSxZ8KHdtxAHUQ_AUICSgA&biw=766&bih=727&dpr=2.5#lrd=0x871349f4e6f4955f:0x6b66997a6b8f372e,1,,," target="_blank" rel="noopener noreferrer"><LazyLoadImage alt="google-plus" effect="blur" className="img-fluid" src="/img/google-plus.svg"/></a></li>
+                        <li className="mb-0"><a title="tripadvisor" href="https://www.tripadvisor.com.ph/Attraction_Review-g33364-d14183306-Reviews-Jack_s_Axe_Throwing-Colorado_Springs_El_Paso_County_Colorado.html" target="_blank" rel="noopener noreferrer">
+                          <LazyLoadImage alt="tripadvisor" effect="blur" className="img-fluid" src="/img/002-tripadvisor-logotype.svg"/></a></li>
                     </ul>
                 </Col>
                 <Col md={6} lg={2} className="order-1 order-md-2">
@@ -64,7 +64,7 @@ export default () => (
                 </Col>
             </Row>
             <div className="copyright pt-5 mt-5 pb-4">
-                <p className="text-white mb-0">© Copyright {new Date().getFullYear()} - Jack's Axe Throwing - All Rights Reserved - Designed by <a href="https://www.webriq.services/">WebriQ Goes Mad</a> - Powered by <a href="https://www.webriq.com/">WebriQ</a></p>
+                <p className="text-white mb-0">© Copyright {new Date().getFullYear()} - Jack's Axe Throwing - All Rights Reserved - Designed by <a href="https://www.webriq.services/" title="webriq goes mad">WebriQ Goes Mad</a> - Powered by <a href="https://www.webriq.com/" title="webriq">WebriQ</a></p>
             </div>
         </Container>
     </footer>

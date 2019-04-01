@@ -373,8 +373,8 @@ class IndexPage extends React.Component {
                                 </Modal>
                             </div>
                             <div className="item-event-content">
-                                <h5 className="font-weight-light mt-3"><span role="img" aria-label="">��🇸⛏</span> Corporate Axe Throwing League Sponsorship opportunity! <span role="img" aria-label="">🇺🇸⛏ 🇺🇸 ⛏</span> Listen up if you want to get</h5>
-                                <p><span role="img" aria-label="">��🇸⛏</span> Corporate Axe Throwing League Sponsorship opportunity! <span role="img" aria-label="">🇺🇸⛏ 🇺🇸 ⛏</span> Listen up if you want to get exposed to 10s if not 100s of thousands of people thro</p>
+                                <h5 className="font-weight-light mt-3"><span alt="special character" role="img" aria-label="characters">��🇸⛏</span> Corporate Axe Throwing League Sponsorship opportunity! <span alt="special character" role="img" aria-label="characters">🇺🇸⛏ 🇺🇸 ⛏</span> Listen up if you want to get</h5>
+                                <p><span alt="special character" role="img" aria-label="characters">��🇸⛏</span> Corporate Axe Throwing League Sponsorship opportunity! <span alt="special character" role="img" aria-label="characters">🇺🇸⛏ 🇺🇸 ⛏</span> Listen up if you want to get exposed to 10s if not 100s of thousands of people thro</p>
                             </div>
                         
 
@@ -513,7 +513,7 @@ class IndexPage extends React.Component {
             <div className="form-group">
               <label htmlFor="exampleInputEmail1">Email Address</label>
               <input type="email" name="email address" className="form-control form-control-lg p-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" required/>
-              <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+              <small id="emailHelp" className="form-text text-dark-gray">We'll never share your email with anyone else.</small>
             </div>
             <div className="form-group">
               <label htmlFor="inputPhone">Phone Number</label>

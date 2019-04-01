@@ -1,20 +1,20 @@
 var plugins = [{
-      plugin: require('/Users/anlinerleona/code/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      plugin: require('/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/anlinerleona/code/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["poppins:400,500,600,700","roboto:400,500,700"]},
     },{
-      plugin: require('/Users/anlinerleona/code/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-feed/gatsby-ssr'),
+      plugin: require('/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/anlinerleona/code/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Highly Rated Entertainment in CO | Axe Throwing in CO","short_name":"Jack's Axe","start_url":"/","background_color":"#663399","theme_color":"#f7f7f7","display":"minimal-ui","icon":"static/img/logo.png"},
     },{
-      plugin: require('/Users/anlinerleona/code/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/anlinerleona/code/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/allen/Projects/htdocs/webriqpage-jacksaxethrowing/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

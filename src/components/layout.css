@@ -62,11 +62,11 @@ a:hover {
 }
 
 .bg-red {
-  background-color: #f21d2e;
+  background-color: #ca1524;
 }
 
 .text-red {
-  color: #f21d2e !important;
+  color: #ca1524 !important;
 }
 
 .bg-dark-blue {
@@ -75,6 +75,9 @@ a:hover {
 
 .text-dark-blue {
   color: #051129 !important;
+}
+.text-dark-gray {
+  color: var(--dark);
 }
 
 .bg-dirty-white {
@@ -95,7 +98,7 @@ li {
 
 .booknow {
   font-family: 'Poppins';
-  background-color: #f21d2e;
+  background-color: #ca1524;
   color: #fff !important;
   padding: 1rem 2rem;
   border-radius: 10px;
