@@ -487,7 +487,7 @@ class IndexPage extends React.Component {
                   })}
                   
                 </div>
-                <div className="d-flex justify-content-center mt-4"><Link to="/blog" className="booknow hvr-shadow" title="see all of our blog posts">more</Link></div>
+                <div className="d-flex justify-content-center mt-4"><Link to="/blog" className="booknow hvr-shadow" title="see all of our blog posts">More Blog Post</Link></div>
             </div>
         </section>
         <section id="contact" className="component bg-dirty-white">
