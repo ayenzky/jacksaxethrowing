@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Highly Rated Entertainment in CO | Axe Throwing in CO`,
-    author: `Kyle Mathews`,
+    author: `Bryan Rossmanith`,
     description: `Axe Throwing makes the perfect Bachelor Party Idea, Axe Throwing fits the many Lumberjack themed events held in Colorado, Interactive corporate team events, Birthday Parties, and more.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://jacksaxethrowing.com/`,
     keywords: `Bachelor Party Ideas, Top Rated Axe Throwing Colorado How to increase brewery revennue in Colorado Interactive corporate team events Lumberjack themed events`,
     social: {
       twitter: `kylemathews`,
@@ -64,7 +64,84 @@ module.exports = {
         ]
       }
     },
-    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+          }
+        `
+        
+      }
+    },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+        {
+          site {
+            siteMetadata {
+              title
+              siteUrl
+              site_url: siteUrl
+            }
+          }
+        }
+      `,
+      feeds: [
+        {
+          serialize: ({ query: { site, allMarkdownRemark}}) => {
+            return allMarkdownRemark.edges.map(a => {
+              return Object.assign({}, a.node, {
+                title: a.node.frontmatter.title,
+                description: a.node.excerpt,
+                date: a.node.frontmatter.date,
+                url: site.siteMetadata.siteUrl +"/"+ a.node.fields.slug,
+                guid: site.siteMetadata.siteUrl +"/"+ a.node.fields.slug,
+                custom_elements: [{ "content:encoded": a.node.html }],
+              })
+            })
+          },
+          query: `
+            {
+              allMarkdownRemark {
+                edges {
+                  node {
+                    id
+                    fields {
+                      slug
+                    }
+                    excerpt
+                    frontmatter {
+                      title
+                      date
+                    }
+                    html
+                    
+                  }
+                }
+              }
+            }
+          `,
+          output: "/rss.xml",
+          title: "Highly Rated Entertainment in CO | Axe Throwing in CO",
+        },
+      ],
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
