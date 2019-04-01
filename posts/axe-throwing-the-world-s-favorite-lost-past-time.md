@@ -1,8 +1,9 @@
 ---
-title: Axe Throwing - The world's favorite lost past time?
+title: "Axe Throwing - The world's favorite lost past time?"
 author: Bryan Rossmanith
 banner: jack-axe-throwing-past-time.jpg
-shortdesc: ""
+shortdesc: "Axe Throwing – The Unknown Axe Throwing is very unknown. The unknown can be pretty scary. It’s different, it’s wild, it’s unorthodox. Axe..."
+updatedDate: 2019-04-01T07:39:04.037Z
 cmsUserSlug: axe-throwing-the-world-s-favorite-lost-past-time
 date: "2018-09-18T09:42:47+00:00"
 categories: ""
@@ -33,5 +34,7 @@ Founder and Owner<br/>
 [jack@jacksaxethrowing.com](mailto:jack@jacksaxethrowing.com)<br/>
 [719-497-9709](tel://719-497-9709)<br/>
 [jacksaxethrowing.com](https://jacksaxethrowing.com)
+
+
 
 
