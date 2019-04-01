@@ -8,6 +8,9 @@ module.exports = {
     social: {
       twitter: `kylemathews`,
     },
+    contact: {
+      tel: `(719) 497-9709`
+    }
   },
   plugins: [
     // Source all blog posts

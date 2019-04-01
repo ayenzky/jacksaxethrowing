@@ -28,9 +28,9 @@ export default class Header extends Component {
                               <LazyLoadImage alt="yelp" effect="blur" src="/img/yelp.svg"/></a></li>
                             <li className="mb-1 mb-lg-0 mr-2"><a title="instagram" href="https://www.instagram.com/jacksaxethrowing/" target="_blank" rel="noopener noreferrer">
                               <LazyLoadImage alt="instagram" effect="blur" src="/img/001-instagram.svg"/></a></li>
-                            <li className="mb-1 mb-lg-0 mr-2"><a title="google-plus" href="https://www.google.com/search?q=jacks+axe+throwing+google&safe=active&client=firefox-b-1-ab&source=lnms&sa=X&ved=0ahUKEwjhqMr-xI3fAhWSxZ8KHdtxAHUQ_AUICSgA&biw=766&bih=727&dpr=2.5#lrd=0x871349f4e6f4955f:0x6b66997a6b8f372e,1,,," target="_blank" rel="noopener noreferrer">
+                            <li className="mb-1 mb-lg-0 mr-2"><a title="g" href="https://www.google.com/search?q=jacks+axe+throwing+google&safe=active&client=firefox-b-1-ab&source=lnms&sa=X&ved=0ahUKEwjhqMr-xI3fAhWSxZ8KHdtxAHUQ_AUICSgA&biw=766&bih=727&dpr=2.5#lrd=0x871349f4e6f4955f:0x6b66997a6b8f372e,1,,," target="_blank" rel="noopener noreferrer">
                               <LazyLoadImage alt="google-plus" effect="blur" src="/img/google-plus.svg"/></a></li>
-                            <li className="mb-1 mb-lg-0"><a title="tripadvisor" href="https://www.tripadvisor.com.ph/Attraction_Review-g33364-d14183306-Reviews-Jack_s_Axe_Throwing-Colorado_Springs_El_Paso_County_Colorado.html" target="_blank" rel="noopener noreferrer">
+                            <li className="mb-1 mb-lg-0"><a title="" href="https://www.tripadvisor.com.ph/Attraction_Review-g33364-d14183306-Reviews-Jack_s_Axe_Throwing-Colorado_Springs_El_Paso_County_Colorado.html" target="_blank" rel="noopener noreferrer">
                               <LazyLoadImage alt="tripadvisor" effect="blur" src="/img/002-tripadvisor-logotype.svg"/></a></li>
                         </ul>
                     </Col>
@@ -43,7 +43,7 @@ export default class Header extends Component {
                 <Row className="d-flex align-items-center">
                     <Col md={4} className="d-none d-md-inline-block top-details">
                         <ul className={`${styl.topinfo} list-unstyled mb-0`}>
-                            <li className="d-flex align-content-start mb-1"><LazyLoadImage alt="telephone" effect="blur" src="/img/002-telephone.svg" className="mr-2 mt-1"/><a href="tel://7194979709" title="telephone">(719)497-9709</a></li>
+                            <li className="d-flex align-content-start mb-1"><LazyLoadImage alt="telephone" effect="blur" src="/img/002-telephone.svg" className="mr-2 mt-1"/><a href="tel://7194979709">(719) 497-9709</a></li>
                             <li className="d-flex align-items-start mb-1"><LazyLoadImage alt="email" effect="blur" src="/img/003-envelope.svg" className="mr-2 mt-1"/><a href="mailto:jack@jacksaxethrowing.com" title="email">jack@jacksaxethrowing.com</a></li>
                             <li className="d-flex align-items-start"><LazyLoadImage alt="location" effect="blur" src="/img/001-placeholder.svg" className="mr-2 mt-1"/><span>625 Paonia Street Colorado springs, CO 80915</span></li>
                         </ul>

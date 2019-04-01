@@ -49,7 +49,6 @@ class pricingPage extends React.Component {
                 <p>Person for 2.5 hours of throwing</p>
                 <p>Games & professional instruction included</p>
                 <p>Lumberjack jokes provided free of charge.</p>
-                <div className="d-flex justify-content-center mt-4"><a className="booknow" href="/contact">Contact Us</a></div>
               </Card.Body>
             </Card>
           </Col>
@@ -62,7 +61,6 @@ class pricingPage extends React.Component {
                   <h2 className="mb-0 font-weight-normal">$22</h2>
                   <p>Person for a 2 hour event /<br/> 6 person minimum</p>
                   <p>Includes a Certified & Experienced Coach to go over everything.</p>
-                  <div className="d-flex justify-content-center mt-4"><a className="booknow" href="/contact">Contact Us</a></div>
               </Card.Body>
             </Card>
           </Col>
@@ -77,7 +75,6 @@ class pricingPage extends React.Component {
                 <h5 className="font-weight-normal">Denver</h5>
                 <h2 className="my-0 font-weight-normal">$15-$20</h2>
                 <p>For 2-3 hours of unlimited open throwing.</p>
-                <div className="d-flex justify-content-center mt-4"><a className="booknow" href="/contact">Contact Us</a></div>
               </Card.Body>
             </Card>
           </Col>

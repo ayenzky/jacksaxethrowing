@@ -58,7 +58,7 @@ export default class Menu extends Component {
           </div>
           <div className="navigation-bottom text-white">
               <ul className="list-unstyled topinfo">
-                  <li className="d-flex align-content-start mb-1"><Image title="telephone" src="/img/002-telephone.svg" className="mr-2 mt-1 mb-0"/><a href="tel://7194979709" title="telephone">(719)497-9709</a></li>
+                  <li className="d-flex align-content-start mb-1"><Image title="telephone" src="/img/002-telephone.svg" className="mr-2 mt-1 mb-0"/><a href="tel://7194979709" title="telephone">(719) 497-9709</a></li>
                   <li className="d-flex align-items-start mb-1"><Image title="email" src="/img/003-envelope.svg" className="mr-2 mt-1 mb-0"/><a href="mailto:jack@jacksaxethrowing.com" title="email">jack@jacksaxethrowing.com</a></li>
                   <li className="d-flex align-items-start"><Image title="location" src="/img/001-placeholder.svg" className="mr-2 mt-1 mb-0"/><span>625 Paonia Street Colorado springs, CO 80915</span></li>
               </ul>
