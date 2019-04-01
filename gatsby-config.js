@@ -3,7 +3,7 @@ module.exports = {
     title: `Highly Rated Entertainment in CO | Axe Throwing in CO`,
     author: `Bryan Rossmanith`,
     description: `Axe Throwing makes the perfect Bachelor Party Idea, Axe Throwing fits the many Lumberjack themed events held in Colorado, Interactive corporate team events, Birthday Parties, and more.`,
-    siteUrl: `https://jacksaxethrowing.com/`,
+    siteUrl: `https://jacksaxethrowing.com`,
     keywords: `Bachelor Party Ideas, Top Rated Axe Throwing Colorado How to increase brewery revennue in Colorado Interactive corporate team events Lumberjack themed events`,
     social: {
       twitter: `kylemathews`,
@@ -109,8 +109,8 @@ module.exports = {
                 title: a.node.frontmatter.title,
                 description: a.node.excerpt,
                 date: a.node.frontmatter.date,
-                url: site.siteMetadata.siteUrl +"/"+ a.node.fields.slug,
-                guid: site.siteMetadata.siteUrl +"/"+ a.node.fields.slug,
+                url: site.siteMetadata.siteUrl + a.node.fields.slug,
+                guid: site.siteMetadata.siteUrl + a.node.fields.slug,
                 custom_elements: [{ "content:encoded": a.node.html }],
               })
             })
