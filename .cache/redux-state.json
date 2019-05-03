@@ -1907,12 +1907,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-05-03T07:46:56.611Z",
+      "buildTime": "2019-05-03T08:24:24.295Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8c1ddebde8e6deb7fedeb2a65f5646ce",
+        "contentDigest": "8a6751f56f7ade2d198b64f2b05f07bd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2634,7 +2634,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "603116c550ab81495b75bbdf5956c76f",
+        "contentDigest": "9e4fb4b3c8d17160017afce71369cd2f",
         "type": "Directory",
         "description": "Directory \"posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2646,7 +2646,7 @@
       "size": 170,
       "prettySize": "170 B",
       "modifiedTime": "2019-05-03T07:32:54.000Z",
-      "accessTime": "2019-05-03T07:47:06.000Z",
+      "accessTime": "2019-05-03T08:24:38.000Z",
       "changeTime": "2019-05-03T07:32:54.000Z",
       "birthTime": "2019-05-03T07:32:54.000Z",
       "root": "/",
@@ -2664,11 +2664,11 @@
       "blksize": 4096,
       "ino": 16107280,
       "blocks": 0,
-      "atimeMs": 1556869626000,
+      "atimeMs": 1556871878000,
       "mtimeMs": 1556868774000,
       "ctimeMs": 1556868774000,
       "birthtimeMs": 1556868774000,
-      "atime": "2019-05-03T07:47:06.000Z",
+      "atime": "2019-05-03T08:24:38.000Z",
       "mtime": "2019-05-03T07:32:54.000Z",
       "ctime": "2019-05-03T07:32:54.000Z",
       "birthtime": "2019-05-03T07:32:54.000Z"
@@ -2909,7 +2909,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "58295143ea77818a6670716ebbb37df1",
+        "contentDigest": "add116ce8d35aa78e1f24123fa5005a2",
         "type": "Directory",
         "description": "Directory \"static/img\"",
         "owner": "gatsby-source-filesystem"
@@ -2920,9 +2920,9 @@
       "extension": "",
       "size": 1496,
       "prettySize": "1.5 kB",
-      "modifiedTime": "2019-05-03T07:46:22.000Z",
-      "accessTime": "2019-05-03T07:47:06.000Z",
-      "changeTime": "2019-05-03T07:46:22.000Z",
+      "modifiedTime": "2019-05-03T08:12:51.000Z",
+      "accessTime": "2019-05-03T08:24:38.000Z",
+      "changeTime": "2019-05-03T08:12:51.000Z",
       "birthTime": "2019-05-03T07:32:54.000Z",
       "root": "/",
       "dir": "/Users/markgaudiano/Desktop/webriq/webriqpage-jacksaxethrowing/static",
@@ -2939,13 +2939,13 @@
       "blksize": 4096,
       "ino": 16107342,
       "blocks": 0,
-      "atimeMs": 1556869626000,
-      "mtimeMs": 1556869582000,
-      "ctimeMs": 1556869582000,
+      "atimeMs": 1556871878000,
+      "mtimeMs": 1556871171000,
+      "ctimeMs": 1556871171000,
       "birthtimeMs": 1556868774000,
-      "atime": "2019-05-03T07:47:06.000Z",
-      "mtime": "2019-05-03T07:46:22.000Z",
-      "ctime": "2019-05-03T07:46:22.000Z",
+      "atime": "2019-05-03T08:24:38.000Z",
+      "mtime": "2019-05-03T08:12:51.000Z",
+      "ctime": "2019-05-03T08:12:51.000Z",
       "birthtime": "2019-05-03T07:32:54.000Z"
     },
     "8893d8b0-0d46-516a-b7ac-9f280273d6d6": {
@@ -4813,7 +4813,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "adc719b9ced96b2032ec407ecb97b7c0",
+        "contentDigest": "6be51db42dadcaf5d8d0eee18c2e297b",
         "type": "Directory",
         "description": "Directory \"static/data\"",
         "owner": "gatsby-source-filesystem"
@@ -4825,7 +4825,7 @@
       "size": 170,
       "prettySize": "170 B",
       "modifiedTime": "2019-05-03T07:32:54.000Z",
-      "accessTime": "2019-05-03T07:47:06.000Z",
+      "accessTime": "2019-05-03T08:24:38.000Z",
       "changeTime": "2019-05-03T07:32:54.000Z",
       "birthTime": "2019-05-03T07:32:54.000Z",
       "root": "/",
@@ -4843,11 +4843,11 @@
       "blksize": 4096,
       "ino": 16107337,
       "blocks": 0,
-      "atimeMs": 1556869626000,
+      "atimeMs": 1556871878000,
       "mtimeMs": 1556868774000,
       "ctimeMs": 1556868774000,
       "birthtimeMs": 1556868774000,
-      "atime": "2019-05-03T07:47:06.000Z",
+      "atime": "2019-05-03T08:24:38.000Z",
       "mtime": "2019-05-03T07:32:54.000Z",
       "ctime": "2019-05-03T07:32:54.000Z",
       "birthtime": "2019-05-03T07:32:54.000Z"
@@ -5790,8 +5790,8 @@
         "/about-us/",
         "/our-story/",
         "/",
-        "sq--src-components-seo-js",
-        "/404.html"
+        "/404.html",
+        "sq--src-components-seo-js"
       ],
       "86cc39e8-5b20-562b-8d90-deea5ad134b6": [],
       "4f5c1da0-f519-5995-aad4-5e96de75ae9b": [],
