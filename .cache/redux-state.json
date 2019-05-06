@@ -1907,12 +1907,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-05-03T08:24:24.295Z",
+      "buildTime": "2019-05-06T01:19:38.613Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8a6751f56f7ade2d198b64f2b05f07bd",
+        "contentDigest": "8444266ab0c21a984056c8f8f0046acc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2634,7 +2634,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "9e4fb4b3c8d17160017afce71369cd2f",
+        "contentDigest": "a9c6c6ae3b068103df2472a0c20b4df9",
         "type": "Directory",
         "description": "Directory \"posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2646,7 +2646,7 @@
       "size": 170,
       "prettySize": "170 B",
       "modifiedTime": "2019-05-03T07:32:54.000Z",
-      "accessTime": "2019-05-03T08:24:38.000Z",
+      "accessTime": "2019-05-06T01:19:46.000Z",
       "changeTime": "2019-05-03T07:32:54.000Z",
       "birthTime": "2019-05-03T07:32:54.000Z",
       "root": "/",
@@ -2655,7 +2655,7 @@
       "ext": "",
       "name": "posts",
       "relativeDirectory": "..",
-      "dev": 16777218,
+      "dev": 16777219,
       "mode": 16877,
       "nlink": 5,
       "uid": 501,
@@ -2664,11 +2664,11 @@
       "blksize": 4096,
       "ino": 16107280,
       "blocks": 0,
-      "atimeMs": 1556871878000,
+      "atimeMs": 1557105586000,
       "mtimeMs": 1556868774000,
       "ctimeMs": 1556868774000,
       "birthtimeMs": 1556868774000,
-      "atime": "2019-05-03T08:24:38.000Z",
+      "atime": "2019-05-06T01:19:46.000Z",
       "mtime": "2019-05-03T07:32:54.000Z",
       "ctime": "2019-05-03T07:32:54.000Z",
       "birthtime": "2019-05-03T07:32:54.000Z"
@@ -2909,7 +2909,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "add116ce8d35aa78e1f24123fa5005a2",
+        "contentDigest": "caa0cbf58bd450ce5cd01104738ee2d9",
         "type": "Directory",
         "description": "Directory \"static/img\"",
         "owner": "gatsby-source-filesystem"
@@ -2921,7 +2921,7 @@
       "size": 1496,
       "prettySize": "1.5 kB",
       "modifiedTime": "2019-05-03T08:12:51.000Z",
-      "accessTime": "2019-05-03T08:24:38.000Z",
+      "accessTime": "2019-05-06T01:19:46.000Z",
       "changeTime": "2019-05-03T08:12:51.000Z",
       "birthTime": "2019-05-03T07:32:54.000Z",
       "root": "/",
@@ -2930,7 +2930,7 @@
       "ext": "",
       "name": "img",
       "relativeDirectory": "..",
-      "dev": 16777218,
+      "dev": 16777219,
       "mode": 16877,
       "nlink": 44,
       "uid": 501,
@@ -2939,11 +2939,11 @@
       "blksize": 4096,
       "ino": 16107342,
       "blocks": 0,
-      "atimeMs": 1556871878000,
+      "atimeMs": 1557105586000,
       "mtimeMs": 1556871171000,
       "ctimeMs": 1556871171000,
       "birthtimeMs": 1556868774000,
-      "atime": "2019-05-03T08:24:38.000Z",
+      "atime": "2019-05-06T01:19:46.000Z",
       "mtime": "2019-05-03T08:12:51.000Z",
       "ctime": "2019-05-03T08:12:51.000Z",
       "birthtime": "2019-05-03T07:32:54.000Z"
@@ -4813,7 +4813,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "6be51db42dadcaf5d8d0eee18c2e297b",
+        "contentDigest": "9f3a53eef666dbe97c5ff12fb11172f0",
         "type": "Directory",
         "description": "Directory \"static/data\"",
         "owner": "gatsby-source-filesystem"
@@ -4825,7 +4825,7 @@
       "size": 170,
       "prettySize": "170 B",
       "modifiedTime": "2019-05-03T07:32:54.000Z",
-      "accessTime": "2019-05-03T08:24:38.000Z",
+      "accessTime": "2019-05-06T01:19:46.000Z",
       "changeTime": "2019-05-03T07:32:54.000Z",
       "birthTime": "2019-05-03T07:32:54.000Z",
       "root": "/",
@@ -4834,7 +4834,7 @@
       "ext": "",
       "name": "data",
       "relativeDirectory": "..",
-      "dev": 16777218,
+      "dev": 16777219,
       "mode": 16877,
       "nlink": 5,
       "uid": 501,
@@ -4843,11 +4843,11 @@
       "blksize": 4096,
       "ino": 16107337,
       "blocks": 0,
-      "atimeMs": 1556871878000,
+      "atimeMs": 1557105586000,
       "mtimeMs": 1556868774000,
       "ctimeMs": 1556868774000,
       "birthtimeMs": 1556868774000,
-      "atime": "2019-05-03T08:24:38.000Z",
+      "atime": "2019-05-06T01:19:46.000Z",
       "mtime": "2019-05-03T07:32:54.000Z",
       "ctime": "2019-05-03T07:32:54.000Z",
       "birthtime": "2019-05-03T07:32:54.000Z"
@@ -5789,8 +5789,8 @@
         "/blog/how-to-throw-an-axe/",
         "/about-us/",
         "/our-story/",
-        "/",
         "/404.html",
+        "/",
         "sq--src-components-seo-js"
       ],
       "86cc39e8-5b20-562b-8d90-deea5ad134b6": [],
@@ -5810,8 +5810,8 @@
       "MarkdownRemark": [
         null,
         "/blog/",
-        "/",
-        null
+        null,
+        "/"
       ]
     }
   },

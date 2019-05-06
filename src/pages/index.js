@@ -14,6 +14,7 @@ import "izimodal/css/iziModal.min.css";
 import "./index.css";
 import "./pricing.css";
 import Modal from "../components/Modal";
+import ModalBook from "../components/modalbook";
 
 class IndexPage extends React.Component {
 	componentDidMount() {
@@ -738,19 +739,27 @@ class IndexPage extends React.Component {
 					</div>
 				</section>
 				<section id="book" className="component">
-					<p className="d-none d-md-inline-block hero-text">
-						Interested in scheduling a call for your custom quote? Book a call
-						with our founder, Bryan to go over next steps to make your next
-						event or axe throwing league and unforgettable event!
-					</p>
-					<div className="d-flex justify-content-center justify-content-lg-start mt-4">
-						<a
-							className="booknow hvr-pulse"
-							href="https://calendly.com/jacks_axe_throwing"
-							title="Axe Throw booking"
-						>
-							Book A Call
-						</a>
+					<div className="container text-center">
+						<p className="hero-text">
+							Interested in scheduling a call for your custom quote? Book a call
+							with our founder, Bryan to go over next steps to make your next
+							event or axe throwing league and unforgettable event!
+						</p>
+						<div className="d-flex justify-content-center justify-content-lg-start mt-4 text-center">
+							<ModalBook
+								mclass="modalbook"
+								size="lg"
+								btnclass="item-map-play "
+								style={{ height: "100vh" }}
+							>
+								<iframe
+									title="calendly"
+									className="w-100"
+									style={{ height: "90vh" }}
+									src="https://calendly.com/jacks_axe_throwing"
+								/>
+							</ModalBook>
+						</div>
 					</div>
 				</section>
 				<section id="events" className="component bg-dirty-white">
