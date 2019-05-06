@@ -110,6 +110,7 @@ li {
   font-weight: 700 !important;
   border: none !important;
   outline: none !important;
+  box-shadow: none !important;
 }
 .booknow:hover {
   background-color: #ca1524;
