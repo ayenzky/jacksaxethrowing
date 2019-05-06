@@ -738,13 +738,13 @@ class IndexPage extends React.Component {
 						</div>
 					</div>
 				</section>
-				<section id="book" className="component">
+				<section id="book" className="component bg-yellow">
 					<div className="container text-center">
-						<p className="hero-text">
+						<h4 className="my-0 font-weight-normal">
 							Interested in scheduling a call for your custom quote? Book a call
 							with our founder, Bryan to go over next steps to make your next
 							event or axe throwing league and unforgettable event!
-						</p>
+						</h4>
 						<div className="d-flex justify-content-center justify-content-lg-start mt-4 text-center">
 							<ModalBook
 								mclass="modalbook"
