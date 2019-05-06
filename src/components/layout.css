@@ -107,7 +107,7 @@ li {
   padding: 1rem 2rem !important;
   border-radius: 10px !important;
   text-transform: uppercase !important;
-  font-weight: 700;
+  font-weight: 700 !important;
   border: none !important;
   outline: none !important;
 }
