@@ -25,7 +25,7 @@ export default class Vmodal extends Component {
     return (
       <>
         <Button
-          className="booknow mx-auto"
+          className="booknow mx-auto hvr-pulse"
           onClick={this.handleShow}
           role="button"
           aria-label="button"

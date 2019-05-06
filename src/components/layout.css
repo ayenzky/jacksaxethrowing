@@ -102,7 +102,7 @@ li {
 
 .booknow {
   font-family: "Poppins";
-  background-color: #ca1524;
+  background-color: #ca1524 !important;
   color: #fff !important;
   padding: 1rem 2rem;
   border-radius: 10px;
