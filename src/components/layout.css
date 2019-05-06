@@ -104,12 +104,12 @@ li {
   font-family: "Poppins";
   background-color: #ca1524 !important;
   color: #fff !important;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  text-transform: uppercase;
+  padding: 1rem 2rem !important;
+  border-radius: 10px !important;
+  text-transform: uppercase !important;
   font-weight: 700;
-  border: none;
-  outline: none;
+  border: none !important;
+  outline: none !important;
 }
 .booknow:hover {
   background-color: #ca1524;
