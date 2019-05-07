@@ -743,7 +743,7 @@ class IndexPage extends React.Component {
 						<h4 className="my-0 font-weight-normal">
 							Interested in scheduling a call for your custom quote? Book a call
 							with our founder, Bryan to go over next steps to make your next
-							event or axe throwing league and unforgettable event!
+							event or axe throwing league an unforgettable event!
 						</h4>
 						<div className="d-flex justify-content-center justify-content-lg-start mt-4 text-center">
 							<ModalBook
