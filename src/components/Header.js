@@ -166,7 +166,7 @@ export default class Header extends Component {
                         src="/img/001-placeholder.svg"
                         className="mr-2 mt-1"
                       />
-                      <span>625 Paonia Street Colorado springs, CO 80915</span>
+                      <span>Colorado springs, CO 80915</span>
                     </li>
                   </ul>
                 </Col>
