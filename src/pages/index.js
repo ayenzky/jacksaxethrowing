@@ -248,7 +248,7 @@ class IndexPage extends React.Component {
 						<div className="d-flex justify-content-center mt-4">
 							<a
 								className="booknow hvr-pulse"
-								href="https://fareharbor.com/embeds/book/jacksaxethrowing/"
+								href="https://www.peek.com/s/e0375b96-369a-436a-9855-d29bf5c844c6/Mqkjk"
 							>
 								Book Now
 							</a>
@@ -1056,7 +1056,7 @@ class IndexPage extends React.Component {
 						<div className="d-flex justify-content-center mt-4">
 							<a
 								className="booknow hvr-pulse"
-								href="https://fareharbor.com/embeds/book/jacksaxethrowing/"
+								href="https://www.peek.com/s/e0375b96-369a-436a-9855-d29bf5c844c6/Mqkjk"
 							>
 								Book Now
 							</a>
