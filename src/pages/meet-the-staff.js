@@ -57,6 +57,8 @@ I tried to work in Finance, and that was a disaster, then tried government work,
           <div className="col">
             <h4 className="mb-0 mt-md-0">Meet Autumn!</h4>
             <p className="font-weight-bold">Certified Lumberjill</p>
+            <p>Autumn is one of our stellar staff members and is one of the originals of Jack's Axe Throwing when we first started in Colorado Springs. She's probably the nicest person on this planet, and has one of the raddest axe throws on earth. Axe her about it and learn some more!
+When she's not teaching people how to chuck axes, you can find her in school at the University of Colorado, Colorado Springs or at her other job. Make sure to give her a high 10 at the next event!</p>
             <h5 className="mt-0">Why do you love working here?</h5>
         <p>I love working for Jack's Axe Throwing because it's something completely different! Seeing the excitement on people's faces when they finally get an axe to stick is such a great feeling.</p>
         <h5 className="my-0">Fun Fact #1</h5>
