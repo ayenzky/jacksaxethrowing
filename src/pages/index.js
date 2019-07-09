@@ -113,7 +113,7 @@ class IndexPage extends React.Component {
 									Throwing!
 								</p>
 								<div className="d-flex justify-content-start mt-4">
-									<Link to="/why-the-name-jacks" className="booknow hvr-shadow">
+									<Link to="/meet-the-staff#who-is-jack" className="booknow hvr-shadow">
 										read more
 									</Link>
 								</div>
@@ -738,7 +738,7 @@ class IndexPage extends React.Component {
 						</div>
 					</div>
 				</section>
-				<section id="book" className="component bg-yellow">
+				<section id="book" className="component bg-dirty-white">
 					<div className="container text-center">
 						<h4 className="my-0 font-weight-normal">
 							Interested in scheduling a call for your custom quote? Book a call
@@ -762,7 +762,7 @@ class IndexPage extends React.Component {
 						</div>
 					</div>
 				</section>
-				<section id="events" className="component bg-dirty-white">
+				{/*<section id="events" className="component bg-dirty-white">
 					<div className="container-fluid">
 						<div className="intro text-center mb-5">
 							<LazyLoadImage
@@ -1062,7 +1062,7 @@ class IndexPage extends React.Component {
 							</a>
 						</div>
 					</div>
-				</section>
+				</section>*/}
 				<section id="blog" className="component bg-yellow">
 					<div className="container">
 						<div className="intro text-center mb-5">

@@ -16,7 +16,6 @@ class weddingsPage extends React.Component {
         <Container>
           <p>We can offer a customized wedding experience for all!</p>
           <p>Wedding flyer (Downloadable)</p>
-          {/*<p className="text-danger">insert Pic 10</p>*/}
           <p>
             Axe Throwing makes the perfect Bachelor Party Idea, Axe Throwing
             fits the many Lumberjack themed events held in Colorado, Interactive

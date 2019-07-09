@@ -33,8 +33,8 @@ export default class Menu extends Component {
                   </Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Link className="nav-link" to="/why-the-name-jacks">
-                    Why Jack's
+                  <Link className="nav-link" to="/meet-the-staff">
+                    Meet the Staff
                   </Link>
                 </Nav.Item>
                 <Nav.Item>

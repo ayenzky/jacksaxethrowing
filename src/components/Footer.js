@@ -163,7 +163,9 @@ export default () => (
 							<Link to="/our-story">Our Story</Link>
 						</li>
 						<li className="text-white">
-							<Link to="/why-the-name-jacks">Why Jack's?</Link>
+							<Link className="nav-link" to="/meet-the-staff">
+                Meet the Staff
+              </Link>
 						</li>
 						<li className="text-white">
 							<Link to="/about-us">About Us</Link>
