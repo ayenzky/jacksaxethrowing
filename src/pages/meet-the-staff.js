@@ -60,11 +60,11 @@ I tried to work in Finance, and that was a disaster, then tried government work,
         </div>
         <h3>Why do you love working here?</h3>
         <p>I love working for Jack's Axe Throwing because it's something completely different! Seeing the excitement on people's faces when they finally get an axe to stick is such a great feeling.</p>
-        <h5 className="mb-0">Fun Fact #1</h5>
+        <h5 className="my-0">Fun Fact #1</h5>
         <p>I love weight lifting and being in the gym.</p>
-        <h5 className="mb-0">Fun Fact #2</h5>
+        <h5 className="my-0">Fun Fact #2</h5>
         <p>I have the best puppy in the world. She's a border collie/blue healer named Pistol.</p>
-        <h5 className="mb-0">Fun Fact #3</h5>
+        <h5 className="my-0">Fun Fact #3</h5>
         <p>I will never say no to wine and chocolate.</p>
 
           <div id="who-is-jack">
