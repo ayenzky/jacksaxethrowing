@@ -14,31 +14,27 @@ class MeetthePage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title={siteTitle} description={siteDescription} />
         <Container>
-        <div className="row align-items-center mb-4">
+        <div className="row align-items-start mb-5">
           <div className="col-md-3">
             <LazyLoadImage className="mb-0" effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/w_300,c_fill,ar_1:1,g_auto,r_max/v1562637565/jackaxethrowing/luke.jpg" alt="luke"/>
           </div>
           <div className="col">
-            <h4 className="mb-0">Meet Luke!</h4>
-            <p>Jack of all trades</p>
-          </div>
-        </div>
-<p>Luke is our definition of our
-'Jack of All Trades' Luke seems to get it all done around here.
+            <h4 className="mb-0 mt-md-0">Meet Luke!</h4>
+            <p className="font-weight-bold">Jack of all trades</p>
+            <p>Luke is our definition of our 'Jack of All Trades' Luke seems to get it all done around here.
 When Luke is not putting targets together, cutting, cleaning or building any of our crazy games, you can find him on the field teaching you how to throw an axe! Wanna request him at your next event? Mention Luke in your booking and we'll work something out!</p>
 <p>Better yet, ask him about our giant corn hole and his crazy building skills, you won't regret it!</p>
-        <div className="row align-items-center mt-5 mb-4">
+          </div>
+        </div>
+
+        <div className="row align-items-start mb-5">
           <div className="col-md-3">
             <LazyLoadImage className="mb-0" effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/w_300,c_fill,ar_1:1,g_auto,r_max/v1562637565/jackaxethrowing/bryan.jpg" alt="bryan"/>
           </div>
           <div className="col">
-            <h4 className="mb-0">Bryan Rossmanith</h4>
-            <p>Founder & Owner</p>
-          </div>
-        </div>
-        
-      
-        <p>HI there! Name is Bryan, some people call me Jack, but contrary to popular belief, I am not Jack. Jack is all of our inner lumberjacks, and at Jack's Axe Throwing, we allow you to unleash your lumberjack in a controlled funtastic manner.</p>
+            <h4 className="mb-0 mt-md-0">Bryan Rossmanith</h4>
+            <p className="font-weight-bold">Founder & Owner</p>
+            <p>HI there! Name is Bryan, some people call me Jack, but contrary to popular belief, I am not Jack. Jack is all of our inner lumberjacks, and at Jack's Axe Throwing, we allow you to unleash your lumberjack in a controlled funtastic manner.</p>
 
 <p>I got my first swing at axe throwing in Denver, and absolutely loved it. It reminded me of everything I enjoy in life. (Not to brag, but I got a bullseye my first throw ever.) Sports were a huge part of my life growing up, and continue to influence my life in a great way. Axe Throwing reminded me of all of these things. Friends, Community, Fun and a little bit of perceived danger.
 I worked in retail sales, but wanted more challenge, so
@@ -49,16 +45,19 @@ I tried to work in Finance, and that was a disaster, then tried government work,
 <p>After working with large brands at some of the most iconic venues in the world this last year such as Young Professionals Organization, Lowe's, Ford, US Air Force Academy, private concerts with One Republic, among others and event planners of all sizes, being featured in multiple news organizations, radio stations and working with dozens of festivals, breweries and small businesses, we are here to stay for the long haul and excited to bring the the sharpest entertainment option with me wherever I go. Myself and our stellar staff cannot wait to meet you and teach you how to stick it like the great future Lumberjill/jack you are!
 </p>
 <p>Now let's go kick some axe!!</p>
-<div className="row align-items-center mt-5 mb-4">
+          </div>
+        </div>
+        
+      
+        
+<div className="row align-items-start mb-5">
           <div className="col-md-3">
             <LazyLoadImage className="mb-0" effect="blur" src="https://res.cloudinary.com/dsoapbw26/image/upload/w_300,c_fill,ar_1:1,g_auto,r_max/v1562637565/jackaxethrowing/autumn.jpg" alt="autumn"/>
           </div>
           <div className="col">
-            <h4 className="mb-0">Meet Autumn!</h4>
-            <p>Certified Lumberjill</p>
-          </div>
-        </div>
-        <h3>Why do you love working here?</h3>
+            <h4 className="mb-0 mt-md-0">Meet Autumn!</h4>
+            <p className="font-weight-bold">Certified Lumberjill</p>
+            <h5>Why do you love working here?</h5>
         <p>I love working for Jack's Axe Throwing because it's something completely different! Seeing the excitement on people's faces when they finally get an axe to stick is such a great feeling.</p>
         <h5 className="my-0">Fun Fact #1</h5>
         <p>I love weight lifting and being in the gym.</p>
@@ -66,6 +65,9 @@ I tried to work in Finance, and that was a disaster, then tried government work,
         <p>I have the best puppy in the world. She's a border collie/blue healer named Pistol.</p>
         <h5 className="my-0">Fun Fact #3</h5>
         <p>I will never say no to wine and chocolate.</p>
+          </div>
+        </div>
+        
 
           <div id="who-is-jack">
           <h2>Who is Jack?</h2>
