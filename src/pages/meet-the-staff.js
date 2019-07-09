@@ -57,7 +57,7 @@ I tried to work in Finance, and that was a disaster, then tried government work,
           <div className="col">
             <h4 className="mb-0 mt-md-0">Meet Autumn!</h4>
             <p className="font-weight-bold">Certified Lumberjill</p>
-            <h5>Why do you love working here?</h5>
+            <h5 className="mt-0">Why do you love working here?</h5>
         <p>I love working for Jack's Axe Throwing because it's something completely different! Seeing the excitement on people's faces when they finally get an axe to stick is such a great feeling.</p>
         <h5 className="my-0">Fun Fact #1</h5>
         <p>I love weight lifting and being in the gym.</p>
