@@ -103,9 +103,7 @@ export default class Menu extends Component {
                     <Link to="/leagues" className="dropdown-item nav-link">
                       Leagues
                     </Link>
-                    <Link to="/performances" className="dropdown-item nav-link">
-                      Performances
-                    </Link>
+
                     <Link
                       to="/travelling-custom-events-indoors-and-outdoors"
                       className="dropdown-item nav-link"
