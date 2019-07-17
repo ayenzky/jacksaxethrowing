@@ -136,10 +136,7 @@ export default class Menu extends Component {
                   >
                     Denver
                   </Link>
-                  <Link
-                    to="./mobile-axe-throwing"
-                    className="dropdown-item nav-link"
-                  >
+                  <Link to="./vail-aspen" className="dropdown-item nav-link">
                     Vail Valley / Aspen
                   </Link>
                   <Link
