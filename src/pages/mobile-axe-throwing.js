@@ -73,30 +73,6 @@ class mobileAxePage extends React.Component {
                   src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552355366/jackaxethrowing/slide8.jpg"
                 />
               </div>
-              <div className="swiper-slide">
-                <LazyLoadImage
-                  effect="blur"
-                  src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,h_550,w_450/v1563333614/jackaxethrowing/vail-1.jpg"
-                />
-              </div>
-              <div className="swiper-slide">
-                <LazyLoadImage
-                  effect="blur"
-                  src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,h_550,w_450/v1563333614/jackaxethrowing/vail-2.jpg"
-                />
-              </div>
-              <div className="swiper-slide">
-                <LazyLoadImage
-                  effect="blur"
-                  src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,h_550,w_450/v1563333614/jackaxethrowing/vail-3.jpg"
-                />
-              </div>
-              <div className="swiper-slide">
-                <LazyLoadImage
-                  effect="blur"
-                  src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,h_550,w_450/v1563333614/jackaxethrowing/vail-4.jpg"
-                />
-              </div>
             </div>
             <div className="swiper-button-prev" />
             <div className="swiper-button-next" />
