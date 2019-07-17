@@ -73,6 +73,30 @@ class mobileAxePage extends React.Component {
                   src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552355366/jackaxethrowing/slide8.jpg"
                 />
               </div>
+              <div className="swiper-slide">
+                <LazyLoadImage
+                  effect="blur"
+                  src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,h_550,w_450/v1563333614/jackaxethrowing/vail-1.jpg"
+                />
+              </div>
+              <div className="swiper-slide">
+                <LazyLoadImage
+                  effect="blur"
+                  src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,h_550,w_450/v1563333614/jackaxethrowing/vail-2.jpg"
+                />
+              </div>
+              <div className="swiper-slide">
+                <LazyLoadImage
+                  effect="blur"
+                  src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,h_550,w_450/v1563333614/jackaxethrowing/vail-3.jpg"
+                />
+              </div>
+              <div className="swiper-slide">
+                <LazyLoadImage
+                  effect="blur"
+                  src="https://res.cloudinary.com/dsoapbw26/image/upload/c_scale,h_550,w_450/v1563333614/jackaxethrowing/vail-4.jpg"
+                />
+              </div>
             </div>
             <div className="swiper-button-prev" />
             <div className="swiper-button-next" />
@@ -84,6 +108,107 @@ class mobileAxePage extends React.Component {
             >
               Book Now
             </a>
+          </div>
+
+          <p className="mt-5">
+            Let our Vail/Aspen Crew take care of all your entertainment needs.
+            We don't just do Axe throwing, we also have a slew of other
+            lumberjack inspired games: (Checklist these items) Giant Cornhole
+            (4x regulation) Thump the Stump (Hammer and nail game, known in
+            germany as Hammerschaggen), crosscut saw Our setup is fully
+            customizable to meet our clients desire. Our full axe throwing white
+            label package is also availabe in our Vail Valley destination
+            packages. For event inquiry, please fill out this form and a
+            representative will be right with you!{" "}
+          </p>
+
+          <div className="row my-4">
+            <div className="col-md-6 mx-auto bg-yellow p-5">
+              <form
+                name="Form - Vail Valley"
+                method="POST"
+                data-form-id="5d2eb391f3079458ea122f9d"
+                webriq="true"
+              >
+                <div className="form-group">
+                  <label htmlFor="inputName">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    className="form-control form-control-lg p-2"
+                    id="inputName"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="exampleInputEmail1">Email Address</label>
+                  <input
+                    type="email"
+                    name="email"
+                    className="form-control form-control-lg p-2"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter your email"
+                    required
+                  />
+                  <small id="emailHelp" className="form-text text-muted">
+                    We'll never share your email with anyone else.
+                  </small>
+                </div>
+                <div className="form-group">
+                  <label htmlFor="inputPhone">Phone Number</label>
+                  <input
+                    type="text"
+                    name="phone number"
+                    className="form-control form-control-lg p-2"
+                    id="inputPhone"
+                    placeholder="Enter your phone number"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="inputName">Date of Event</label>
+                  <input
+                    type="text"
+                    name="date of event"
+                    className="form-control form-control-lg p-2"
+                    id="inputDate"
+                    placeholder="Enter your Date of Event"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="inputName">Amount of People</label>
+                  <input
+                    type="text"
+                    name="amount of people"
+                    className="form-control form-control-lg p-2"
+                    id="inputAmount"
+                    placeholder="Enter your Amount of People"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <label htmlFor="inputName">Any Special Request</label>
+                  <input
+                    type="text"
+                    name="any special request"
+                    className="form-control form-control-lg p-2"
+                    id="inputRequest"
+                    placeholder="Enter your Special Request"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <div className="webriq-recaptcha" />
+                </div>
+
+                <button type="submit" className="booknow hvr-shadow mt-1">
+                  SUBMIT
+                </button>
+              </form>
+            </div>
           </div>
         </Container>
       </Layout>
