@@ -145,6 +145,11 @@
         "path": "/travelling-custom-events-indoors-and-outdoors/"
     },
     {
+        "componentChunkName": "component---src-pages-vail-aspen-js",
+        "jsonName": "vail-aspen-22c",
+        "path": "/vail-aspen/"
+    },
+    {
         "componentChunkName": "component---src-pages-weddings-js",
         "jsonName": "weddings-c9f",
         "path": "/weddings/"

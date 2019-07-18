@@ -108,7 +108,7 @@ export default class Menu extends Component {
                       to="/travelling-custom-events-indoors-and-outdoors"
                       className="dropdown-item nav-link"
                     >
-                      Travelling Custom Events Indoors and outdoors
+                      Custom Events
                     </Link>
                   </Dropdown.Menu>
                 </Dropdown>
