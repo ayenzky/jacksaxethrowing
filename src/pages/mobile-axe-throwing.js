@@ -221,7 +221,7 @@ class mobileAxePage extends React.Component {
                     <div
                       className="item-event-video"
                       style={{
-                        backgroundImage: "url(./img/mobile-axe-11.jpg)"
+                        backgroundImage: "url(/img/mobile-axe-11.jpg)"
                       }}
                     >
                       <Modal
@@ -254,7 +254,7 @@ class mobileAxePage extends React.Component {
                     <div
                       className="item-event-video"
                       style={{
-                        backgroundImage: "url(./img/mobile-axe-22.jpg)"
+                        backgroundImage: "url(/img/mobile-axe-22.jpg)"
                       }}
                     >
                       <Modal
@@ -288,7 +288,7 @@ class mobileAxePage extends React.Component {
                     <div
                       className="item-event-video"
                       style={{
-                        backgroundImage: "url(./img/mobile-axe-33.jpg)"
+                        backgroundImage: "url(/img/mobile-axe-33.jpg)"
                       }}
                     >
                       <Modal
@@ -320,7 +320,7 @@ class mobileAxePage extends React.Component {
                     <div
                       className="item-event-video"
                       style={{
-                        backgroundImage: "url(./img/mobile-axe-44.jpg)"
+                        backgroundImage: "url(/img/mobile-axe-44.jpg)"
                       }}
                     >
                       <Modal
