@@ -7,6 +7,8 @@ import Swiper from "swiper/dist/js/swiper.esm.bundle";
 import "swiper/dist/css/swiper.min.css";
 import Layout from "../components/Layout";
 import SEO from "../components/seo";
+import Modal from "../components/Modal";
+import "izimodal/css/iziModal.min.css";
 import "./index.css";
 
 class mobileAxePage extends React.Component {
@@ -71,6 +73,30 @@ class mobileAxePage extends React.Component {
                 <LazyLoadImage
                   effect="blur"
                   src="https://res.cloudinary.com/dsoapbw26/image/upload/v1552355366/jackaxethrowing/slide8.jpg"
+                />
+              </div>
+              <div className="swiper-slide">
+                <LazyLoadImage
+                  effect="blur"
+                  src="https://res.cloudinary.com/dsoapbw26/image/upload/w_750,ar_16:9,c_fill,g_auto,e_sharpen/v1563507942/jackaxethrowing/mobile-axe-1.jpg"
+                />
+              </div>
+              <div className="swiper-slide">
+                <LazyLoadImage
+                  effect="blur"
+                  src="https://res.cloudinary.com/dsoapbw26/image/upload/w_750,ar_16:9,c_fill,g_auto,e_sharpen/v1563507942/jackaxethrowing/mobile-axe-2.jpg"
+                />
+              </div>
+              <div className="swiper-slide">
+                <LazyLoadImage
+                  effect="blur"
+                  src="https://res.cloudinary.com/dsoapbw26/image/upload/e_improve,w_450,h_500,c_thumb,g_auto/v1563507942/jackaxethrowing/mobile-axe-3.jpg"
+                />
+              </div>
+              <div className="swiper-slide">
+                <LazyLoadImage
+                  effect="blur"
+                  src="https://res.cloudinary.com/dsoapbw26/image/upload/v1563416944/jackaxethrowing/custom-18.jpg"
                 />
               </div>
             </div>
@@ -184,6 +210,144 @@ class mobileAxePage extends React.Component {
                   SUBMIT
                 </button>
               </form>
+            </div>
+          </div>
+
+          <div className="video-mobile-axe my-5">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-md-6 col-lg-4 mb-2">
+                  <div className="item-event">
+                    <div
+                      className="item-event-video"
+                      style={{
+                        backgroundImage: "url(./img/mobile-axe-11.jpg)"
+                      }}
+                    >
+                      <Modal
+                        mclass="modal-90w"
+                        btnclass="item-event-play"
+                        html=<LazyLoadImage
+                          effect="blur"
+                          src="/img/play-button.svg"
+                          alt="play"
+                        />
+                      >
+                        <iframe
+                          title="video"
+                          className="mb-0"
+                          src="https://player.vimeo.com/video/348972950"
+                          width="100%"
+                          height="500"
+                          scrolling="no"
+                          frameBorder="0"
+                          allowtransparency="true"
+                          allow="encrypted-media"
+                          allowFullScreen={true}
+                        />
+                      </Modal>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-4 mb-2">
+                  <div className="item-event">
+                    <div
+                      className="item-event-video"
+                      style={{
+                        backgroundImage: "url(./img/mobile-axe-22.jpg)"
+                      }}
+                    >
+                      <Modal
+                        mclass="modal-90w"
+                        btnclass="item-event-play"
+                        html=<LazyLoadImage
+                          effect="blur"
+                          src="/img/play-button.svg"
+                          alt="play"
+                        />
+                      >
+                        <iframe
+                          title="video"
+                          className="mb-0"
+                          src="https://player.vimeo.com/video/348973124"
+                          width="100%"
+                          height="600"
+                          scrolling="no"
+                          frameBorder="0"
+                          allowtransparency="true"
+                          allow="encrypted-media"
+                          allowFullScreen={true}
+                        />
+                      </Modal>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-6 col-lg-4 mb-2">
+                  <div className="item-event">
+                    <div
+                      className="item-event-video"
+                      style={{
+                        backgroundImage: "url(./img/mobile-axe-33.jpg)"
+                      }}
+                    >
+                      <Modal
+                        mclass="modal-90w"
+                        btnclass="item-event-play"
+                        html=<LazyLoadImage
+                          effect="blur"
+                          src="/img/play-button.svg"
+                          alt="play"
+                        />
+                      >
+                        <iframe
+                          title="video"
+                          className="mb-0"
+                          src="https://player.vimeo.com/video/348973439"
+                          width="100%"
+                          height="500"
+                          frameBorder="0"
+                          webkitallowfullscreen="true"
+                          mozallowfullscreen="true"
+                          allowFullScreen
+                        />
+                      </Modal>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-6 col-lg-4 mb-2">
+                  <div className="item-event">
+                    <div
+                      className="item-event-video"
+                      style={{
+                        backgroundImage: "url(./img/mobile-axe-44.jpg)"
+                      }}
+                    >
+                      <Modal
+                        mclass="modal-90w"
+                        btnclass="item-event-play"
+                        html=<LazyLoadImage
+                          effect="blur"
+                          src="/img/play-button.svg"
+                          alt="play"
+                        />
+                      >
+                        <iframe
+                          title="video"
+                          className="mb-0"
+                          src="https://player.vimeo.com/video/348973575"
+                          width="100%"
+                          height="395"
+                          frameBorder="0"
+                          webkitallowfullscreen="true"
+                          mozallowfullscreen="true"
+                          allowFullScreen
+                        />
+                      </Modal>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </Container>
