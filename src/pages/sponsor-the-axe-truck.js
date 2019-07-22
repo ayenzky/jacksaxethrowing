@@ -31,7 +31,8 @@ const IMAGES = [
 class axeTruckPage extends React.Component {
   render() {
     const siteTitle = "Sponsor the Axe Truck!";
-    const siteDescription = this.props.data.site.siteMetadata.description;
+    const siteDescription =
+      "Mobile Axe Throwing, Axe Throwing League, axe throwing in colorado";
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
