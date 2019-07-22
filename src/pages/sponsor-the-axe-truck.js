@@ -31,12 +31,18 @@ const IMAGES = [
 class axeTruckPage extends React.Component {
   render() {
     const siteTitle = "Sponsor the Axe Truck!";
-    const siteDescription =
-      "Mobile Axe Throwing, Axe Throwing League, axe throwing in colorado";
+    const siteDescription = this.props.data.site.siteMetadata.description;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={siteTitle} description={siteDescription} />
+        <SEO
+          title={siteTitle}
+          description={siteDescription}
+          keywords={[
+            `Mobile Axe Throwing`,
+            `Axe Throwing League, axe throwing in colorado`
+          ]}
+        />
         <Container>
           <h3>Our sponsors help offset our operating costs,</h3>
 
