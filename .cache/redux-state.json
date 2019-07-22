@@ -2627,12 +2627,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-07-19T07:55:44.183Z",
+      "buildTime": "2019-07-22T06:48:27.923Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "2ec4946afb58b019efa505565a724678",
+        "contentDigest": "fec89a4e15f9dfd95195ab08f2d4e2a3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2642,7 +2642,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "b80d06046c40f2d481fee8a5a6b32934",
+        "contentDigest": "a1c1b0c7d7c14f32453dc72c93d87a29",
         "type": "Directory",
         "description": "Directory \"posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2654,7 +2654,7 @@
       "size": 204,
       "prettySize": "204 B",
       "modifiedTime": "2019-07-17T07:46:37.000Z",
-      "accessTime": "2019-07-19T07:55:51.000Z",
+      "accessTime": "2019-07-22T06:48:32.000Z",
       "changeTime": "2019-07-17T07:46:37.000Z",
       "birthTime": "2019-07-15T05:16:06.000Z",
       "root": "/",
@@ -2672,11 +2672,11 @@
       "blksize": 4096,
       "ino": 21321934,
       "blocks": 0,
-      "atimeMs": 1563522951000,
+      "atimeMs": 1563778112000,
       "mtimeMs": 1563349597000,
       "ctimeMs": 1563349597000,
       "birthtimeMs": 1563167766000,
-      "atime": "2019-07-19T07:55:51.000Z",
+      "atime": "2019-07-22T06:48:32.000Z",
       "mtime": "2019-07-17T07:46:37.000Z",
       "ctime": "2019-07-17T07:46:37.000Z",
       "birthtime": "2019-07-15T05:16:06.000Z"
@@ -2917,7 +2917,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "dbd56acbaf20ce68b52ab2ebe30c8e35",
+        "contentDigest": "d68b2ec3afc618121a7fcbc649571fc3",
         "type": "Directory",
         "description": "Directory \"static/img\"",
         "owner": "gatsby-source-filesystem"
@@ -2929,7 +2929,7 @@
       "size": 1632,
       "prettySize": "1.63 kB",
       "modifiedTime": "2019-07-19T07:44:52.000Z",
-      "accessTime": "2019-07-19T07:55:51.000Z",
+      "accessTime": "2019-07-22T06:48:32.000Z",
       "changeTime": "2019-07-19T07:44:52.000Z",
       "birthTime": "2019-07-15T05:16:06.000Z",
       "root": "/",
@@ -2947,11 +2947,11 @@
       "blksize": 4096,
       "ino": 21321998,
       "blocks": 0,
-      "atimeMs": 1563522951000,
+      "atimeMs": 1563778112000,
       "mtimeMs": 1563522292000,
       "ctimeMs": 1563522292000,
       "birthtimeMs": 1563167766000,
-      "atime": "2019-07-19T07:55:51.000Z",
+      "atime": "2019-07-22T06:48:32.000Z",
       "mtime": "2019-07-19T07:44:52.000Z",
       "ctime": "2019-07-19T07:44:52.000Z",
       "birthtime": "2019-07-15T05:16:06.000Z"
@@ -4878,7 +4878,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "340e09565ab3a13c6c14dbd2897004ec",
+        "contentDigest": "69ab5d0be681f0ef0032c361397cbbad",
         "type": "Directory",
         "description": "Directory \"static/data\"",
         "owner": "gatsby-source-filesystem"
@@ -4890,7 +4890,7 @@
       "size": 204,
       "prettySize": "204 B",
       "modifiedTime": "2019-07-17T07:47:37.000Z",
-      "accessTime": "2019-07-19T07:55:51.000Z",
+      "accessTime": "2019-07-22T06:48:32.000Z",
       "changeTime": "2019-07-17T07:47:37.000Z",
       "birthTime": "2019-07-15T05:16:06.000Z",
       "root": "/",
@@ -4908,11 +4908,11 @@
       "blksize": 4096,
       "ino": 21321993,
       "blocks": 0,
-      "atimeMs": 1563522951000,
+      "atimeMs": 1563778112000,
       "mtimeMs": 1563349657000,
       "ctimeMs": 1563349657000,
       "birthtimeMs": 1563167766000,
-      "atime": "2019-07-19T07:55:51.000Z",
+      "atime": "2019-07-22T06:48:32.000Z",
       "mtime": "2019-07-17T07:47:37.000Z",
       "ctime": "2019-07-17T07:47:37.000Z",
       "birthtime": "2019-07-15T05:16:06.000Z"
@@ -5910,6 +5910,26 @@
         "owner": "internal-data-bridge"
       }
     },
+    "SitePage /sponsor-the-axe-truck/": {
+      "jsonName": "sponsor-the-axe-truck-70f",
+      "internalComponentName": "ComponentSponsorTheAxeTruck",
+      "path": "/sponsor-the-axe-truck/",
+      "component": "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/sponsor-the-axe-truck.js",
+      "componentChunkName": "component---src-pages-sponsor-the-axe-truck-js",
+      "context": {},
+      "pluginCreator___NODE": "45ebae6e-bc98-58b5-9733-3dc9f9079403",
+      "pluginCreatorId": "45ebae6e-bc98-58b5-9733-3dc9f9079403",
+      "componentPath": "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/sponsor-the-axe-truck.js",
+      "id": "SitePage /sponsor-the-axe-truck/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a9a0d48a589388c7ea854fb881d875f9",
+        "description": "45ebae6e-bc98-58b5-9733-3dc9f9079403",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /thank-you/": {
       "jsonName": "thank-you-a93",
       "internalComponentName": "ComponentThankYou",
@@ -6048,6 +6068,7 @@
         "/travelling-custom-events-indoors-and-outdoors/",
         "/mobile-axe-throwing/",
         "/404.html",
+        "/sponsor-the-axe-truck/",
         "sq--src-components-seo-js"
       ],
       "86cc39e8-5b20-562b-8d90-deea5ad134b6": [
@@ -6102,7 +6123,8 @@
     "blog-how-to-throw-an-axe-4f3": "371/path---blog-how-to-throw-an-axe-4-f-3-1c8-v3QFb7Hj6zCKOcMjgsFq9ohMhI",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "meet-the-staff-a7f": "365/path---meet-the-staff-a-7-f-3f7-eyYpP2v5rCBrVe0k28T4oBDHIk",
-    "vail-aspen-22c": "692/path---vail-aspen-22-c-802-eyYpP2v5rCBrVe0k28T4oBDHIk"
+    "vail-aspen-22c": "692/path---vail-aspen-22-c-802-eyYpP2v5rCBrVe0k28T4oBDHIk",
+    "sponsor-the-axe-truck-70f": "505/path---sponsor-the-axe-truck-70-f-d81-eyYpP2v5rCBrVe0k28T4oBDHIk"
   },
   "components": {
     "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/templates/blog-post.js": {
@@ -6216,6 +6238,10 @@
     "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/weddings.js": {
       "query": "query weddingsPageQuery {\n  site {\n    siteMetadata {\n      title\n      author\n      description\n    }\n  }\n}\n",
       "componentPath": "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/weddings.js"
+    },
+    "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/sponsor-the-axe-truck.js": {
+      "query": "query axeTruckPageQuery {\n  site {\n    siteMetadata {\n      title\n      author\n      description\n    }\n  }\n}\n",
+      "componentPath": "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/sponsor-the-axe-truck.js"
     }
   },
   "staticQueryComponents": {

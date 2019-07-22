@@ -151,6 +151,9 @@ export default class Menu extends Component {
                   </Link>
                 </NavDropdown>
                 <Nav.Item>
+                  <Link className="nav-link" to="/sponsor-the-axe-truck">
+                    Sponsor the Axe Truck!
+                  </Link>
                   <Link className="nav-link" to="/contact">
                     Contact Us
                   </Link>
