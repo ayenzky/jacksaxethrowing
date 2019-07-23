@@ -34,13 +34,22 @@ class vailAspenPage extends React.Component {
           <p className="mt-5">
             Let our Vail/Aspen Crew take care of all your entertainment needs.
             We don't just do Axe throwing, we also have a slew of other
-            lumberjack inspired games: (Checklist these items) Giant Cornhole
-            (4x regulation) Thump the Stump (Hammer and nail game, known in
-            germany as Hammerschaggen), crosscut saw Our setup is fully
-            customizable to meet our clients desire. Our full axe throwing white
-            label package is also availabe in our Vail Valley destination
-            packages. For event inquiry, please fill out this form and a
-            representative will be right with you!{" "}
+            lumberjack inspired games:
+          </p>
+          <ul className="list-unstyled checked">
+            <li>Giant Cornhole (4x regulation)</li>
+            <li>
+              Thump the Stump (Hammer and nail game, known in germany as
+              Hammerschaggen)
+            </li>
+            <li>
+              crosscut saw Our setup is fully customizable to meet our clients
+              desire
+            </li>
+          </ul>
+          <p>
+            Our full axe throwing white label package is also availabe in our
+            Vail Valley destination packages.
           </p>
 
           <div className="swiper-container mt-5">
@@ -76,6 +85,10 @@ class vailAspenPage extends React.Component {
 
           <div className="row my-4">
             <div className="col-md-6 mx-auto bg-yellow p-5">
+              <p>
+                For event inquiry, please fill out this form and a
+                representative will be right with you!
+              </p>
               <form
                 name="Form - Vail Valley"
                 method="POST"
