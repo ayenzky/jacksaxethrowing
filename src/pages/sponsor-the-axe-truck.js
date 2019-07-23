@@ -57,7 +57,7 @@ class axeTruckPage extends React.Component {
 
           <div className="fluid my-4">
             <Row>
-              <Col>
+              <Col sm="12">
                 <Gallery images={IMAGES} />
               </Col>
             </Row>

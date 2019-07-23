@@ -327,3 +327,13 @@ li {
     margin-left: 0 !important;
   }
 }
+
+@media (max-width: 500px) {
+  .ReactGridGallery_tile-viewport {
+    width: 462px !important;
+    margin-left: 0 !important;
+  }
+  .ReactGridGallery_tile-viewport img {
+    width: 457px !important;
+  }
+}
