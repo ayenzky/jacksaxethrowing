@@ -12,21 +12,27 @@ const IMAGES = [
     src:
       "https://res.cloudinary.com/dsoapbw26/image/upload/v1563775943/jackaxethrowing/axe-truck-img-1.jpg",
     thumbnail:
-      "https://res.cloudinary.com/dsoapbw26/image/upload/c_thumb,w_200,g_face/v1563775943/jackaxethrowing/axe-truck-img-1.jpg",
+      "https://res.cloudinary.com/dsoapbw26/image/upload/v1563775943/jackaxethrowing/axe-truck-img-1.jpg",
+    thumbnailWidth: 900,
+    thumbnailHeight: 400,
     alt: "Mobile Axe Throwing, Axe Throwing League, axe throwing in colorado"
   },
   {
     src:
       "https://res.cloudinary.com/dsoapbw26/image/upload/v1563775943/jackaxethrowing/axe-truck-img-2.jpg",
     thumbnail:
-      "https://res.cloudinary.com/dsoapbw26/image/upload/c_thumb,w_200,g_face/v1563775943/jackaxethrowing/axe-truck-img-2.jpg",
+      "https://res.cloudinary.com/dsoapbw26/image/upload/v1563775943/jackaxethrowing/axe-truck-img-2.jpg",
+    thumbnailWidth: 900,
+    thumbnailHeight: 400,
     alt: "Mobile Axe Throwing, Axe Throwing League, axe throwing in colorado"
   },
   {
     src:
       "https://res.cloudinary.com/dsoapbw26/image/upload/v1563775943/jackaxethrowing/axe-truck-img-3.jpg",
     thumbnail:
-      "https://res.cloudinary.com/dsoapbw26/image/upload/c_thumb,w_200,g_face/v1563775943/jackaxethrowing/axe-truck-img-3.jpg",
+      "https://res.cloudinary.com/dsoapbw26/image/upload/v1563775943/jackaxethrowing/axe-truck-img-3.jpg",
+    thumbnailWidth: 900,
+    thumbnailHeight: 400,
     alt: "Mobile Axe Throwing, Axe Throwing League, axe throwing in colorado"
   }
 ];
@@ -51,7 +57,7 @@ class axeTruckPage extends React.Component {
 
           <div className="fluid my-4">
             <Row>
-              <Col sm="12">
+              <Col>
                 <Gallery images={IMAGES} />
               </Col>
             </Row>
