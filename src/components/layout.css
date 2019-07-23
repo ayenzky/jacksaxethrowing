@@ -336,4 +336,7 @@ li {
   .ReactGridGallery_tile-viewport img {
     width: 457px !important;
   }
+  .ReactGridGallery_tile {
+    margin-bottom: 10px !important;
+  }
 }
