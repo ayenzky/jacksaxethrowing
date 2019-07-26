@@ -6,7 +6,7 @@
 }
 
 .hero::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -80px;
   width: 100%;
@@ -29,7 +29,7 @@
 }
 
 .video-background::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -45,7 +45,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .hero-content {
@@ -79,7 +79,7 @@
 }
 
 .hero-main-bg {
-  background: url(../../static/img/heromain.jpg) no-repeat;
+  background: url(../../static/img/heromain-1.jpg) no-repeat;
   background-size: cover;
   position: fixed;
   top: 0;
@@ -88,7 +88,7 @@
   z-index: -1;
 }
 .hero-main::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -50px;
   width: 100%;
@@ -105,7 +105,7 @@
   transition: 400ms ease-in-out;
 }
 .sticky .menu-container {
-  background: #050F28;
+  background: #050f28;
   z-index: 999;
   width: 100%;
   padding: 0.75rem 0 !important;
@@ -121,13 +121,11 @@
 
 .sticky .nav-brand img {
   max-width: 50px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-
 /*  end of hero  */
-
 
 @media (min-width: 568px) {
   .hero-heading {
@@ -141,31 +139,25 @@
   }
 }
 
-
-@media (min-width:768px) {
-
+@media (min-width: 768px) {
   .hero-main {
     padding: 150px 0 120px 0;
   }
 }
 
-
-
-@media (min-width: 812px) and (max-width:991px) {
+@media (min-width: 812px) and (max-width: 991px) {
   .hero-heading {
     font-size: 48.83px !important;
   }
 }
 
-@media (min-width: 812px) and (max-width:991px) {
+@media (min-width: 812px) and (max-width: 991px) {
   .hero-subheading {
     font-size: 31.25px !important;
   }
 }
 
 @media (min-width: 992px) {
-
-
   .hero-heading {
     font-size: 68.66px !important;
   }
@@ -174,9 +166,7 @@
     font-size: 31.25px !important;
     color: #fcee21;
   }
-
 }
-
 
 @media (min-width: 1200px) {
   .hero {

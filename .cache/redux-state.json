@@ -2639,12 +2639,20 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
+<<<<<<< HEAD
       "buildTime": "2019-07-23T02:44:22.957Z",
+=======
+      "buildTime": "2019-07-23T05:36:47.773Z",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "d88ace73098ab2ef085ff61f1c971c6e",
+=======
+        "contentDigest": "3743bb60cd1cf4635cea67d8b8740bbb",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2654,7 +2662,11 @@
       "children": [],
       "parent": null,
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "b9e659b9f6567df6e470829a202b26a1",
+=======
+        "contentDigest": "0b46de47dda3dcc741ae0dd0056b05a1",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
         "type": "Directory",
         "description": "Directory \"posts\"",
         "owner": "gatsby-source-filesystem"
@@ -2666,7 +2678,11 @@
       "size": 204,
       "prettySize": "204 B",
       "modifiedTime": "2019-07-17T07:46:37.000Z",
+<<<<<<< HEAD
       "accessTime": "2019-07-23T02:44:28.000Z",
+=======
+      "accessTime": "2019-07-23T05:36:53.000Z",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
       "changeTime": "2019-07-17T07:46:37.000Z",
       "birthTime": "2019-07-15T05:16:06.000Z",
       "root": "/",
@@ -2684,11 +2700,19 @@
       "blksize": 4096,
       "ino": 21321934,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1563849868000,
       "mtimeMs": 1563349597000,
       "ctimeMs": 1563349597000,
       "birthtimeMs": 1563167766000,
       "atime": "2019-07-23T02:44:28.000Z",
+=======
+      "atimeMs": 1563860213000,
+      "mtimeMs": 1563349597000,
+      "ctimeMs": 1563349597000,
+      "birthtimeMs": 1563167766000,
+      "atime": "2019-07-23T05:36:53.000Z",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
       "mtime": "2019-07-17T07:46:37.000Z",
       "ctime": "2019-07-17T07:46:37.000Z",
       "birthtime": "2019-07-15T05:16:06.000Z"
@@ -2929,7 +2953,11 @@
       "children": [],
       "parent": null,
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "02f69700ba2f8460d7e23366747f1a13",
+=======
+        "contentDigest": "70de47c7cc24c7b99adaae50fd6d8be8",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
         "type": "Directory",
         "description": "Directory \"static/img\"",
         "owner": "gatsby-source-filesystem"
@@ -2941,7 +2969,11 @@
       "size": 1632,
       "prettySize": "1.63 kB",
       "modifiedTime": "2019-07-19T07:44:52.000Z",
+<<<<<<< HEAD
       "accessTime": "2019-07-23T02:44:28.000Z",
+=======
+      "accessTime": "2019-07-23T05:36:53.000Z",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
       "changeTime": "2019-07-19T07:44:52.000Z",
       "birthTime": "2019-07-15T05:16:06.000Z",
       "root": "/",
@@ -2959,11 +2991,19 @@
       "blksize": 4096,
       "ino": 21321998,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1563849868000,
       "mtimeMs": 1563522292000,
       "ctimeMs": 1563522292000,
       "birthtimeMs": 1563167766000,
       "atime": "2019-07-23T02:44:28.000Z",
+=======
+      "atimeMs": 1563860213000,
+      "mtimeMs": 1563522292000,
+      "ctimeMs": 1563522292000,
+      "birthtimeMs": 1563167766000,
+      "atime": "2019-07-23T05:36:53.000Z",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
       "mtime": "2019-07-19T07:44:52.000Z",
       "ctime": "2019-07-19T07:44:52.000Z",
       "birthtime": "2019-07-15T05:16:06.000Z"
@@ -5118,7 +5158,11 @@
       "children": [],
       "parent": null,
       "internal": {
+<<<<<<< HEAD
         "contentDigest": "4d91614f065d508e058d71a015879d2c",
+=======
+        "contentDigest": "0b931785f21f56a9c649f4cb3c6f48b0",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
         "type": "Directory",
         "description": "Directory \"static/data\"",
         "owner": "gatsby-source-filesystem"
@@ -5130,7 +5174,11 @@
       "size": 204,
       "prettySize": "204 B",
       "modifiedTime": "2019-07-17T07:47:37.000Z",
+<<<<<<< HEAD
       "accessTime": "2019-07-23T02:44:28.000Z",
+=======
+      "accessTime": "2019-07-23T05:36:53.000Z",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
       "changeTime": "2019-07-17T07:47:37.000Z",
       "birthTime": "2019-07-15T05:16:06.000Z",
       "root": "/",
@@ -5148,11 +5196,19 @@
       "blksize": 4096,
       "ino": 21321993,
       "blocks": 0,
+<<<<<<< HEAD
       "atimeMs": 1563849868000,
       "mtimeMs": 1563349657000,
       "ctimeMs": 1563349657000,
       "birthtimeMs": 1563167766000,
       "atime": "2019-07-23T02:44:28.000Z",
+=======
+      "atimeMs": 1563860213000,
+      "mtimeMs": 1563349657000,
+      "ctimeMs": 1563349657000,
+      "birthtimeMs": 1563167766000,
+      "atime": "2019-07-23T05:36:53.000Z",
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
       "mtime": "2019-07-17T07:47:37.000Z",
       "ctime": "2019-07-17T07:47:37.000Z",
       "birthtime": "2019-07-15T05:16:06.000Z"
@@ -6022,24 +6078,61 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /404.html": {
-      "jsonName": "404-html-516",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "pluginCreatorId": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-      "componentPath": "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/404.js",
-      "id": "SitePage /404.html",
+    "94f8bee7-cd2e-5d0d-b1d8-0c39a94ec20f": {
+      "id": "94f8bee7-cd2e-5d0d-b1d8-0c39a94ec20f",
+      "children": [
+        "4fee9728-2f92-5b2e-8c1b-ff002936f8df"
+      ],
       "parent": null,
-      "children": [],
       "internal": {
-        "type": "SitePage",
-        "contentDigest": "adfde345cd73d4617415afdd280afdea",
-        "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
-        "owner": "internal-data-bridge"
+        "contentDigest": "db2dee73b945aea3fc607eb7183faf4b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"static/img/heromain-1.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "image_assets",
+      "absolutePath": "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/static/img/heromain-1.jpg",
+      "relativePath": "heromain-1.jpg",
+      "extension": "jpg",
+      "size": 228612,
+      "prettySize": "229 kB",
+      "modifiedTime": "2019-07-23T06:13:46.000Z",
+      "accessTime": "2019-07-23T06:13:50.000Z",
+      "changeTime": "2019-07-23T06:13:50.000Z",
+      "birthTime": "2019-07-23T06:03:23.000Z",
+      "root": "/",
+      "dir": "/Users/anlinerleona/code/webriqpage-jacksaxethrowing/static/img",
+      "base": "heromain-1.jpg",
+      "ext": ".jpg",
+      "name": "heromain-1",
+      "relativeDirectory": "",
+      "dev": 16777218,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 21546130,
+      "blocks": 448,
+      "atimeMs": 1563862430000,
+      "mtimeMs": 1563862426000,
+      "ctimeMs": 1563862430000,
+      "birthtimeMs": 1563861803000,
+      "atime": "2019-07-23T06:13:50.000Z",
+      "mtime": "2019-07-23T06:13:46.000Z",
+      "ctime": "2019-07-23T06:13:50.000Z",
+      "birthtime": "2019-07-23T06:03:23.000Z"
+    },
+    "4fee9728-2f92-5b2e-8c1b-ff002936f8df": {
+      "id": "4fee9728-2f92-5b2e-8c1b-ff002936f8df",
+      "children": [],
+      "parent": "94f8bee7-cd2e-5d0d-b1d8-0c39a94ec20f",
+      "internal": {
+        "contentDigest": "db2dee73b945aea3fc607eb7183faf4b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     }
   },
@@ -6077,10 +6170,13 @@
         "/meet-the-staff/",
         "/our-story/",
         "/mobile-axe-throwing/",
+<<<<<<< HEAD
         "/travelling-custom-events-indoors-and-outdoors/",
         "/services/",
         "/",
         "/sponsor-the-axe-truck/",
+=======
+>>>>>>> 7a31e32efe32392692095cb9d1f7c80b18abb0de
         "sq--src-components-seo-js"
       ],
       "86cc39e8-5b20-562b-8d90-deea5ad134b6": [
