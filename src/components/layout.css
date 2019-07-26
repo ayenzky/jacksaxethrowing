@@ -308,3 +308,35 @@ li {
   -webkit-transform: scale(1.25);
   transform: scale(1.25);
 }
+
+.ReactGridGallery_tile-viewport {
+  height: 370px !important;
+}
+
+.ReactGridGallery_tile-viewport img {
+  height: 58vh !important;
+  margin-left: 0 !important;
+}
+
+@media (max-width: 992px) {
+  .ReactGridGallery_tile-viewport {
+    height: 286px !important;
+  }
+  .ReactGridGallery_tile-viewport img {
+    height: 43vh !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .ReactGridGallery_tile-viewport {
+    width: 462px !important;
+    margin-left: 0 !important;
+  }
+  .ReactGridGallery_tile-viewport img {
+    width: 457px !important;
+  }
+  .ReactGridGallery_tile {
+    margin-bottom: 10px !important;
+  }
+}

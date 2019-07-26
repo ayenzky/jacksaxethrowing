@@ -26,6 +26,7 @@ exports.components = {
   "component---src-pages-performances-js": () => import("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/performances.js" /* webpackChunkName: "component---src-pages-performances-js" */),
   "component---src-pages-pricing-js": () => import("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/pricing.js" /* webpackChunkName: "component---src-pages-pricing-js" */),
   "component---src-pages-services-js": () => import("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/services.js" /* webpackChunkName: "component---src-pages-services-js" */),
+  "component---src-pages-sponsor-the-axe-truck-js": () => import("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/sponsor-the-axe-truck.js" /* webpackChunkName: "component---src-pages-sponsor-the-axe-truck-js" */),
   "component---src-pages-thank-you-js": () => import("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/thank-you.js" /* webpackChunkName: "component---src-pages-thank-you-js" */),
   "component---src-pages-travelling-custom-events-indoors-and-outdoors-js": () => import("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/travelling-custom-events-indoors-and-outdoors.js" /* webpackChunkName: "component---src-pages-travelling-custom-events-indoors-and-outdoors-js" */),
   "component---src-pages-vail-aspen-js": () => import("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/vail-aspen.js" /* webpackChunkName: "component---src-pages-vail-aspen-js" */),
