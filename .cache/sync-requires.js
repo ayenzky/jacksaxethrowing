@@ -29,6 +29,7 @@ exports.components = {
   "component---src-pages-performances-js": hot(preferDefault(require("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/performances.js"))),
   "component---src-pages-pricing-js": hot(preferDefault(require("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/pricing.js"))),
   "component---src-pages-services-js": hot(preferDefault(require("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/services.js"))),
+  "component---src-pages-sponsor-the-axe-truck-js": hot(preferDefault(require("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/sponsor-the-axe-truck.js"))),
   "component---src-pages-thank-you-js": hot(preferDefault(require("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/thank-you.js"))),
   "component---src-pages-travelling-custom-events-indoors-and-outdoors-js": hot(preferDefault(require("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/travelling-custom-events-indoors-and-outdoors.js"))),
   "component---src-pages-vail-aspen-js": hot(preferDefault(require("/Users/anlinerleona/code/webriqpage-jacksaxethrowing/src/pages/vail-aspen.js"))),

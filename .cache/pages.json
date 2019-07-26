@@ -130,6 +130,11 @@
         "path": "/services/"
     },
     {
+        "componentChunkName": "component---src-pages-sponsor-the-axe-truck-js",
+        "jsonName": "sponsor-the-axe-truck-70f",
+        "path": "/sponsor-the-axe-truck/"
+    },
+    {
         "componentChunkName": "component---src-pages-thank-you-js",
         "jsonName": "thank-you-a93",
         "path": "/thank-you/"

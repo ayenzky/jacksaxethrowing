@@ -35,7 +35,7 @@ export default class Hero extends Component {
                   Colorado's Premiere Mobile
                 </h3>
                 <h3 className="hero-subheading m-0">Axe Throwing Company</h3>
-                <h3 className="hero-subheading">
+                <h3 className="hero-subheading mt-3">
                   Providing memorable experiences for all ages.{" "}
                 </h3>
                 <p className="d-none d-md-inline-block hero-text">
