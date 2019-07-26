@@ -29,14 +29,11 @@ export default class Hero extends Component {
                 className="text-center text-lg-left align-self-center"
               >
                 <h1 className="hero-heading">
-                  Jack's Axe Throwing COS. Locally Owned and Operated.
+                  Colorado's Premiere Mobile Axe Throwing Company
                 </h1>
-                <h3 className="hero-subheading mb-0">
-                  Colorado's Premiere Mobile
-                </h3>
-                <h3 className="hero-subheading m-0">Axe Throwing Company</h3>
-                <h3 className="hero-subheading mt-3">
-                  Providing memorable experiences for all ages.{" "}
+
+                <h3 className="hero-subheading">
+                  Providing memorable experiences for all ages.
                 </h3>
                 <p className="d-none d-md-inline-block hero-text">
                   We are proud to be the first axe throwing entertainment
