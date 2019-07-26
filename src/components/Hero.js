@@ -31,17 +31,9 @@ export default class Hero extends Component {
                 <h1 className="hero-heading">
                   Colorado's Premiere Mobile Axe Throwing Company
                 </h1>
-<<<<<<< HEAD
 
                 <h3 className="hero-subheading">
-=======
-                <h3 className="hero-subheading mb-0">
-                  Colorado's Premiere Mobile
-                </h3>
-                <h3 className="hero-subheading m-0">Axe Throwing Company</h3>
-                <h3 className="hero-subheading mt-3">
->>>>>>> aaeea121e6d424eaf6cd85bfe839376fbf7977cd
-                  Providing memorable experiences for all ages.{" "}
+                  Providing memorable experiences for all ages.
                 </h3>
                 <p className="d-none d-md-inline-block hero-text">
                   We are proud to be the first axe throwing entertainment
