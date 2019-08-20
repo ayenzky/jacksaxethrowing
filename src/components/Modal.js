@@ -2,28 +2,35 @@ import React, { Component } from 'react'
 import { Modal, Button } from "react-bootstrap";
 
 export default class Vmodal extends Component {
-  componentDidMount() {
-      if(window) {
-        const jqscript = document.createElement("script");
-        jqscript.src= `https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js`
-        document.body.appendChild(jqscript);
+  constructor(props, context) {
+    super(props, context);
 
-        const iziscript = document.createElement("script");
-        iziscript.src= `https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js`
-        document.body.appendChild(iziscript);
+    this.handleShow = this.handleShow.bind(this);
+    this.handleClose = this.handleClose.bind(this);
 
-    }
+    this.state = {
+      show: false,
+    };
+  }
+
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
   }
   
   render () {
     return (
         <>
-        <Modal className="modal fade" id={this.props.modalId}>
-          <Modal.Header closeButton className="pl-5 border-0 pt-2">
-            <h3 className="modal-title mt-0">Leaving Already?</h3>
-          </Modal.Header>
-          <Modal.Body className="bg-yellow px-5 pb-4">
-            test
+        <Button className={this.props.btnclass} onClick={this.handleShow} role="button" aria-label="button">
+          {this.props.html}
+        </Button>
+        <Modal size={this.props.size} show={this.state.show} onHide={this.handleClose} dialogClassName={this.props.mclass} centered>
+          <Button className="close"/>
+          <Modal.Body className="p-0">
+            {this.props.children}
           </Modal.Body>
         </Modal>
       </>

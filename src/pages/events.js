@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import { Container } from "react-bootstrap";
 import Layout from '../components/Layout'
-import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import SEO from '../components/seo'
 import './index.css'
 

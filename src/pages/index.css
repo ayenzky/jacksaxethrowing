@@ -5,8 +5,9 @@
 }
 
 .mission li {
-  padding-left: 55px;
+  padding-left: 35px;
   background: url(../../static/img/checked.svg) no-repeat left 2px;
+  background-size: 26px;
 }
 
 #about {
@@ -31,6 +32,7 @@
   border-radius: 10px;
   transition: 400ms ease-in-out;
   position: relative;
+  height: 100%;
 }
 
 #services .offer:hover {
@@ -43,6 +45,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  box-shadow: none !important;
 }
 
 /* Why Jack */
@@ -84,8 +87,9 @@
   position: relative;
 }
 
-.item-event-play {
-  background-color: rgba(0, 0, 0, 0.49);
+.item-event-play, .item-map-play {
+  background-color: rgba(0, 0, 0, 0.49) !important;
+  border:none !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,10 +98,20 @@
   height: 100%;
   transition: 400ms ease-in-out;
   opacity: 0;
+  cursor: pointer;
 }
 
-.item-event-play:hover {
+.item-event-play:hover, .item-map-play:hover {
   opacity: 1;
+}
+
+.item-map-background {
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.item:hover .item-map-background {
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
 }
 
 /* blog */
@@ -124,7 +138,7 @@
 
 .item-blog-title {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   padding: 1.5rem;
   bottom: 0;
 }
@@ -144,6 +158,51 @@
 .modal-iframe .iziModal-header-title {
   color: #051129 !important;
   font-size: 2em !important;
+}
+
+
+.iziModal-navigate button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#contact {
+  padding-bottom: 100px;
+}
+
+#contact .swiper-container {
+  z-index: 0;
+}
+
+.festival-logos {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  overflow: hidden;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+  background-color: #f8f9fa;
+  margin: auto;
+  transition: transform 500ms ease-in-out;
+}
+.festival-logos:hover {
+  transform:rotate(360deg);
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: #051129;
+  width: 12px;
+  height: 12px;
+}
+@media (min-width: 568px) {
+  .mission li {
+    padding-left: 55px;
+    background-size: unset;
+  }
 }
 
 @media (min-width: 731px) {
@@ -181,7 +240,7 @@
 @media (min-width: 731px) {
   .item-blog-content {
     margin-left: -2rem;
-    z-index: 1;
+    z-index: 0;
     width: 50%;
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -214,5 +273,3 @@
     background-position: right top;
   }
 }
-
-

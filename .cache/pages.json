@@ -20,6 +20,16 @@
         "path": "/about-us/"
     },
     {
+        "componentChunkName": "component---src-pages-bachelorette-parties-js",
+        "jsonName": "bachelorette-parties-33e",
+        "path": "/bachelorette-parties/"
+    },
+    {
+        "componentChunkName": "component---src-pages-birthday-parties-js",
+        "jsonName": "birthday-parties-1d2",
+        "path": "/birthday-parties/"
+    },
+    {
         "componentChunkName": "component---src-pages-blog-js",
         "jsonName": "blog-f7a",
         "path": "/blog/"
@@ -40,9 +50,39 @@
         "path": "/blog/how-to-throw-an-axe/"
     },
     {
+        "componentChunkName": "component---src-pages-book-online-1-js",
+        "jsonName": "book-online-1-1e9",
+        "path": "/book-online-1/"
+    },
+    {
+        "componentChunkName": "component---src-pages-contact-js",
+        "jsonName": "contact-26a",
+        "path": "/contact/"
+    },
+    {
+        "componentChunkName": "component---src-pages-corporate-events-js",
+        "jsonName": "corporate-events-7b1",
+        "path": "/corporate-events/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-pages-events-js",
         "jsonName": "events-0dc",
         "path": "/events/"
+    },
+    {
+        "componentChunkName": "component---src-pages-family-reunions-js",
+        "jsonName": "family-reunions-07c",
+        "path": "/family-reunions/"
+    },
+    {
+        "componentChunkName": "component---src-pages-festivals-js",
+        "jsonName": "festivals-d25",
+        "path": "/festivals/"
     },
     {
         "componentChunkName": "component---src-pages-leagues-js",
@@ -50,9 +90,29 @@
         "path": "/leagues/"
     },
     {
-        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-        "jsonName": "offline-plugin-app-shell-fallback-a30",
-        "path": "/offline-plugin-app-shell-fallback/"
+        "componentChunkName": "component---src-pages-lumberjack-axe-co-js",
+        "jsonName": "lumberjack-axe-co-c51",
+        "path": "/lumberjack-axe-co/"
+    },
+    {
+        "componentChunkName": "component---src-pages-meet-the-staff-js",
+        "jsonName": "meet-the-staff-a7f",
+        "path": "/meet-the-staff/"
+    },
+    {
+        "componentChunkName": "component---src-pages-mobile-axe-throwing-js",
+        "jsonName": "mobile-axe-throwing-75e",
+        "path": "/mobile-axe-throwing/"
+    },
+    {
+        "componentChunkName": "component---src-pages-mobile-events-js",
+        "jsonName": "mobile-events-d58",
+        "path": "/mobile-events/"
+    },
+    {
+        "componentChunkName": "component---src-pages-non-profit-events-js",
+        "jsonName": "non-profit-events-aa8",
+        "path": "/non-profit-events/"
     },
     {
         "componentChunkName": "component---src-pages-our-story-js",
@@ -60,13 +120,43 @@
         "path": "/our-story/"
     },
     {
+        "componentChunkName": "component---src-pages-performances-js",
+        "jsonName": "performances-515",
+        "path": "/performances/"
+    },
+    {
+        "componentChunkName": "component---src-pages-pricing-js",
+        "jsonName": "pricing-665",
+        "path": "/pricing/"
+    },
+    {
         "componentChunkName": "component---src-pages-services-js",
         "jsonName": "services-522",
         "path": "/services/"
     },
     {
-        "componentChunkName": "component---src-pages-why-the-name-jacks-js",
-        "jsonName": "why-the-name-jacks-ad0",
-        "path": "/why-the-name-jacks/"
+        "componentChunkName": "component---src-pages-sponsor-the-axe-truck-js",
+        "jsonName": "sponsor-the-axe-truck-70f",
+        "path": "/sponsor-the-axe-truck/"
+    },
+    {
+        "componentChunkName": "component---src-pages-thank-you-js",
+        "jsonName": "thank-you-a93",
+        "path": "/thank-you/"
+    },
+    {
+        "componentChunkName": "component---src-pages-travelling-custom-events-indoors-and-outdoors-js",
+        "jsonName": "travelling-custom-events-indoors-and-outdoors-8a4",
+        "path": "/travelling-custom-events-indoors-and-outdoors/"
+    },
+    {
+        "componentChunkName": "component---src-pages-vail-aspen-js",
+        "jsonName": "vail-aspen-22c",
+        "path": "/vail-aspen/"
+    },
+    {
+        "componentChunkName": "component---src-pages-weddings-js",
+        "jsonName": "weddings-c9f",
+        "path": "/weddings/"
     }
 ]

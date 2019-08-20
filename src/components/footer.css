@@ -1,7 +1,7 @@
 /* footer */
 
 .footer-services-links li {
-  width: 50%;
+  width: 100%;
 }
 
 footer a, footer li, footer p {
@@ -14,7 +14,7 @@ footer a {
 
 footer {
   position: relative;
-  z-index: 1;
+  z-index: auto;
 }
 
 footer::before {
@@ -26,7 +26,7 @@ footer::before {
   height: 100px;
   background-color: #051129;
   transform: matrix(1, 0.1, 0, 1, 0, 0);
-  z-index: -1;
+  z-index: auto;
 }
 
 footer::after {
@@ -38,5 +38,15 @@ footer::after {
   height: 100px;
   background-color: #051129;
   transform: matrix(1, -0.1, 0, 1, 0, 0);
-  z-index: -1;
+  z-index: auto;
+}
+
+footer .row > div {
+  z-index: 1;
+}
+
+@media (min-width: 568px) {
+  .footer-services-links li {
+    width: 50%;
+  }
 }

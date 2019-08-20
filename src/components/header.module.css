@@ -1,8 +1,6 @@
 .header {
-  position: absolute;
-  top: 0;
-  width: 100%;
   z-index: 1;
+  position: relative;
 }
 
 .topinfo {
@@ -10,7 +8,11 @@
   font-weight: 500;
 }
 
+.topinfo img {
+  max-width: unset;
+}
+
 .topinfo a {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none !important;
 }

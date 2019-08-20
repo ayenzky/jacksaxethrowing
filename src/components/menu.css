@@ -1,13 +1,13 @@
-.navigation{
-    background: #051129;
-    display: block;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
+.navigation {
+  background: #051129;
+  display: block;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .nav_handle {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 20px !important;
   font-weight: 500;
   color: #fff;
   border: 1px solid #fff;
@@ -18,12 +18,12 @@
 }
 
 .main-nav .nav-item a {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   text-transform: uppercase;
   font-weight: 600;
   color: #051129;
   display: block;
-  font-size: 18px;
+  font-size: 18px !important;
   padding: 10px 0px 10px 0px;
   box-shadow: none;
   background-color: transparent;
@@ -37,14 +37,24 @@
   border-radius: 0;
 }
 
+.main-nav .dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+  color: #051129 !important;
+  box-shadow: none !important;
+  padding: 11px 0px 10px 0px;
+}
+
 .main-nav .dropdown-menu a {
   padding: 10px;
-  font-size: 16px;
+  font-size: 16px !important;
+  white-space: pre-wrap;
 }
 
 .navigation-top {
   padding: 4rem 1rem 5rem 3rem;
   background-color: #fff;
+  z-index: 9;
 }
 
 .navigation li {
@@ -60,5 +70,5 @@
 .navigation .topinfo a {
   white-space: normal;
   text-transform: none;
-  color: #fff;
+  color: #fff !important;
 }

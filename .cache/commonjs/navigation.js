@@ -21,7 +21,7 @@ var _emitter = _interopRequireDefault(require("./emitter"));
 
 var _router = require("@reach/router");
 
-var _parsePath2 = _interopRequireDefault(require("./parse-path"));
+var _gatsbyLink = require("gatsby-link");
 
 // Convert to a map for faster lookup in maybeRedirect()
 const redirectMap = _redirects.default.reduce((map, redirect) => {
@@ -75,7 +75,7 @@ const navigate = (to, options = {}) => {
     window.__navigatingToLink = true;
   }
 
-  let _parsePath = (0, _parsePath2.default)(to),
+  let _parsePath = (0, _gatsbyLink.parsePath)(to),
       pathname = _parsePath.pathname;
 
   const redirect = redirectMap[pathname]; // If we're redirecting, just replace the passed in pathname
@@ -83,7 +83,7 @@ const navigate = (to, options = {}) => {
 
   if (redirect) {
     to = redirect.toPath;
-    pathname = (0, _parsePath2.default)(to).pathname;
+    pathname = (0, _gatsbyLink.parsePath)(to).pathname;
   } // If we had a service worker update, no matter the path, reload window and
   // reset the pathname whitelist
 
